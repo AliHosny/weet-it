@@ -1,0 +1,8 @@
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\bin\Debug\kwsearchwcf.dll.config
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\bin\Debug\kwsearchwcf.dll
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\bin\Debug\kwsearchwcf.pdb
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\obj\Debug\kwsearchwcf.dll
+C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\obj\Debug\kwsearchwcf.pdb

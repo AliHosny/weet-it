@@ -1,0 +1,14 @@
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\RelationGenerator.dll.config
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\RelationGenerator.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\RelationGenerator.pdb
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\dotNetRDF.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\MySql.Data.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\obj\Debug\RelationGenerator.csprojResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\obj\Debug\RelationGenerator.dll
+E:\Users\hady\Desktop\Relation_Generator_Service\RelationGenerator\RelationGenerator\obj\Debug\RelationGenerator.pdb

@@ -1,0 +1,2 @@
+it takes names of 1 or more subject(s), URI of one predicate and limit of returning objects. it returns objects
+the default limit=50

@@ -1,0 +1,9 @@
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\bin\Debug\WcfServiceLibrary2.dll.config
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\bin\Debug\WcfServiceLibrary2.dll
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\bin\Debug\WcfServiceLibrary2.pdb
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\bin\Debug\dotNetRDF.ClientProfile.dll
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\bin\Debug\Newtonsoft.Json.Net35.dll
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\bin\Debug\HtmlAgilityPack.dll
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\obj\Debug\ResolveAssemblyReference.cache
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\obj\Debug\WcfServiceLibrary2.dll
+c:\users\hatem\documents\visual studio 2010\Projects\WcfServiceLibrary2\WcfServiceLibrary2\obj\Debug\WcfServiceLibrary2.pdb

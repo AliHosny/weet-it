@@ -1,0 +1,507 @@
+skipped :  ---- due to time out 	5:17:10 PM
+ finished getting 0 predicates  Time taken : 4165.2382 msec	5:17:10 PM
+total time taken :4174.2387 mSecs	5:17:10 PM
+skipped  Query3:  ---- due to time out 	5:17:10 PM
+total time taken :55.0031 msecs 	5:17:10 PM
+search for combination possibilities among predicates	5:17:10 PM
+loop over 1	5:17:10 PM
+ search for combinations using literals among 1 Querybuckets 	5:17:10 PM
+-----------------------	5:17:10 PM
+QUESTION LEFT: 	5:17:10 PM
+New Bucket----------------------------	5:17:10 PM
+ finished getting 6 predicates  Time taken : 12659.7241 msec	5:19:46 PM
+total time taken :26857.5362 mSecs	5:20:00 PM
+total time taken :204.0116 msecs 	5:20:00 PM
+search for combination possibilities among predicates	5:20:01 PM
+loop over 7	5:20:01 PM
+ search for combinations using literals among 7 Querybuckets 	5:20:01 PM
+-----------------------	5:20:01 PM
+QUESTION LEFT: 	5:20:01 PM
+New Bucket----------------------------	5:20:01 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	5:20:01 PM
+ finished getting 6 predicates  Time taken : 12019.6875 msec	6:28:44 PM
+total time taken :26490.5152 mSecs	6:28:59 PM
+total time taken :114.0065 msecs 	6:28:59 PM
+search for combination possibilities among predicates	6:28:59 PM
+loop over 7	6:28:59 PM
+ search for combinations using literals among 7 Querybuckets 	6:28:59 PM
+-----------------------	6:28:59 PM
+QUESTION LEFT: 	6:28:59 PM
+New Bucket----------------------------	6:28:59 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:28:59 PM
+ finished getting 6 predicates  Time taken : 12424.7107 msec	6:32:27 PM
+total time taken :26838.5351 mSecs	6:32:41 PM
+total time taken :134.0077 msecs 	6:32:42 PM
+search for combination possibilities among predicates	6:32:42 PM
+loop over 7	6:32:42 PM
+ search for combinations using literals among 7 Querybuckets 	6:32:42 PM
+-----------------------	6:32:42 PM
+QUESTION LEFT: 	6:32:42 PM
+New Bucket----------------------------	6:32:42 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:32:42 PM
+ finished getting 6 predicates  Time taken : 15400.8809 msec	6:33:50 PM
+total time taken :29524.6887 mSecs	6:34:05 PM
+total time taken :482.0275 msecs 	6:34:05 PM
+search for combination possibilities among predicates	6:34:05 PM
+loop over 7	6:34:05 PM
+ search for combinations using literals among 7 Querybuckets 	6:34:05 PM
+-----------------------	6:34:05 PM
+QUESTION LEFT: 	6:34:05 PM
+New Bucket----------------------------	6:34:05 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:34:05 PM
+ finished getting 6 predicates  Time taken : 13478.771 msec	6:35:30 PM
+total time taken :28471.6285 mSecs	6:35:45 PM
+total time taken :161.0092 msecs 	6:35:45 PM
+search for combination possibilities among predicates	6:35:45 PM
+loop over 7	6:35:45 PM
+ search for combinations using literals among 7 Querybuckets 	6:35:45 PM
+-----------------------	6:35:45 PM
+QUESTION LEFT: 	6:35:45 PM
+New Bucket----------------------------	6:35:45 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:35:45 PM
+ finished getting 6 predicates  Time taken : 12404.7095 msec	6:36:22 PM
+total time taken :27053.5474 mSecs	6:36:37 PM
+total time taken :183.0105 msecs 	6:36:37 PM
+search for combination possibilities among predicates	6:36:37 PM
+loop over 7	6:36:37 PM
+ search for combinations using literals among 7 Querybuckets 	6:36:37 PM
+-----------------------	6:36:37 PM
+QUESTION LEFT: 	6:36:37 PM
+New Bucket----------------------------	6:36:37 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:36:37 PM
+ finished getting 6 predicates  Time taken : 11988.6858 msec	6:38:17 PM
+total time taken :26476.5144 mSecs	6:38:32 PM
+total time taken :110.0063 msecs 	6:38:32 PM
+search for combination possibilities among predicates	6:38:32 PM
+loop over 7	6:38:32 PM
+ search for combinations using literals among 7 Querybuckets 	6:38:32 PM
+-----------------------	6:38:32 PM
+QUESTION LEFT: 	6:38:32 PM
+New Bucket----------------------------	6:38:32 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:38:32 PM
+ finished getting 6 predicates  Time taken : 12400.7093 msec	6:41:02 PM
+total time taken :26958.5419 mSecs	6:41:16 PM
+total time taken :114.0066 msecs 	6:41:16 PM
+search for combination possibilities among predicates	6:41:16 PM
+loop over 7	6:41:16 PM
+ search for combinations using literals among 7 Querybuckets 	6:41:16 PM
+-----------------------	6:41:17 PM
+QUESTION LEFT: 	6:41:17 PM
+New Bucket----------------------------	6:41:17 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:41:17 PM
+ finished getting 6 predicates  Time taken : 12311.7042 msec	6:42:14 PM
+total time taken :26409.5105 mSecs	6:42:28 PM
+total time taken :108.0062 msecs 	6:42:28 PM
+search for combination possibilities among predicates	6:42:28 PM
+loop over 7	6:42:28 PM
+ search for combinations using literals among 7 Querybuckets 	6:42:28 PM
+-----------------------	6:42:28 PM
+QUESTION LEFT: 	6:42:28 PM
+New Bucket----------------------------	6:42:28 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:42:28 PM
+ finished getting 6 predicates  Time taken : 12516.716 msec	6:45:25 PM
+total time taken :27086.5493 mSecs	6:45:39 PM
+total time taken :116.0066 msecs 	6:45:39 PM
+search for combination possibilities among predicates	6:45:39 PM
+loop over 7	6:45:39 PM
+ search for combinations using literals among 7 Querybuckets 	6:45:39 PM
+-----------------------	6:45:40 PM
+QUESTION LEFT: 	6:45:40 PM
+New Bucket----------------------------	6:45:40 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:45:40 PM
+ finished getting 6 predicates  Time taken : 11733.6711 msec	6:46:50 PM
+total time taken :25956.4846 mSecs	6:47:04 PM
+total time taken :121.0069 msecs 	6:47:04 PM
+search for combination possibilities among predicates	6:47:04 PM
+loop over 7	6:47:04 PM
+ search for combinations using literals among 7 Querybuckets 	6:47:04 PM
+-----------------------	6:47:04 PM
+QUESTION LEFT: 	6:47:04 PM
+New Bucket----------------------------	6:47:04 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:47:04 PM
+ finished getting 6 predicates  Time taken : 11944.6832 msec	6:50:15 PM
+total time taken :26477.5144 mSecs	6:50:29 PM
+total time taken :128.0074 msecs 	6:50:30 PM
+search for combination possibilities among predicates	6:50:30 PM
+loop over 7	6:50:30 PM
+ search for combinations using literals among 7 Querybuckets 	6:50:30 PM
+-----------------------	6:50:30 PM
+QUESTION LEFT: 	6:50:30 PM
+New Bucket----------------------------	6:50:30 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	6:50:30 PM
+ finished getting 3 predicates  Time taken : 23711.3562 msec	1:25:01 AM
+total time taken :23996.3725 mSecs	1:25:02 AM
+total time taken :539.0308 msecs 	1:25:02 AM
+search for combination possibilities among predicates	1:25:02 AM
+loop over 4	1:25:02 AM
+ search for combinations using literals among 4 Querybuckets 	1:25:02 AM
+-----------------------	1:25:02 AM
+QUESTION LEFT: 	1:25:02 AM
+New Bucket----------------------------	1:25:02 AM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	1:25:02 AM
+ finished getting 31 predicates  Time taken : 53180.0418 msec	1:26:50 AM
+total time taken :55524.1759 mSecs	1:26:52 AM
+total time taken :3097.1772 msecs 	1:26:55 AM
+search for combination possibilities among predicates	1:26:55 AM
+loop over 21	1:26:55 AM
+ search for combinations using literals among 21 Querybuckets 	1:26:55 AM
+-----------------------	1:26:55 AM
+QUESTION LEFT: 	1:26:55 AM
+-----------------------	1:26:55 AM
+QUESTION LEFT: 	1:26:55 AM
+New Bucket----------------------------	1:26:55 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:26:55 AM
+New Bucket----------------------------	1:26:55 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:26:55 AM
+ finished getting 31 predicates  Time taken : 47654.7257 msec	1:29:43 AM
+total time taken :49424.827 mSecs	1:29:45 AM
+total time taken :1428.0816 msecs 	1:29:46 AM
+search for combination possibilities among predicates	1:29:46 AM
+loop over 21	1:29:46 AM
+ search for combinations using literals among 21 Querybuckets 	1:29:46 AM
+-----------------------	1:29:47 AM
+QUESTION LEFT: 	1:29:47 AM
+-----------------------	1:29:47 AM
+QUESTION LEFT: 	1:29:47 AM
+New Bucket----------------------------	1:29:47 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:29:47 AM
+New Bucket----------------------------	1:29:47 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:29:47 AM
+ finished getting 27 predicates  Time taken : 48964.8006 msec	1:32:13 AM
+total time taken :50855.9088 mSecs	1:32:15 AM
+total time taken :2651.1516 msecs 	1:32:17 AM
+search for combination possibilities among predicates	1:32:17 AM
+loop over 21	1:32:17 AM
+ search for combinations using literals among 21 Querybuckets 	1:32:17 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+-----------------------	1:32:18 AM
+QUESTION LEFT: 	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+New Bucket----------------------------	1:32:18 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:32:18 AM
+ finished getting 27 predicates  Time taken : 48737.7877 msec	1:34:12 AM
+total time taken :50579.893 mSecs	1:34:13 AM
+total time taken :1942.1111 msecs 	1:34:15 AM
+search for combination possibilities among predicates	1:34:15 AM
+loop over 21	1:34:15 AM
+ search for combinations using literals among 21 Querybuckets 	1:34:15 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+-----------------------	1:34:16 AM
+QUESTION LEFT: 	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?Organisation <http://dbpedia.org/ontology/area> ?Range . ?Organisation <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation> filter(?Organisation = <http://dbpedia.org/resource/Parliament_of_Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?Organisation <http://dbpedia.org/ontology/areaMetro> ?Range . ?Organisation <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation> filter(?Organisation = <http://dbpedia.org/resource/Parliament_of_Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+New Bucket----------------------------	1:34:16 AM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Syria>) }	1:34:16 AM
+ finished getting 12 predicates  Time taken : 49243.8166 msec	12:52:44 PM
+total time taken :51561.9492 mSecs	12:52:46 PM
+total time taken :1387.0793 msecs 	12:52:47 PM
+search for combination possibilities among predicates	12:52:47 PM
+loop over 13	12:52:47 PM
+ search for combinations using literals among 13 Querybuckets 	12:52:47 PM
+-----------------------	12:52:47 PM
+QUESTION LEFT: 	12:52:47 PM
+-----------------------	12:52:47 PM
+QUESTION LEFT: 	12:52:47 PM
+New Bucket----------------------------	12:52:47 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/position> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	12:52:47 PM
+New Bucket----------------------------	12:52:47 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/restingPlacePosition> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	12:52:47 PM
+ finished getting 16 predicates  Time taken : 51024.9185 msec	12:55:08 PM
+total time taken :53537.0622 mSecs	12:55:10 PM
+total time taken :1413.0809 msecs 	12:55:12 PM
+search for combination possibilities among predicates	12:55:12 PM
+loop over 17	12:55:12 PM
+ search for combinations using literals among 17 Querybuckets 	12:55:12 PM
+-----------------------	12:55:12 PM
+QUESTION LEFT: 	12:55:12 PM
+-----------------------	12:55:12 PM
+QUESTION LEFT: 	12:55:12 PM
+-----------------------	12:55:12 PM
+QUESTION LEFT: 	12:55:12 PM
+-----------------------	12:55:12 PM
+QUESTION LEFT: 	12:55:12 PM
+-----------------------	12:55:12 PM
+QUESTION LEFT: 	12:55:12 PM
+New Bucket----------------------------	12:55:12 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/team> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	12:55:12 PM
+New Bucket----------------------------	12:55:12 PM
+select distinct * WHERE { ?Athlete <http://dbpedia.org/ontology/debutTeam> ?Range . ?Athlete <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete> filter(?Athlete = <http://dbpedia.org/resource/Lionel_Messi>) }	12:55:12 PM
+New Bucket----------------------------	12:55:12 PM
+select distinct * WHERE { ?Athlete <http://dbpedia.org/ontology/draftTeam> ?Range . ?Athlete <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete> filter(?Athlete = <http://dbpedia.org/resource/Lionel_Messi>) }	12:55:12 PM
+New Bucket----------------------------	12:55:12 PM
+select distinct * WHERE { ?Athlete <http://dbpedia.org/ontology/formerTeam> ?Range . ?Athlete <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete> filter(?Athlete = <http://dbpedia.org/resource/Lionel_Messi>) }	12:55:12 PM
+New Bucket----------------------------	12:55:12 PM
+select distinct * WHERE { ?Athlete <http://dbpedia.org/ontology/nationalTeam> ?Range . ?Athlete <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete> filter(?Athlete = <http://dbpedia.org/resource/Lionel_Messi>) }	12:55:12 PM
+ finished getting 3 predicates  Time taken : 23635.3518 msec	12:58:03 PM
+total time taken :23941.3693 mSecs	12:58:03 PM
+total time taken :613.0351 msecs 	12:58:04 PM
+search for combination possibilities among predicates	12:58:04 PM
+loop over 4	12:58:04 PM
+ search for combinations using literals among 4 Querybuckets 	12:58:04 PM
+-----------------------	12:58:04 PM
+QUESTION LEFT: 	12:58:04 PM
+New Bucket----------------------------	12:58:04 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	12:58:04 PM
+ finished getting 3 predicates  Time taken : 8937.5112 msec	12:59:29 PM
+total time taken :9218.5273 mSecs	12:59:30 PM
+total time taken :223.0128 msecs 	12:59:30 PM
+search for combination possibilities among predicates	12:59:30 PM
+loop over 4	12:59:30 PM
+ search for combinations using literals among 4 Querybuckets 	12:59:30 PM
+-----------------------	12:59:30 PM
+QUESTION LEFT: 	12:59:30 PM
+New Bucket----------------------------	12:59:30 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	12:59:30 PM
+ finished getting 27 predicates  Time taken : 50669.8981 msec	1:19:23 PM
+total time taken :52251.9886 mSecs	1:19:24 PM
+total time taken :2119.1212 msecs 	1:19:27 PM
+search for combination possibilities among predicates	1:19:27 PM
+loop over 21	1:19:27 PM
+ search for combinations using literals among 21 Querybuckets 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+-----------------------	1:19:27 PM
+QUESTION LEFT: 	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+New Bucket----------------------------	1:19:27 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:19:27 PM
+ finished getting 27 predicates  Time taken : 53133.039 msec	1:33:17 PM
+total time taken :54914.1409 mSecs	1:33:19 PM
+total time taken :2226.1273 msecs 	1:33:21 PM
+search for combination possibilities among predicates	1:33:21 PM
+loop over 21	1:33:21 PM
+ search for combinations using literals among 21 Querybuckets 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+-----------------------	1:33:21 PM
+QUESTION LEFT: 	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+New Bucket----------------------------	1:33:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	1:33:21 PM
+ finished getting 3 predicates  Time taken : 23982.3717 msec	2:45:03 PM
+total time taken :24308.3904 mSecs	2:45:03 PM
+total time taken :544.0311 msecs 	2:45:04 PM
+search for combination possibilities among predicates	2:45:04 PM
+loop over 4	2:45:04 PM
+ search for combinations using literals among 4 Querybuckets 	2:45:04 PM
+-----------------------	2:45:04 PM
+QUESTION LEFT: 	2:45:04 PM
+New Bucket----------------------------	2:45:04 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	2:45:04 PM
+ finished getting 3 predicates  Time taken : 25223.4427 msec	3:49:24 PM
+total time taken :25587.4636 mSecs	3:49:24 PM
+total time taken :641.0366 msecs 	3:49:25 PM
+search for combination possibilities among predicates	3:49:25 PM
+loop over 4	3:49:25 PM
+ search for combinations using literals among 4 Querybuckets 	3:49:25 PM
+-----------------------	3:49:25 PM
+QUESTION LEFT: 	3:49:25 PM
+New Bucket----------------------------	3:49:25 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	3:49:25 PM
+ finished getting 27 predicates  Time taken : 52064.9779 msec	3:52:17 PM
+total time taken :53932.0847 mSecs	3:52:19 PM
+total time taken :2175.1244 msecs 	3:52:21 PM
+search for combination possibilities among predicates	3:52:21 PM
+loop over 21	3:52:21 PM
+ search for combinations using literals among 21 Querybuckets 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+-----------------------	3:52:21 PM
+QUESTION LEFT: 	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaLand> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaCode> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaWater> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaTotal> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?Place <http://dbpedia.org/ontology/areaMetro> ?Range . ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> filter(?Place = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/PopulatedPlace/areaUrban> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/councilArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+New Bucket----------------------------	3:52:21 PM
+select distinct * WHERE { ?PopulatedPlace <http://dbpedia.org/ontology/principalArea> ?Range . ?PopulatedPlace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> filter(?PopulatedPlace = <http://dbpedia.org/resource/Egypt>) }	3:52:21 PM
+ finished getting 3 predicates  Time taken : 23706.3559 msec	4:36:33 PM
+total time taken :23994.3724 mSecs	4:36:33 PM
+total time taken :555.0317 msecs 	4:36:34 PM
+search for combination possibilities among predicates	4:36:34 PM
+loop over 4	4:36:34 PM
+ search for combinations using literals among 4 Querybuckets 	4:36:34 PM
+-----------------------	4:36:34 PM
+QUESTION LEFT: 	4:36:34 PM
+New Bucket----------------------------	4:36:34 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	4:36:34 PM
+ finished getting 3 predicates  Time taken : 9814.5613 msec	4:44:02 PM
+total time taken :10133.5796 mSecs	4:44:02 PM
+total time taken :210.0121 msecs 	4:44:03 PM
+search for combination possibilities among predicates	4:44:03 PM
+loop over 4	4:44:03 PM
+ search for combinations using literals among 4 Querybuckets 	4:44:03 PM
+-----------------------	4:44:03 PM
+QUESTION LEFT: 	4:44:03 PM
+New Bucket----------------------------	4:44:03 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/child> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak>) }	4:44:03 PM
