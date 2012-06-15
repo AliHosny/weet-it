@@ -71,7 +71,14 @@ namespace CompPrev
 
         //    return result;
         //}
+         [WebMethod(EnableSession = false)]
+        public static string Get_ID()
+         {
+           
+             objectsRelationManager.Add(new ObjectsRelationManager());
+             return ((objectsRelationManager.Count) - 1).ToString();
 
+         }
 
         /// <summary>
         /// returns the comparison table between two or many objects sent in the URIs String 
@@ -179,28 +186,31 @@ namespace CompPrev
             return result;
         }
 
-       static ObjectsRelationManager objectsRelationManager;
+        // List<ObjectsRelationManager> objectsRelationManager1 =new List<ObjectsRelationManager>();
 
+        static List<ObjectsRelationManager> objectsRelationManager=new List<ObjectsRelationManager>();
         /// <summary>
         /// takes the URIs as comma separated , initialize Object relation manager , returns JSON object with the 1st 5 relations 
         /// </summary>
         /// <param name="URIs">String object of URIs comma separated</param>
         /// <returns>returns a json object containing all the relations between the sent objects</returns>
         [WebMethod(EnableSession = false)]
-        public static string getRelations(string URIs)
+        public static string getRelations(string URIs,int My_ID)
         {
+          
             List<string> URIArray = (URIs.Split(',')).ToList<string>();
-            objectsRelationManager = new ObjectsRelationManager();
-            objectsRelationManager.startConnection();
+
+
+            objectsRelationManager[My_ID].startConnection();
             List<string> s = new List<string>();
-            objectsRelationManager.generateQueries(URIArray[0], URIArray[1]);
+            objectsRelationManager[My_ID].generateQueries(URIArray[0], URIArray[1]);
 
             //just testing
             //string result = objectsRelationManager.getnext();
-            string result = getNextRelation();
-            while (result == "" && objectsRelationManager.IsEndOfResults != true)
+            string result = getNextRelation(My_ID);
+            while (result == "" && objectsRelationManager[My_ID].IsEndOfResults != true)
             {
-                result = getNextRelation();
+                result = getNextRelation(My_ID);
             }
 
             return result;
@@ -211,12 +221,12 @@ namespace CompPrev
         /// </summary>
         /// <returns>a string of JSON object to be drawn</returns>
         [WebMethod(EnableSession = false)]
-        public static string getNextRelation()
+        public static string getNextRelation(int My_ID)
         {
-            if (!objectsRelationManager.IsEndOfResults)
+            if (!objectsRelationManager[My_ID].IsEndOfResults)
             {
                 //jus testing
-                string t = objectsRelationManager.getNextResult();
+                string t = objectsRelationManager[My_ID].getNextResult();
                 return t;
                 //return objectsRelationManager.getnext(); 
             }

@@ -13,7 +13,7 @@ namespace KwSearch
     public static class KwSearch
     {     static string[] versus_delimeter =new string[] {" vs ","VS","Vs"};
 
-
+   static SparqlRemoteEndpoint remoteEndPoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
     /// <summary>
     /// splits a text by the "vs" keyword and return a List of splitted strings
     /// </summary>
@@ -34,17 +34,15 @@ namespace KwSearch
        
        }
        /// <summary>
-       /// Generates a list of keywords which are similar to the given keyword with different capiitalizations and formats
+       /// returns a string of comma separated uris of given list of keywords, if a keyword doesn't match a uri , a "" is inserted in it's place.
        /// </summary>
-       /// <param name="keyword">The keyword</param>
-       /// <returns>
-       /// List of similar keywords in addition to the originan keyword
-       /// </returns>
+       /// <param name="keywords">the list of keywords to get uris for</param>
+       /// <returns></returns>
        
 
         private static string Find_URIs(List<string> keywords)
        {
-           SparqlRemoteEndpoint remoteEndPoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
+           
            
 
            
@@ -78,7 +76,7 @@ namespace KwSearch
 
 
 
-"?literal bif:contains '\"" + keywords[i] + "\"'.}";
+"?literal bif:contains '\"" + keywords[i] + "\"'.}"+"limit 100";
 
                    //query = "select distinct * where  {?t1 <http://www.w3.org/2000/01/rdf-schema#label> \"The Dark Knight\"   @en }";
 
@@ -86,6 +84,7 @@ namespace KwSearch
                    //QueryProcessor.closeConnection();
                    if (result.Count == 0)
                    {
+                       //a panic mode to be added to generate a more generic query with more results
                        uris.Add("");
                        continue;
                    }
@@ -144,13 +143,9 @@ namespace KwSearch
            comma_sep_uris = string.Join(",", uris.ToArray());
            return comma_sep_uris;
        }
-        //public static scoring()
-        //{
-        
-
-        //}
+       
         /// <summary>
-        /// get the uris matching with given keywords(single keyword or multiple keywords separated by versus
+        /// get the uris matching with the  given keywords (single keyword or multiple keywords separated by versus
         /// </summary>
         /// <param name="input_query">takes the query text whether it contains vs or single keyword</param>
         /// <returns></returns>

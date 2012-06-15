@@ -6,10 +6,27 @@
 var relationVariable;
 var comparisonVariable;
 var comparisonElements;
-var uris_comma_separated;
+var uris_comma_separated; 
+var My_ID=0 ;
 //#endRegion
 
 //// #region FunctionDefinitions
+ function get_ID () {
+        $.ajax({
+            type: "POST",
+            url: "Default.aspx/Get_ID",
+            data: "{}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                My_ID = msg.d;
+
+            }
+        });
+
+    }
+    get_ID();
 
 function getComparisonTableData(URIs) {
     /// <summary>A great function
@@ -47,7 +64,7 @@ function getJSONComparisonTable(URIs, todoFunction) {
     $.ajax({
         type: "POST",
         url: "Default.aspx/getJSONComparisonTable",
-        data: "{'URIs': '" + URIs + "'}",
+        data: "{}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (msg) {
@@ -70,13 +87,14 @@ function getRelations(URIs) {
     console.log(URIs);
     $.ajax({ type: "POST",
         url: "Default.aspx/getRelations",
-        data: "{'URIs':'" + URIs + "'}",
+        data: "{URIs:'" + URIs + "'"+",My_ID:'"+My_ID+"'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (msg) {
             console.log(msg);
             if (msg.hasOwnProperty("d")) {
                 eval("relationVariable =" + msg.d);
+                console.log(relationVariable);
                 driver.addNodes(relationVariable);
             }
 
@@ -92,10 +110,10 @@ function getNextRelation() {
     /// <param>calls a JSON OBJECT of the relation ship WEBMETHOD to get comparison table between many URIs</param>
     /// </summary>
     /// <param name="URIs" type="String">comma separated URIs</param>
-
+    console.log(My_ID);
     $.ajax({ type: "POST",
         url: "Default.aspx/getNextRelation",
-        data: "{}",
+        data: "{My_ID:'" + My_ID + "'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (msg) {
@@ -107,6 +125,7 @@ function getNextRelation() {
                 if (msg.hasOwnProperty("d")) {
                     eval("relationVariable = " + msg.d);
                     driver.addNodes(relationVariable);
+                    console.log(relationVariable);
                 }
                 else {
 

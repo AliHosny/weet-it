@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ObjectsRelationFactory
 {
-    class ObjectsRelationManager
+   public class ObjectsRelationManager
     {
         //is it the end of the results yet?
         private bool isEndOfResults=false;
