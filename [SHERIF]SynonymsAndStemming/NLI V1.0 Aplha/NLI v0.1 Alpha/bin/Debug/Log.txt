@@ -1,0 +1,7 @@
+starting .............	9:23:40 AM
+ finished getting 3 predicates  Time taken : 3773.2159 msec	9:23:43 AM
+total time taken :3783.2164 mSecs	9:23:43 AM
+total time taken :49.0028 msecs 	9:23:43 AM
+search for combination possibilities among predicates	9:23:43 AM
+loop over 4	9:23:43 AM
+ search for combinations using literals among 4 Querybuckets 	9:23:43 AM

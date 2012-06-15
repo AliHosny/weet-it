@@ -1,0 +1,7 @@
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\bin\Debug\StemSynonymsTest.exe
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\bin\Debug\StemSynonymsTest.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\bin\Debug\NHunspell.dll
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\obj\x86\Debug\StemSynonymsTest.exe
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\obj\x86\Debug\StemSynonymsTest.pdb
+C:\Users\SHERIF\Desktop\Project\Solutions\StemSynonymsTest\StemSynonymsTest\bin\Debug\StemSynonymsTest.exe.config

@@ -1,0 +1,56 @@
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe.config
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.csprojResolveAssemblyReference.cache
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.pdb
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\MySql.Data.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.exe
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.pdb
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe.config
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.exe
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.pdb
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.pdb
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\HtmlAgilityPack.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\MySql.Data.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.xml
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Graduation Project\Lexicon --literal- Predicate V1.0\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe.config
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.exe
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.pdb
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.pdb
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\HtmlAgilityPack.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\MySql.Data.dll
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.xml
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Graduation Project\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe.config
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.exe
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\MySql.Data.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Dropbox\Graduation project\Code\Testing_Hatem\Lexicon --literal- Predicate V1.0 - Copy\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.csprojResolveAssemblyReference.cache
