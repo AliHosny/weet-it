@@ -34,3 +34,14 @@ E:\Users\hady\Desktop\NLI v0.1 Alpha\NLI v0.1 Alpha\bin\Debug\MySql.Data.dll
 E:\Users\hady\Desktop\NLI v0.1 Alpha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
 E:\Users\hady\Desktop\NLI v0.1 Alpha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
 E:\Users\hady\Desktop\NLI v0.1 Alpha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.csprojResolveAssemblyReference.cache
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe.config
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.exe
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.pdb
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.pdb
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\HtmlAgilityPack.dll
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\MySql.Data.dll
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Project\Graduation project\Code\NLI v0.2 Alpha\NLI v0.1 Alpha\obj\x86\Debug\ResolveAssemblyReference.cache

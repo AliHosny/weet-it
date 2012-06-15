@@ -31,6 +31,11 @@ namespace NLI
             public string separator;
         }
 
+        //query string of this bucket
+        string query;
+
+        
+
 
         /// <summary>
         /// constructor
@@ -175,7 +180,7 @@ namespace NLI
         /// Builds the sparql query for this bucket
         /// </summary>
         /// <returns>string of this bucket's query</returns>
-        public string GetQuery()
+        public void GetQuery()
         {
 
             string literalQuery = "";
@@ -228,7 +233,9 @@ namespace NLI
             " WHERE { " +
                 query +
                 " }";
-            return query;
+
+            //set query string of the bucket to the built query
+            this.query = query;
         }
 
 
@@ -447,6 +454,14 @@ namespace NLI
         public bool EqualSolution(QueryBucket bucket2)
         {
             return false; 
+        }
+
+        /// <summary>
+        /// get query string
+        /// </summary>
+        public string Query
+        {
+            get { return query; }
         }
     }
 }

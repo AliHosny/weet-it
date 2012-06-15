@@ -28,7 +28,7 @@ namespace NLI
             //    util.log(l.ToSimpleString());
             //}
 
-            QueryGenerator Q = new QueryGenerator("area egypt");
+            QueryGenerator Q = new QueryGenerator("Egypt city");
 
 
         }

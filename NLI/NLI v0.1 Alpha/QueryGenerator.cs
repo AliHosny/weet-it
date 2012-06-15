@@ -349,23 +349,22 @@ namespace NLI
 
             queryBuckets = cleanBucket(queryBuckets);
 
-
-            // remove duplicates ie. if for any solution another one has the same content in the bucket remove that
-            foreach (QueryBucket bucket1 in queryBuckets)
-            {
-                foreach (QueryBucket bucket2 in queryBuckets)
-                {
-                    if (!bucket1.Equals(bucket2))
-                    {
-                        // not to comparing to itself
-                        if (bucket1.EqualSolution(bucket2))
-                        {
-                            queryBuckets.Remove(bucket1);
-                            break;
-                        }
-                    }
-                }
-            }
+            //// remove duplicates ie. if for any solution another one has the same content in the bucket remove that
+            //foreach (QueryBucket bucket1 in queryBuckets)
+            //{
+            //    foreach (QueryBucket bucket2 in queryBuckets)
+            //    {
+            //        if (!bucket1.Equals(bucket2))
+            //        {
+            //            // not to comparing to itself
+            //            if (bucket1.EqualSolution(bucket2))
+            //            {
+            //                queryBuckets.Remove(bucket1);
+            //                break;
+            //            }
+            //        }
+            //    }
+            //}
 
 
             //and now build queries out of the buckets :-)
@@ -375,19 +374,40 @@ namespace NLI
                     continue;
                 util.log("-----------------------");
                 util.log("QUESTION LEFT: " + bucket.questionLeft);
-                foreach (var item in bucket.tokens)
-                {
-                    //if (item.score ==0)
-                    {
-                        //util.log("\n\nSCORE:" + item.score.ToString());
-                        //util.log("\n\nQUESTION MATCH: " + item.QuestionMatch + "\t" + "URI USED: " + item.URI+"\tSCORE:" + item.score.ToString() 
-                        // + "\tLABEL: " + item.label);
-                    }
-                }
-                string Query = bucket.GetQuery();
-                util.log(Query);
+                //foreach (var item in bucket.tokens)
+                //{
+                //    //if (item.score ==0)
+                //    {
+                //        //util.log("\n\nSCORE:" + item.score.ToString());
+                //        //util.log("\n\nQUESTION MATCH: " + item.QuestionMatch + "\t" + "URI USED: " + item.URI+"\tSCORE:" + item.score.ToString() 
+                //        // + "\tLABEL: " + item.label);
+                //    }
+                //}
+                bucket.GetQuery();
+                //util.log(bucket.Query);
                 //sparqlQueries.addQuery(Query, bucket.getScore())
             }
+
+            // remove duplicates ie. if for any solution another one has the same content in the bucket remove that
+            for (int i = 0; i < queryBuckets.Count; i++)
+            {
+                for (int j = i + 1; j < queryBuckets.Count; j++)
+                {
+                    if (queryBuckets[i].Query.Equals/*EqualSolution*/(queryBuckets[j].Query))
+                    {
+                        queryBuckets.Remove(queryBuckets[j]);
+                        j--;
+                        //break;
+                    }
+                }
+            }
+
+            //write queries to Log !For Testing!
+            foreach (QueryBucket bucket in queryBuckets)
+            {
+                util.log(bucket.Query);
+            }
+
             Console.WriteLine("DONE");
         }
 
