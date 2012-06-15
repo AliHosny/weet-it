@@ -1,0 +1,24 @@
+﻿^how many
+count
+^how much
+normal
+^could you tell me
+normal
+^can you tell me
+normal
+^would you tell me
+normal
+^could you please tell me
+normal
+^can you please tell me
+normal
+^would you please tell me
+normal
+^could you tell me please
+normal
+^can you tell me please
+normal
+^would you tell me please
+normal
+^who
+normal

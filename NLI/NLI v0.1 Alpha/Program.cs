@@ -15,22 +15,25 @@ namespace NLI
             util.log("starting .............");
             Lexicon mylexicon = new Lexicon();
 
-            List<LexiconPredicate> predicates = mylexicon.getPredicates("founder", 30, 30);
-            foreach (LexiconPredicate predicate in predicates)
-            {
-                util.log(predicate.ToSimpleString());
-            }
+            //List<LexiconPredicate> predicates = mylexicon.getPredicates("child", 30, 30);
+            //foreach (LexiconPredicate predicate in predicates)
+            //{
+            //    util.log(predicate.ToSimpleString());
+            //}
 
-            //List<LexiconLiteral> literals = mylexicon.getLiterals("moon", 30, 20);
+            //List<LexiconLiteral> literals = mylexicon.getLiterals("Inception", 25, 35);
 
             //foreach (LexiconLiteral l in literals)
             //{
             //    util.log(l.ToSimpleString());
             //}
 
-            QueryGenerator Q = new QueryGenerator("how much are the assets of microsoft");
+            answerGenerator answerGenerator = new answerGenerator();
 
+            List<QueryBucket> queries = answerGenerator.generateQueries("could you please tell me how many child does hosni mubarak has ?");
 
+            List<questionAnswer> answers = answerGenerator.executeQueries(queries);
+           
         }
 
 

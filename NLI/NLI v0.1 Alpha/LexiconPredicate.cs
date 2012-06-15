@@ -73,15 +73,11 @@ namespace NLI
             //if range is of any of this types replace it with the predicate simple string
             if ("float,string,integer,real,boolean,bool".Contains(tmpRange))
                 tmpRange = util.URIToSimpleString(this.URI);
-
             predicateQueryPart = "?" + GetSimpleDomain()[0] + " <" + this.URI + "> " + "?" + tmpRange;
-
             if (!"float,string,integer,real,boolean,bool,date".Contains(GetSimpleDomain()[0].ToLower()))
                 predicateQueryPart = predicateQueryPart + " . " + "?" + GetSimpleDomain()[0] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + domains[0] + ">";
-
             if (!"float,string,integer,real,boolean,bool,date".Contains(GetSimpleRange()[0].ToLower()))
                 predicateQueryPart = predicateQueryPart + " . " + "?" + GetSimpleRange()[0] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + ranges[0] + ">";
-
             return predicateQueryPart;
              * */
         }

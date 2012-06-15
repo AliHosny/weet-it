@@ -11,10 +11,11 @@ namespace NLI
         //public string label { get; set; }
         //public string QuestionMatch { get; set; }
         //public string identifier { get; set; }
+        //public int score { get; set; }
 
         public List<string> typeOfOwner { get; set; }
         public string predicate { get; set; }
-        //public int score { get; set; }
+        
 
         #region constructors
         public LexiconLiteral()
@@ -59,7 +60,6 @@ namespace NLI
             return s;
         }
 
-
         /// <summary>
         /// returns a string of a part of query generated based on the given literal token and its type of owners
         /// </summary>
@@ -89,7 +89,6 @@ namespace NLI
                 return "";
 
         }
-
 
         /// <summary>
         /// return a clone of the token send to the function

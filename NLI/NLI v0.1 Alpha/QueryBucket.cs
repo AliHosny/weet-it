@@ -8,9 +8,6 @@ namespace NLI
 {
     class QueryBucket
     {
-
-
-        
         //tokens of the query bucket
         public List<LexiconToken> tokens;
         
@@ -37,19 +34,21 @@ namespace NLI
         //list of queries for this bucket
         List<string> bucketQueryList = new List<string>();
 
+        //question type, set to unkown as default value
+        util.questionTypes questionType = util.questionTypes.unkown;
 
 
         /// <summary>
         /// constructor
         /// </summary>
         /// <param name="question">the question of the query bucket</param>
-        public QueryBucket(string question)
+        public QueryBucket(string question,util.questionTypes type)
         {
             tokens = new List<LexiconToken>();
             questionLeft = question;
             uriToDo = new List<string>();
             uriUsed = new List<string>();
-
+            questionType = type;
         }
 
         /// <summary>
@@ -62,7 +61,7 @@ namespace NLI
             this.questionLeft = bucket.questionLeft.ToString();
             this.uriUsed = new List<string>(bucket.uriUsed);
             this.uriToDo = new List<string>(bucket.uriToDo);
-
+            this.questionType = bucket.questionType;
         }
 
         /// <summary>
@@ -516,6 +515,7 @@ namespace NLI
             return false; 
         }
 
+#region setters and getters
         /// <summary>
         /// get query string
         /// </summary>
@@ -531,5 +531,15 @@ namespace NLI
         {
             get { return bucketQueryList; }
         }
+
+        /// <summary>
+        /// get or set the question type to shoose the suitable query
+        /// </summary>
+        public util.questionTypes QuestionType
+        {
+            get { return questionType; }
+            set { questionType = value; }
+        }
+#endregion
     }
 }

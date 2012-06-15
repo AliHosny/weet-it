@@ -206,7 +206,6 @@ namespace NLI
                 // iterating over each permutation of Question left and Query them from virtuoso and return predicate list and add them 
                 foreach (string questionleft in permutationList)
                 {
-
                     string Query = "select distinct ?subject ?literal ?redirects ?typeOfOwner ?redirectsTypeOfOwner where{" +
                                     "?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal." +
                                     "optional { ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects . " +

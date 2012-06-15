@@ -35,14 +35,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dotNetRDF">
-      <HintPath>..\..\..\dotNetRDF\Core\net35\dotNetRDF.dll</HintPath>
+    <Reference Include="dotNetRDF, Version=0.5.1.17871, Culture=neutral, PublicKeyToken=8b91af99db2769f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotNetRDF_library_051_beta\Core\net35\dotNetRDF.dll</HintPath>
     </Reference>
-    <Reference Include="dotNetRDF.Data.Virtuoso">
-      <HintPath>..\..\..\dotNetRDF\Data\Virtuoso\net35\dotNetRDF.Data.Virtuoso.dll</HintPath>
+    <Reference Include="dotNetRDF.Data.Virtuoso, Version=0.5.1.17871, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotNetRDF_library_051_beta\Data\Virtuoso\net35\dotNetRDF.Data.Virtuoso.dll</HintPath>
     </Reference>
-    <Reference Include="OpenLink.Data.Virtuoso">
-      <HintPath>..\..\..\dotNetRDF\Data\Virtuoso\net35\OpenLink.Data.Virtuoso.dll</HintPath>
+    <Reference Include="HtmlAgilityPack, Version=1.4.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotNetRDF_library_051_beta\Core\net35\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.0.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotNetRDF_library_051_beta\Core\net35\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net35, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotNetRDF_library_051_beta\Core\net35\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenLink.Data.Virtuoso, Version=6.2.3128.1, Culture=neutral, PublicKeyToken=6654f6917d07cb95, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotNetRDF_library_051_beta\Data\Virtuoso\net35\OpenLink.Data.Virtuoso.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,12 +75,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryBucket.cs" />
-    <Compile Include="QueryGenerator.cs" />
+    <Compile Include="answerGenerator.cs" />
     <Compile Include="QueryHandler.cs" />
+    <Compile Include="questionAnswer.cs" />
     <Compile Include="util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Release Notes %28v1.1 Beta%29.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

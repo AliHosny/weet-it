@@ -10,6 +10,14 @@ namespace NLI
 {
     public static class util
     {
+        public  enum questionTypes { 
+            literalOrURIAnswer, 
+            literalAnswer, 
+            URIAsnwer, 
+            countAnswer,
+            unkown
+        };
+
         private readonly static string reservedCharacters = "!*'();@&=+$,?%[]";    //charactes to be encoded in the url encoding
 
         const float minMatchDistance = 0.6f;
@@ -176,7 +184,18 @@ namespace NLI
             toreturn.Add("a");
             toreturn.Add("of");
             toreturn.Add("the");
-           
+            toreturn.Add("is");
+            toreturn.Add("are");
+            toreturn.Add("was");
+            toreturn.Add("were");
+            toreturn.Add("does");
+            toreturn.Add("do");
+            toreturn.Add("did");
+            toreturn.Add("has");
+            toreturn.Add("have");
+            toreturn.Add("had");
+            toreturn.Add("please");
+
             return toreturn;
         }
 
@@ -201,6 +220,100 @@ namespace NLI
                     sb.AppendFormat("%{0:X2}", (int)@char);
             }
             return sb.ToString();
+        }
+
+        /// <summary>
+        ///Gets the type of the question and remove words used to match question type from the question string
+        /// </summary>
+        /// <param name="question">Input question to check type and remove words used to match the type</param>
+        /// <returns>the modified question and its type</returns>
+        public static List<string> GetQuestionType(string question)
+        {
+            List<string> questionAndType = new List<string>();   //question type initialized to 0 the default case
+            string inputLine;   //string holds the lines read from the file
+
+            List<string> questionTypeList = new List<string>();  //List to hold the contents of the question type file
+
+            questionAndType.Add(question);  //add the original question to return it if no modifications happen
+            questionAndType.Add("normal");    //add question type equals 0 (normal) as default
+
+            bool cleanQuestion = false;
+
+            using (StreamReader questionTypeFile = new StreamReader("QuestionTypes.txt"))   //read question types file into memory
+            {
+                inputLine = questionTypeFile.ReadLine();
+
+                while ((inputLine != null))
+                {
+                    /*
+                     * this will force a file format where:
+                     * 1)regex of question start with '^' which is a regex reserved character means "the beginning of a string"
+                     * 2)line starts with small english letters [a-z] only and this represent the type of the question
+                     * It will allow comment lines (not blocks) in the file that will start with any character except '^' or [a-z]
+                     * Better to write "//" as the comment line sign as its the common adopted style for writting comments
+                     * */
+
+                    while (!(Regex.IsMatch(inputLine,@"^(\^|[a-z])")))
+                        inputLine = questionTypeFile.ReadLine();
+
+                    questionTypeList.Add(inputLine);
+
+                    inputLine = questionTypeFile.ReadLine();
+                }
+            }
+
+            while (!cleanQuestion)
+            {
+                cleanQuestion = true;   //flag to tell if all the questions kewords are consumed
+
+                for (int i = 0; i < questionTypeList.Count; i++)
+                {
+                    if (Regex.IsMatch(question, questionTypeList[i]))
+                    {
+                        question = Regex.Replace(question, questionTypeList[i], "");
+
+                        question = question.Trim();
+
+                        questionAndType[0] = question;
+
+                        questionAndType[1] = questionTypeList[++i];
+
+                        cleanQuestion = false;
+
+                        break;
+                    }
+                    else
+                        i++;
+                }
+
+            }
+
+            return questionAndType;
+        }
+
+        /// <summary>
+        /// maps the string of question type to enum type
+        /// </summary>
+        /// <param name="type">string of question type</param>
+        /// <returns>enum of question type</returns>
+        public static util.questionTypes mapQuestionType(string type)
+        {
+
+            switch (type)
+            {
+                case "count":
+                    {
+                        return questionTypes.countAnswer; 
+                    }
+                case "normal":
+                    {
+                        return questionTypes.literalOrURIAnswer; 
+                    }
+                default:
+                    {
+                        return questionTypes.unkown;
+                    }
+            }
         }
     }
 }
