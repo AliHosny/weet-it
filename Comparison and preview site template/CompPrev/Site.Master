@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CompPrev.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Compare & preview prototype</title>
+    <link href="~/Styles/Site3.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.4.1-vsdoc.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-1.6.1.min.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                Enhancement of Entities comparison and user Search Experience - Alpha | Prototype
+            </div>
+            <div class="clear hideSkiplink">
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <div class="clear">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>
