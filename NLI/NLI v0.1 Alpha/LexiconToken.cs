@@ -20,6 +20,7 @@ namespace NLI
         public abstract string ToSimpleString();
 
         public abstract string BuildQueryPart();
-   
+
+        public abstract LexiconToken getClone(LexiconToken token);
     }
 }

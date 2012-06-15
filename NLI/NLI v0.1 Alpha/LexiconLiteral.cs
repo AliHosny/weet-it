@@ -5,31 +5,31 @@ using System.Text;
 
 namespace NLI
 {
-    class LexiconLiteral : LexiconToken 
+    class LexiconLiteral : LexiconToken
     {
         //public string URI { get; set; }
         //public string label { get; set; }
         //public string QuestionMatch { get; set; }
         //public string identifier { get; set; }
-        
+
         public List<string> typeOfOwner { get; set; }
-        public string predicate { get ; set; } 
+        public string predicate { get; set; }
         //public int score { get; set; }
 
         #region constructors
         public LexiconLiteral()
         {
-            typeOfOwner = new List<string>(); 
+            typeOfOwner = new List<string>();
 
         }
-        public LexiconLiteral(string URI , string label , string QuestionMatch  , string typeOfOwner)
+        public LexiconLiteral(string URI, string label, string QuestionMatch, string typeOfOwner)
         {
             this.URI = URI;
             this.label = label;
             this.QuestionMatch = QuestionMatch;
             List<string> typeOfOwnerList = new List<string>();
             typeOfOwnerList.Add(typeOfOwner);
-            this.typeOfOwner = typeOfOwnerList; 
+            this.typeOfOwner = typeOfOwnerList;
         }
         public LexiconLiteral(string URI, string label, string QuestionMatch, List<string> typeOfOwnerList)
         {
@@ -38,7 +38,7 @@ namespace NLI
             this.QuestionMatch = QuestionMatch;
             this.typeOfOwner = typeOfOwnerList;
         }
-        #endregion 
+        #endregion
 
         /// <summary>
         /// returns a string the descriping the Literal 
@@ -52,8 +52,8 @@ namespace NLI
             s += "label: " + this.label + "\n";
             s += "QuestionMatch : " + this.QuestionMatch + "\n";
             s += "identifier : " + this.identifier + "\n";
-            s += "typeOfOwner : " + string.Join("\n" , this.typeOfOwner.ToArray());
-            s += "predicate : " + this.predicate+ "\n";
+            s += "typeOfOwner : " + string.Join("\n", this.typeOfOwner.ToArray());
+            s += "predicate : " + this.predicate + "\n";
             s += "score :" + this.score + "\n";
             s += "-------------------------------------\n";
             return s;
@@ -88,6 +88,24 @@ namespace NLI
             else
                 return "";
 
+        }
+
+
+        /// <summary>
+        /// return a clone of the token send to the function
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+        public override LexiconToken getClone(LexiconToken token)
+        {
+            LexiconLiteral literalToReplace = new LexiconLiteral();
+            literalToReplace.URI = token.URI;
+            literalToReplace.label = token.label;
+            literalToReplace.typeOfOwner = (token as LexiconLiteral).typeOfOwner.ToList();
+            literalToReplace.QuestionMatch = token.QuestionMatch;
+            literalToReplace.score = token.score;
+
+            return literalToReplace;
         }
 
     }

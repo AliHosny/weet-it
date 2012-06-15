@@ -11,7 +11,7 @@ namespace NLI
         public List<string> domains { get; set; }
         public List<string> ranges { get; set; }
         public string type { get; set; }
-        
+
 
         public LexiconPredicate()
         {
@@ -112,6 +112,28 @@ namespace NLI
             return predicateQueryPart;
              * */
         }
+
+        /// <summary>
+        /// return a clone of the new bucket 
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+        public override LexiconToken getClone(LexiconToken token)
+        {
+            LexiconPredicate predicateToReplace = new LexiconPredicate();
+            predicateToReplace.URI = token.URI;
+            predicateToReplace.label = token.label;
+            predicateToReplace.ranges = (token as LexiconPredicate).ranges.ToList();
+            predicateToReplace.QuestionMatch = token.QuestionMatch;
+            predicateToReplace.score = token.score;
+            predicateToReplace.domains = (token as LexiconPredicate).domains.ToList();
+
+
+            return predicateToReplace;
+        }
+
+
+
 
     }
 }

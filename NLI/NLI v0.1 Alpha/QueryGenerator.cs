@@ -151,7 +151,8 @@ namespace NLI
                     }
                 }
 
-                tmpBucket.add(predicate);
+                //testing
+                tmpBucket.add(predicate.getClone(predicate));
                 //now add the bucket to the queryBuckets ArrayList
                 queryBuckets.Add(tmpBucket);
             }
@@ -165,7 +166,7 @@ namespace NLI
 
             util.log("search for combination possibilities among predicates");
             util.log("loop over " + queryBuckets.Count);
-            
+
             foreach (QueryBucket bucket in queryBuckets.ToList())
             {
                 bool somethingHappened = false;
@@ -193,8 +194,9 @@ namespace NLI
                                 }
                             }
 
+                            //testing
                             QueryBucket newBucket = new QueryBucket(bucket);
-                            somethingHappened = newBucket.add(predicate);
+                            somethingHappened = newBucket.add(predicate.getClone(predicate));
                             if (somethingHappened) queryBuckets.Add(newBucket);
 
                         }
@@ -266,7 +268,9 @@ namespace NLI
                             //    }
 
                             QueryBucket newBucket = new QueryBucket(bucket);
-                            somethingHappened = newBucket.add(literal);
+
+                            //testing
+                            somethingHappened = newBucket.add(literal.getClone(literal));
                             if (somethingHappened) queryBuckets.Add(newBucket);
 
                         }
@@ -341,7 +345,7 @@ namespace NLI
                 #endregion
             }
 
-
+            List<QueryBucket> oldbuckets = new List<QueryBucket>(queryBuckets);
 
             queryBuckets = cleanBucket(queryBuckets);
 
@@ -369,7 +373,7 @@ namespace NLI
             {
                 if (bucket.questionLeft.Length > 4)
                     continue;
-                util.log ("-----------------------");
+                util.log("-----------------------");
                 util.log("QUESTION LEFT: " + bucket.questionLeft);
                 foreach (var item in bucket.tokens)
                 {
@@ -377,25 +381,23 @@ namespace NLI
                     {
                         //util.log("\n\nSCORE:" + item.score.ToString());
                         //util.log("\n\nQUESTION MATCH: " + item.QuestionMatch + "\t" + "URI USED: " + item.URI+"\tSCORE:" + item.score.ToString() 
-                           // + "\tLABEL: " + item.label);
+                        // + "\tLABEL: " + item.label);
                     }
-                } 
-                   string Query = bucket.GetQuery();
-                   util.log(Query);
-                   //sparqlQueries.addQuery(Query, bucket.getScore())
+                }
+                string Query = bucket.GetQuery();
+                util.log(Query);
+                //sparqlQueries.addQuery(Query, bucket.getScore())
             }
             Console.WriteLine("DONE");
         }
 
 
-        /// <summary>
         /// removing the non used predicates domains and the literals type of owners 
         /// </summary>
         /// <param name="tokens">list </param>of tokens
         /// <returns>cleaned list of tokens </returns>
         private List<QueryBucket> cleanBucket(List<QueryBucket> queryBuckets)
         {
-
             #region removing Buckets which still have question left  >1
 
             foreach (QueryBucket querybucket in queryBuckets.ToList())
@@ -406,98 +408,122 @@ namespace NLI
                 }
             }
 
-            #endregion 
+            #endregion
 
+            #region remove Predicates domains and type of owners
 
-
-           #region remove Predicates domains and type of owners
-            foreach (QueryBucket querybucket in queryBuckets)
+            foreach (QueryBucket bucket in queryBuckets.ToList())
             {
-                List<LexiconLiteral> literalsList = new List<LexiconLiteral>();
+                //adding predicates and literals to a list
                 List<LexiconPredicate> predicateList = new List<LexiconPredicate>();
-
-                List<LexiconToken> tokens = querybucket.tokens;
-                foreach (LexiconToken token in tokens.ToList())
+                List<LexiconLiteral> literalList = new List<LexiconLiteral>();
+                foreach (LexiconToken token in bucket.tokens)
                 {
+                    if (token is LexiconPredicate)
+                        predicateList.Add(token as LexiconPredicate);
+
+                    if (token is LexiconLiteral)
+                        literalList.Add(token as LexiconLiteral);
+                }
+
+                //removing domains and ranges that are not used 
+                foreach (LexiconToken token in bucket.tokens.ToList())
+                {
+                    if (token is LexiconPredicate)
+                    {
+                        //casting the lexicontoken to lexicon predicate
+                        LexiconPredicate oldPredicate = token as LexiconPredicate;
+                        // cloning the token to be modified 
+                        LexiconPredicate predicateToReplace = (LexiconPredicate)token.getClone(token);
+
+                        foreach (string oldPredDomain in oldPredicate.domains.ToList())
+                        {
+                            bool exist = false;
+                            foreach (LexiconLiteral tmpliteral in literalList)
+                            {
+                                if (tmpliteral.typeOfOwner.Contains(oldPredDomain))
+                                    exist = true;
+                            }
+
+                            //if this domains doesn't contained in any of literals type of owners remove it as it wont match|join with anything
+                            if (!exist)
+                            {
+
+                                //old bucket = new bucket and then modify in the new in order then to be able to remove the old 
+                                predicateToReplace = oldPredicate.getClone(oldPredicate) as LexiconPredicate;
+                                
+                                //removing domain not used
+                                predicateToReplace.domains.Remove(oldPredDomain);
+                                //remove the old bucket and replace it with new modified one // needed because of reference issues
+                                bucket.tokens.Remove(oldPredicate);
+                                bucket.tokens.Add(predicateToReplace);
+
+                                oldPredicate = predicateToReplace; 
+                                 
+                                //remove the predicate if it doesnt have any domains left 
+                                if (oldPredicate.domains.Count == 0)
+                                {
+                                    bucket.tokens.Remove(oldPredicate);
+                                    predicateList.Remove(oldPredicate as LexiconPredicate);
+                                    //remove the bucket if it's free from predicates
+                                    if (bucket.tokens.Count == 0)
+                                    {
+                                        queryBuckets.Remove(bucket);
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     if (token is LexiconLiteral)
                     {
-                        literalsList.Add(token as LexiconLiteral);
-                    }
-                    else if (token is LexiconPredicate)
-                    {
-                        predicateList.Add(token as LexiconPredicate);
-                    }
-                }
+                        LexiconLiteral oldLiteral = token as LexiconLiteral;
+                        LexiconLiteral newLiteral = token.getClone(token) as LexiconLiteral; 
 
-
-                //removing predicates that doesn't match any of the literalstype of owners
-                foreach (LexiconPredicate predicate in predicateList.ToList())
-                {
-                    foreach (string domain in predicate.domains.ToList())
-                    {
-                        bool exists = false;
-
-                        foreach (LexiconLiteral literal in literalsList.ToList())
+                        foreach (string typeofowner in oldLiteral.typeOfOwner.ToList())
                         {
-                            if (literal.typeOfOwner.Contains(domain))
+                            bool exist = false;
+                            foreach (LexiconPredicate tmmpredicate in predicateList)
                             {
-                                exists = true;
-                                break;
+                                if (tmmpredicate.domains.Contains(typeofowner))
+                                    exist = true;
                             }
-                        }
 
-                        if (!exists)
-                        {
-                            predicate.domains.Remove(domain);
-
-                            if (predicate.domains.Count == 0)
+                            if (!exist)
                             {
-                                predicateList.Remove(predicate);
-                            }
-                        }
-                    }
-                }
 
-                //removing types of owners that doesn't match any of the predicates domains
-                foreach (LexiconLiteral literal in literalsList.ToList())
-                {
-                    foreach (string typeOfOwner in literal.typeOfOwner.ToList())
-                    {
-                        bool exists = false;
+                                //taking a copy from the old literal in order to remove it from the bucket when replacing it with the newliteral
+                                newLiteral = oldLiteral.getClone(oldLiteral) as LexiconLiteral; 
 
-                        foreach (LexiconPredicate predicate in predicateList)
-                        {
-                            if (literal.typeOfOwner.Contains(typeOfOwner))
-                            {
-                                exists = true;
-                                break;
-                            }
-                        }
+                                // removing typeofowner not used
+                                newLiteral.typeOfOwner.Remove(typeofowner);
+                                // updating the bucket tokens by replacing the old literal with the new one 
+                                bucket.tokens.Remove(oldLiteral);
+                                bucket.tokens.Add(newLiteral);
 
-                        if (!exists)
-                        {
-                            literal.typeOfOwner.Remove(typeOfOwner);
-                            
-                            if (literal.typeOfOwner.Count == 0)
-                            {
-                                literalsList.Remove(literal);
+                                oldLiteral = newLiteral; 
+
+                                if (oldLiteral.typeOfOwner.Count == 0)
+                                {
+                                    bucket.tokens.Remove(oldLiteral);
+                                    literalList.Remove(oldLiteral as LexiconLiteral);
+                                    //remove the bucket if it's free from Tokens
+                                    if (bucket.tokens.Count == 0)
+                                    {
+                                        queryBuckets.Remove(bucket);
+                                    }
+                                }
                             }
                         }
                     }
                 }
-
-
-
-                List<LexiconToken> newtokens = new List<LexiconToken>();
-                newtokens.Concat<LexiconToken>(predicateList);
-                newtokens.Concat<LexiconToken>(literalsList);
-
-
-                querybucket.tokens = newtokens;
-
             }
-           #endregion
-            return queryBuckets; 
+
+            #endregion
+
+            return queryBuckets;
         }
+
+
     }
 }
