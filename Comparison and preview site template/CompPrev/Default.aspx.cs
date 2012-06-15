@@ -179,7 +179,7 @@ namespace CompPrev
             return result;
         }
 
-        static ObjectsRelationManager objectsRelationManager;
+       static ObjectsRelationManager objectsRelationManager;
 
         /// <summary>
         /// takes the URIs as comma separated , initialize Object relation manager , returns JSON object with the 1st 5 relations 

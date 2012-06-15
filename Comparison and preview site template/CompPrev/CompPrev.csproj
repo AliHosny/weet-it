@@ -87,6 +87,8 @@
     <Content Include="Scripts\HelperScripts\main13.js" />
     <Content Include="Scripts\HelperScripts\renderer.js" />
     <Content Include="Scripts\jquery-1.6.1.min.js" />
+    <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Scripts\jquery.address-1.4.min.js" />
     <Content Include="Styles\Default8.css" />
     <Content Include="Styles\Site3.css" />

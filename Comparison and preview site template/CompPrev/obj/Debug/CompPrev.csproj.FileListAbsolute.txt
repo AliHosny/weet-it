@@ -211,3 +211,24 @@ C:\Users\ali\Desktop\Comparison and preview site template v5.5  [Keyword search 
 C:\Users\ali\Desktop\Comparison and preview site template v5.5  [Keyword search implemented]\CompPrev\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ali\Desktop\Comparison and preview site template v5.5  [Keyword search implemented]\CompPrev\obj\Debug\CompPrev.dll
 C:\Users\ali\Desktop\Comparison and preview site template v5.5  [Keyword search implemented]\CompPrev\obj\Debug\CompPrev.pdb
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\bin\CompPrev.dll
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\bin\CompPrev.pdb
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\bin\HtmlAgilityPack.dll
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\bin\Newtonsoft.Json.Net35.dll
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\obj\Debug\CompPrev.dll
+C:\Users\ali\Desktop\Comparison and preview site template v5.7  [Keyword search vastly improved]\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\obj\Debug\CompPrev.csprojResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\obj\Debug\CompPrev.pdb
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\CompPrev.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\CompPrev.pdb
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\HtmlAgilityPack.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\obj\Debug\CompPrev.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template v5.8  [keyword search scoring implemented][jquery 1.7.1][Ali edit]\CompPrev\obj\Debug\CompPrev.pdb

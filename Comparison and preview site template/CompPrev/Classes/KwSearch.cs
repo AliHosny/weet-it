@@ -50,34 +50,36 @@ namespace KwSearch
            
            SparqlResultSet result = new SparqlResultSet();
            string query = null;
-           List<string> similar_keywords = new List<string>();
+           List<int> scores=new List<int>();
            List<string> uris = new List<string>();
            string comma_sep_uris;
                
            for (int i = 0; i < keywords.Count; i++)
            {
+               //query = "select distinct * where{" +
+               //    "<http://dbpedia.org/resource/Inception> ?x ?y}";
                
                //here a for loop to query the similar keywords and add found uris to uris List<string>
                //if a uri is not found a "not found" string is put instead of the uri
-               
-
-                   query="select distinct  * where{"+
 
 
-
-"?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal."+
-
-"optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}."+
-"optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type"+
-         " Filter (!(str(?type)=\"http://www.w3.org/2004/02/skos/core#Concept\"))}. "+
-
-   
-"Filter (!(str(?type)=\"http://www.w3.org/2004/02/skos/core#Concept\"))."+
+               query = "select distinct  ?subject ?literal ?redirects where{" +
 
 
-       
-"?literal bif:contains '\""+keywords[i]+"\"'."+
-"Filter regex (str(?literal),\"^"+keywords[i]+"$\",'i') }";
+
+"?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal." +
+
+"optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}." +
+"optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type}." +
+
+
+
+"Filter (!bound(?type) || !(?type=<http://www.w3.org/2004/02/skos/core#Concept>))." +
+
+
+
+"?literal bif:contains '\"" + keywords[i] + "\"'.}";
+
                    //query = "select distinct * where  {?t1 <http://www.w3.org/2000/01/rdf-schema#label> \"The Dark Knight\"   @en }";
 
                    result = remoteEndPoint.QueryWithResultSet(query);
@@ -87,30 +89,53 @@ namespace KwSearch
                        uris.Add("");
                        continue;
                    }
-                   else 
+                   else if (result.Count == 1)
                    {
-                       if((result[0].Value("redirects")==null))
-                        uris.Add(result[0].Value("subject").ToString());
+                       if ((result[0].Value("redirects") == null))
+                           uris.Add(result[0].Value("subject").ToString());
                        else
                            uris.Add(result[0].Value("redirects").ToString());
                        continue;
                    }
-                   //else
-                   //{
-                   //    for (int j = 0; j < result.Count; j++)
-                   //    {
-                   //        for (int k = j+1; k < result.Count ; k++)
-                   //        {
-                   //            if(result[j].Value("subject").ToString().Equals(result[k].Value("subject")))
-                   //            {
-                   //               result.
-                   //            }
+                   else 
+                   {
+                       
+                       int new_value;
+                       int min_value=1000;
+                       int max_index=0;
+                       for ( int j = 0; j < result.Count; j++)
+                       {
 
+                         new_value=(  computeLevenshteinDistance(keywords[i],result[j].Value("literal").ToString()));
+                         scores.Add(new_value);
+                           if(new_value<min_value)
+                           {
+                               max_index=j;
+                               min_value = new_value;
+                           }
+                           else if (new_value == min_value)
+                           {
+                               if (result[j].Value("redirects") == null)
+                               {
+                                   max_index = j;
+                                   min_value = new_value;
 
-                   //        }
-                   //    }
-                   //}
+                               }
+                               else
+                               {
+                                   min_value = new_value;
+                               }
 
+                           }
+                       }
+                       if ((result[max_index].Value("redirects") == null))
+                           uris.Add(result[max_index].Value("subject").ToString());
+                       else
+                           uris.Add(result[max_index].Value("redirects").ToString());
+                      
+                       min_value = 0;
+                   }
+                   
                
 
 
@@ -134,6 +159,49 @@ namespace KwSearch
         
         return Find_URIs(ParseTextByVs(input_query));
         }
+        public static int computeLevenshteinDistance(string s, string t)
+        {
+            int n = s.Length;
+            int m = t.Length;
+            int[,] d = new int[n + 1, m + 1];
 
+            // Step 1
+            if (n == 0)
+            {
+                return m;
+            }
+
+            if (m == 0)
+            {
+                return n;
+            }
+
+            // Step 2
+            for (int i = 0; i <= n; d[i, 0] = i++)
+            {
+            }
+
+            for (int j = 0; j <= m; d[0, j] = j++)
+            {
+            }
+
+            // Step 3
+            for (int i = 1; i <= n; i++)
+            {
+                //Step 4
+                for (int j = 1; j <= m; j++)
+                {
+                    // Step 5
+                    int cost = (t[j - 1] == s[i - 1]) ? 0 : 1;
+
+                    // Step 6
+                    d[i, j] = Math.Min(
+                        Math.Min(d[i - 1, j] + 1, d[i, j - 1] + 1),
+                        d[i - 1, j - 1] + cost);
+                }
+            }
+            // Step 7
+            return d[n, m];
+        }
     }
 }

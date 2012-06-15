@@ -102,7 +102,7 @@ namespace ObjectsRelationFactory
             return true;
         }
         private string temp = "";
-        private static List<string> curResultSet2 = new List<string>();
+        private  List<string> curResultSet2 = new List<string>();
 
                 
         //list of unique json objects

@@ -274,6 +274,7 @@ function  get_comma_separated_uris(textbox_input) {
 //#region EventHandlers
 
 function upperCompareButtonClicked() {
+    
     get_comma_separated_uris($("#mainInputTextBox").val());
     
     
