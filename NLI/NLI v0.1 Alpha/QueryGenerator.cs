@@ -389,15 +389,28 @@ namespace NLI
             }
 
             // remove duplicates ie. if for any solution another one has the same content in the bucket remove that
+            bool removeFlag;
             for (int i = 0; i < queryBuckets.Count; i++)
             {
                 for (int j = i + 1; j < queryBuckets.Count; j++)
                 {
-                    if (queryBuckets[i].Query.Equals/*EqualSolution*/(queryBuckets[j].Query))
+                    if (queryBuckets[i].BucketQueryList.Count == queryBuckets[j].BucketQueryList.Count)
                     {
-                        queryBuckets.Remove(queryBuckets[j]);
-                        j--;
-                        //break;
+                        removeFlag = true;
+                        for (int k = 0; k < queryBuckets[i].BucketQueryList.Count; k++)
+                        {
+                            if (!(queryBuckets[i].BucketQueryList[k].Equals(queryBuckets[j].BucketQueryList[k])))
+                            {
+                                removeFlag = false;
+                                break;
+                            }
+                        }
+
+                        if (removeFlag)
+                        {
+                            queryBuckets.Remove(queryBuckets[j]);
+                            j--;
+                        }
                     }
                 }
             }
@@ -405,7 +418,12 @@ namespace NLI
             //write queries to Log !For Testing!
             foreach (QueryBucket bucket in queryBuckets)
             {
-                util.log(bucket.Query);
+                util.log("New Bucket----------------------------");
+
+                foreach (string query in bucket.BucketQueryList)
+                {
+                    util.log(query);
+                }
             }
 
             Console.WriteLine("DONE");
@@ -453,7 +471,7 @@ namespace NLI
                     {
                         //casting the lexicontoken to lexicon predicate
                         LexiconPredicate oldPredicate = token as LexiconPredicate;
-                        // cloning the token to be modified 
+                        //cloning the token to be modified 
                         LexiconPredicate predicateToReplace = (LexiconPredicate)token.getClone(token);
 
                         foreach (string oldPredDomain in oldPredicate.domains.ToList())

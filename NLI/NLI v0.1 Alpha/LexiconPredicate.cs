@@ -64,16 +64,32 @@ namespace NLI
             {
                 for (int j = 0; j < simpleRange.Count; j++)
                 {
-                    if ("float,string,integer,real,boolean,bool".Contains(simpleRange[j].ToLower()))
-                        predicateQueryPart += "?" + simpleDomain[i] + " <" + this.URI + "> " + "?" + util.URIToSimpleString(this.URI);
+                    if (simpleDomain[i].Equals(simpleRange[j]))
+                    {
+                        if ("float,string,integer,real,boolean,bool".Contains(simpleRange[j].ToLower()))
+                            predicateQueryPart += "?" + simpleDomain[i] + " <" + this.URI + "> " + "?" + util.URIToSimpleString(this.URI);
+                        else
+                        {
+                            predicateQueryPart += "?" + simpleDomain[i] + " <" + this.URI + "> " + "?other" + simpleRange[j];
+                            predicateQueryPart += " . " + "?other" + simpleRange[j] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + ranges[j] + ">";
+                        }
+
+                        if (!"float,string,integer,real,boolean,bool,date".Contains(simpleDomain[i].ToLower()))
+                            predicateQueryPart += " . " + "?" + simpleDomain[i] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + domains[i] + ">";
+                    }
                     else
                     {
-                        predicateQueryPart += "?" + simpleDomain[i] + " <" + this.URI + "> " + "?" + simpleRange[j];
-                        predicateQueryPart += " . " + "?" + simpleRange[j] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + ranges[j] + ">";
-                    }
+                        if ("float,string,integer,real,boolean,bool".Contains(simpleRange[j].ToLower()))
+                            predicateQueryPart += "?" + simpleDomain[i] + " <" + this.URI + "> " + "?" + util.URIToSimpleString(this.URI);
+                        else
+                        {
+                            predicateQueryPart += "?" + simpleDomain[i] + " <" + this.URI + "> " + "?" + simpleRange[j];
+                            predicateQueryPart += " . " + "?" + simpleRange[j] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + ranges[j] + ">";
+                        }
 
-                    if (!"float,string,integer,real,boolean,bool,date".Contains(simpleDomain[i].ToLower()))
-                        predicateQueryPart += " . " + "?" + simpleDomain[i] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + domains[i] + ">";
+                        if (!"float,string,integer,real,boolean,bool,date".Contains(simpleDomain[i].ToLower()))
+                            predicateQueryPart += " . " + "?" + simpleDomain[i] + " <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <" + domains[i] + ">";
+                    }
 
                     predicateQueryPartList.Add(predicateQueryPart);
                     predicateQueryPart = "";

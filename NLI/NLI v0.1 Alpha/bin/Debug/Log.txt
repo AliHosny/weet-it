@@ -1,9 +1,15 @@
-starting .............	12:23:02 PM
- finished getting 3 predicates  Time taken : 620.0355 msec	12:23:02 PM
-total time taken :911.0521 mSecs	12:23:03 PM
-search for combination possibilities among predicates	12:23:03 PM
-loop over 4	12:23:03 PM
- search for combinations using literals among 7 Querybuckets 	12:23:03 PM
-total time taken :39.0022 msecs 	12:23:03 PM
------------------------	12:23:11 PM
-QUESTION LEFT: 	12:23:11 PM
+starting .............	9:17:02 PM
+ finished getting 3 predicates  Time taken : 4578.3823 msec	9:17:06 PM
+total time taken :4609.5824 mSecs	9:17:07 PM
+search for combination possibilities among predicates	9:17:07 PM
+loop over 4	9:17:07 PM
+ search for combinations using literals among 7 Querybuckets 	9:17:07 PM
+total time taken :982.8017 msecs 	9:17:07 PM
+-----------------------	9:17:07 PM
+QUESTION LEFT: 	9:17:07 PM
+-----------------------	9:17:08 PM
+QUESTION LEFT: 	9:17:08 PM
+-----------------------	9:17:08 PM
+QUESTION LEFT: 	9:17:08 PM
+New Bucket----------------------------	9:17:08 PM
+select distinct * WHERE { { ?Person <http://dbpedia.org/ontology/child> ?otherPerson . ?otherPerson <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> } filter(?Person = <http://dbpedia.org/resource/Hosni_Mubarak> || ?Person = <http://dbpedia.org/resource/Soad_Hosny> || ?Person = <http://dbpedia.org/resource/Gamal_Mubarak>) }	9:17:08 PM

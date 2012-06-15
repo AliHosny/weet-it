@@ -34,7 +34,9 @@ namespace NLI
         //query string of this bucket
         string query;
 
-        
+        //list of queries for this bucket
+        List<string> bucketQueryList = new List<string>();
+
 
 
         /// <summary>
@@ -176,70 +178,128 @@ namespace NLI
             return true;
         }
 
-        /// <summary>
-        /// Builds the sparql query for this bucket
-        /// </summary>
-        /// <returns>string of this bucket's query</returns>
         public void GetQuery()
         {
+            List<LexiconPredicate> predicateList = new List<LexiconPredicate>();
+            List<LexiconLiteral> literalList = new List<LexiconLiteral>();
 
-            string literalQuery = "";
-            string predicateQuery = "";
-            string query;
+            List<string> queryList = new List<string>();
 
-            /*
-             *!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! postponed till discussing rating part
-             * 
-             //reset rating
-             if (tokens.Count == 0) 
-                 rating[0] = 0; //set low rating for empty bucket
-             else 
-                 rating[0] = 10000; //most of the rating changes decrease the rating.
-             */
-
-            foreach (LexiconToken value in tokens)
+            List<string> tmpLiteralPart = new List<string>();
+            
+            foreach (LexiconToken token in tokens)
             {
-                LexiconToken tmpToken = value;
-                //string tmpWordsUsed = (string)value[1];
+                if (token is LexiconPredicate)
+                    predicateList.Add(token as LexiconPredicate);
 
-                if (tmpToken is LexiconLiteral)/*check if type LexiconLiteral*/
-                {
-                    if ((literalQuery.Length > 0) && (literalQuery != null))
-                        literalQuery = literalQuery + " . ";
-                    literalQuery = literalQuery + tmpToken.BuildQueryPart();/*LexconToken method*/
-                }
-                else
-                {
-                    if (predicateQuery.Length > 0)
-                        predicateQuery = predicateQuery + " . ";
-                    predicateQuery = predicateQuery + tmpToken.BuildQueryPart();	/*LexconToken method*/
-                }
-                /*   
-                 * Postponed till discussing rating
-                 * 
-                 * 
-                double r = rating[0] * 0.9;
-			    rating[0] = new Long(Math.round(r)).intValue();
-                 * */
+                if (token is LexiconLiteral)
+                    literalList.Add(token as LexiconLiteral);
             }
 
-            query = predicateQuery;
+            foreach (LexiconPredicate predicate in predicateList)
+            {
+                queryList.Add(predicate.BuildQueryPart());
 
-            if ((literalQuery.Length > 0) && (predicateQuery.Length > 0))
-                query = query + " . ";
-            query = query + literalQuery;
+                tmpLiteralPart.Add("");
+            }
 
-            query = "select distinct *" +
-            " WHERE { " +
-                query +
-                " }";
+            //build literal part of query
+            if (literalList.Count > 0)
+            {
+                foreach (LexiconLiteral tmpLiteral in literalList)
+                {
+                    for (int i = 0 ; i < queryList.Count ; i++)
+                    {
+                        foreach(string typeOfOwner in tmpLiteral.typeOfOwner)
+                        {
+                            if (queryList[i].Contains("?"+util.URIToSimpleString(typeOfOwner)))
+                            {
+                                if (tmpLiteralPart[i].Length > 0)
+                                    tmpLiteralPart[i] += " || ";
 
-            //set query string of the bucket to the built query
-            this.query = query;
+                                tmpLiteralPart[i] += "?" + util.URIToSimpleString(typeOfOwner) + " = <" + tmpLiteral.URI + ">";
+                            }
+                        }
+                    }
+                }
+            }
+
+            //complete query form
+            for (int i = 0; i < tmpLiteralPart.Count; i++)
+            {
+                if (tmpLiteralPart[i].Length > 0)
+                {
+                    queryList[i] += " filter(" + tmpLiteralPart[i] + ")";
+                }
+
+                bucketQueryList.Add("select distinct *" + " WHERE { " + queryList[i] + " }");
+            }
         }
 
+        ///// <summary>
+        ///// Builds the sparql query for this bucket
+        ///// </summary>
+        ///// <returns>string of this bucket's query</returns>
+        //public void GetQuery()
+        //{
 
- 
+        //    string literalQuery = "";
+        //    string predicateQuery = "";
+        //    string query;
+
+        //    /*
+        //     *!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! postponed till discussing rating part
+        //     * 
+        //     //reset rating
+        //     if (tokens.Count == 0) 
+        //         rating[0] = 0; //set low rating for empty bucket
+        //     else 
+        //         rating[0] = 10000; //most of the rating changes decrease the rating.
+        //     */
+
+        //    foreach (LexiconToken value in tokens)
+        //    {
+        //        LexiconToken tmpToken = value;
+        //        //string tmpWordsUsed = (string)value[1];
+
+        //        if (tmpToken is LexiconLiteral)/*check if type LexiconLiteral*/
+        //        {
+        //            if ((literalQuery.Length > 0) && (literalQuery != null))
+        //                literalQuery = literalQuery + " . ";
+        //            literalQuery = literalQuery + tmpToken.BuildQueryPart();/*LexconToken method*/
+        //        }
+        //        else
+        //        {
+        //            if (predicateQuery.Length > 0)
+        //                predicateQuery = predicateQuery + " . ";
+        //            predicateQuery = predicateQuery + tmpToken.BuildQueryPart();	/*LexconToken method*/
+        //        }
+        //        /*   
+        //         * Postponed till discussing rating
+        //         * 
+        //         * 
+        //        double r = rating[0] * 0.9;
+        //        rating[0] = new Long(Math.round(r)).intValue();
+        //         * */
+        //    }
+
+        //    query = predicateQuery;
+
+        //    if ((literalQuery.Length > 0) && (predicateQuery.Length > 0))
+        //        query = query + " . ";
+        //    query = query + literalQuery;
+
+        //    query = "select distinct *" +
+        //    " WHERE { " +
+        //        query +
+        //        " }";
+
+        //    //set query string of the bucket to the built query
+        //    this.query = query;
+        //}
+
+
+
         #region helper_methods
         /// <summary>
         /// gets the permutations based on the "_" and ""
@@ -462,6 +522,14 @@ namespace NLI
         public string Query
         {
             get { return query; }
+        }
+
+        /// <summary>
+        /// get list of queries for this bucket
+        /// </summary>
+        public List<string> BucketQueryList
+        {
+            get { return bucketQueryList; }
         }
     }
 }

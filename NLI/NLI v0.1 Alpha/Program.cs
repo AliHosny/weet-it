@@ -28,7 +28,7 @@ namespace NLI
             //    util.log(l.ToSimpleString());
             //}
 
-            QueryGenerator Q = new QueryGenerator("Egypt city");
+            QueryGenerator Q = new QueryGenerator("Child of hosni mubarak");
 
 
         }
