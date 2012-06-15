@@ -163,47 +163,50 @@ namespace NLI
              * and now for each QueryBucket search for all the 
              * combination possibilities among the predicates
             */
-
+            /* will remove this part untill a second proposal design is implemented so our design supports only 1 predicate */
+            #region merging with other predicates step 2 
             util.log("search for combination possibilities among predicates");
             util.log("loop over " + queryBuckets.Count);
 
-            foreach (QueryBucket bucket in queryBuckets.ToList())
-            {
-                bool somethingHappened = false;
+            //foreach (QueryBucket bucket in queryBuckets.ToList())
+            //{
+            //    bool somethingHappened = false;
 
 
-                if (bucket.questionLeft.Length > 0)
-                {
-                    // getting all the new predicates for the Question left 
+            //    if (bucket.questionLeft.Length > 0)
+            //    {
+            //        // getting all the new predicates for the Question left 
 
-                    foreach (LexiconPredicate predicate in predicateList.ToList())
-                    {
+            //        foreach (LexiconPredicate predicate in predicateList.ToList())
+            //        {
 
-                        //only go further if the predicate is not already in tmpBucket
-                        if (!bucket.ContainsTokenWithSameIdentifier(predicate))
-                        {
+            //            //only go further if the predicate is not already in tmpBucket
+            //            if (!bucket.ContainsTokenWithSameURIs(predicate))
+            //            {
 
-                            string[] tmpWords = bucket.questionLeft.Split(' ');
+            //                string[] tmpWords = bucket.questionLeft.Split(' ');
 
-                            foreach (string word in tmpWords)
-                            {
-                                if ((util.match(word, util.URIToSimpleString(predicate.domains)) || util.match(word, util.URIToSimpleString(predicate.ranges))) && !predicate.QuestionMatch.Contains(word))
-                                {
-                                    if (predicate.QuestionMatch.Length > 0) predicate.QuestionMatch += " ";
-                                    predicate.QuestionMatch += word;
-                                }
-                            }
+            //                foreach (string word in tmpWords)
+            //                {
+            //                    if ((util.match(word, util.URIToSimpleString(predicate.domains)) || util.match(word, util.URIToSimpleString(predicate.ranges))) && !predicate.QuestionMatch.Contains(word))
+            //                    {
+            //                        if (predicate.QuestionMatch.Length > 0) predicate.QuestionMatch += " ";
+            //                        predicate.QuestionMatch += word;
+            //                    }
+            //                }
 
-                            //testing
-                            QueryBucket newBucket = new QueryBucket(bucket);
-                            somethingHappened = newBucket.add(predicate.getClone(predicate));
-                            if (somethingHappened) queryBuckets.Add(newBucket);
+            //                //testing
+            //                QueryBucket newBucket = new QueryBucket(bucket);
+            //                somethingHappened = newBucket.add(predicate.getClone(predicate));
+            //                if (somethingHappened) queryBuckets.Add(newBucket);
 
-                        }
+            //            }
 
-                    }
-                }
-            }//end for
+            //        }
+            //    }
+            //}//end for
+            #endregion 
+
 
 
             //we have now query buckets that has the matched predicates and the part of the question left 
@@ -269,10 +272,13 @@ namespace NLI
 
                             QueryBucket newBucket = new QueryBucket(bucket);
 
-                            //testing
+                            //if literal contained in the quesion left , add it in a new bucket 
+                            // only suitable for one predicate and one literal Questions
+                            if(newBucket.questionLeft.Contains(literal.QuestionMatch))
+                            {
                             somethingHappened = newBucket.add(literal.getClone(literal));
                             if (somethingHappened) queryBuckets.Add(newBucket);
-
+                            }
                         }
                     }
                 }
@@ -292,6 +298,7 @@ namespace NLI
                         questionLeft = Regex.Replace(questionLeft, "(\\s|^)" + ignoreString + "(\\s|$)", " ");
                         questionLeft = questionLeft.Replace("  ", " "); //delete double spaces
                         questionLeft = questionLeft.Trim();
+                        bucket.questionLeft = questionLeft; 
                     }
                 }
 

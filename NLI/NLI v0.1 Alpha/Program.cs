@@ -15,20 +15,20 @@ namespace NLI
             util.log("starting .............");
             Lexicon mylexicon = new Lexicon();
 
-            //List<LexiconPredicate> predicates = mylexicon.getPredicates("area metro", 30, 20);
+            //List<LexiconPredicate> predicates = mylexicon.getPredicates("team", 30, 20);
             //foreach (LexiconPredicate predicate in predicates)
             //{
             //    util.log(predicate.ToSimpleString());
             //}
 
-            //List<LexiconLiteral> literals = mylexicon.getLiterals("Egypt", 30, 20);
+            //List<LexiconLiteral> literals = mylexicon.getLiterals("inception", 30, 30);
 
             //foreach (LexiconLiteral l in literals)
             //{
             //    util.log(l.ToSimpleString());
             //}
 
-            QueryGenerator Q = new QueryGenerator("Child of hosni mubarak");
+            QueryGenerator Q = new QueryGenerator("area of USA ");
 
 
         }

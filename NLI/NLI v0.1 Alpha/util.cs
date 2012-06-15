@@ -10,15 +10,16 @@ namespace NLI
 {
     public static class util
     {
-        const float minMatchDistance = 0.4f; 
+        const float minMatchDistance = 0.6f;
         /// <summary>
         /// log text to the log file 
         /// </summary>
         /// <param name="s">string to be logged in the Logfile</param>
-        public static void log (string s ) {
+        public static void log(string s)
+        {
 
             StreamWriter logWriter = File.AppendText(@".\Log.txt");
-            logWriter.Write(s + "\t" + DateTime.Now.ToLongTimeString().ToString() +"\n");
+            logWriter.Write(s + "\t" + DateTime.Now.ToLongTimeString().ToString() + "\n");
             logWriter.Close();
         }
         /// <summary>
@@ -30,7 +31,7 @@ namespace NLI
             fileStream.SetLength(0);
             fileStream.Flush();
             fileStream.Close();
-            
+
         }
 
         /// <summary>
@@ -39,52 +40,52 @@ namespace NLI
         /// <param name="s">string1 </param>
         /// <param name="t">string2</param>
         /// <returns>the distance in integer</returns>
-        public static int computeLevenshteinDistance (string s, string t)
-    {
-    s = s.ToLower();
-    t = t.ToLower(); 
-	int n = s.Length;
-	int m = t.Length;
-	int[,] d = new int[n + 1, m + 1];
+        public static int computeLevenshteinDistance(string s, string t)
+        {
+            s = s.ToLower();
+            t = t.ToLower();
+            int n = s.Length;
+            int m = t.Length;
+            int[,] d = new int[n + 1, m + 1];
 
-	// Step 1
-	if (n == 0)
-	{
-	    return m;
-	}
+            // Step 1
+            if (n == 0)
+            {
+                return m;
+            }
 
-	if (m == 0)
-	{
-	    return n;
-	}
+            if (m == 0)
+            {
+                return n;
+            }
 
-	// Step 2
-	for (int i = 0; i <= n; d[i, 0] = i++)
-	{
-	}
+            // Step 2
+            for (int i = 0; i <= n; d[i, 0] = i++)
+            {
+            }
 
-	for (int j = 0; j <= m; d[0, j] = j++)
-	{
-	}
+            for (int j = 0; j <= m; d[0, j] = j++)
+            {
+            }
 
-	// Step 3
-	for (int i = 1; i <= n; i++)
-	{
-	    //Step 4
-	    for (int j = 1; j <= m; j++)
-	    {
-		// Step 5
-		int cost = (t[j - 1] == s[i - 1]) ? 0 : 1;
+            // Step 3
+            for (int i = 1; i <= n; i++)
+            {
+                //Step 4
+                for (int j = 1; j <= m; j++)
+                {
+                    // Step 5
+                    int cost = (t[j - 1] == s[i - 1]) ? 0 : 1;
 
-		// Step 6
-		d[i, j] = Math.Min(
-		    Math.Min(d[i - 1, j] + 1, d[i, j - 1] + 1),
-		    d[i - 1, j - 1] + cost);
-	    }
-	}
-	// Step 7
-	return d[n, m];
-    }
+                    // Step 6
+                    d[i, j] = Math.Min(
+                        Math.Min(d[i - 1, j] + 1, d[i, j - 1] + 1),
+                        d[i - 1, j - 1] + cost);
+                }
+            }
+            // Step 7
+            return d[n, m];
+        }
 
         /// <summary>
         /// returns a simple string of the URI by taking the last part of it , or the part after # if exists 
@@ -99,7 +100,7 @@ namespace NLI
             }
             else
             {
-                return  Regex.Match(URI,@"[^/]*$",RegexOptions.IgnoreCase).Groups[0].Value;
+                return Regex.Match(URI, @"[^/]*$", RegexOptions.IgnoreCase).Groups[0].Value;
             }
         }
         /// <summary>
@@ -114,7 +115,7 @@ namespace NLI
             {
                 if (URI.Contains("#"))
                 {
-                    toreturn.Add( URI.Split('#')[1]);
+                    toreturn.Add(URI.Split('#')[1]);
                 }
                 else
                 {
@@ -134,11 +135,15 @@ namespace NLI
         /// <returns>true if matches min match distance and false otherwise</returns>
         public static bool match(string s, string s2)
         {
-            int x = util.computeLevenshteinDistance(s, s2);
-            float matchPercent = (float)x / s2.Length;
+            int distance = util.computeLevenshteinDistance(s, s2);
+            float matching = s2.Length - distance;
+            float matchPercent = (float)matching / s2.Length;
+
             if (matchPercent >= minMatchDistance) return true;
-            else return false; 
+            else return false;
         }
+
+
         /// <summary>
         /// returns true if match s matches 40% of any of the strings in s2 
         /// //todo :  
@@ -152,10 +157,10 @@ namespace NLI
             {
                 if (match(s, x))
                 {
-                    return true ;
+                    return true;
                 }
             }
-            return false; 
+            return false;
         }
 
         /// <summary>
@@ -165,12 +170,12 @@ namespace NLI
         public static List<string> getIgnoreStrings()
         {
             List<string> toreturn = new List<string>();
-            
+
             toreturn.Add("a");
             toreturn.Add("of");
             toreturn.Add("the");
-
-            return toreturn; 
+           
+            return toreturn;
         }
     }
 }

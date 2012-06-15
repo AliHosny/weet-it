@@ -58,8 +58,8 @@ namespace NLI
         /// <param name="bucket">the query bucket to clone it here</param>
         public QueryBucket(QueryBucket bucket)
         {            
-            this.tokens = bucket.tokens;
-            this.questionLeft = bucket.questionLeft;
+            this.tokens = bucket.tokens.ToList();
+            this.questionLeft = bucket.questionLeft.ToString();
             this.uriUsed = new List<string>(bucket.uriUsed);
             this.uriToDo = new List<string>(bucket.uriToDo);
 
@@ -71,7 +71,7 @@ namespace NLI
         /// </summary>
         /// <param name="token">the lexicon token to compare to</param>
         /// <returns>true or false</returns>
-        private bool ContainsTokenWithSameURIs(LexiconToken token)
+        public bool ContainsTokenWithSameURIs(LexiconToken token)
         {
             foreach (var instance in tokens)
             {

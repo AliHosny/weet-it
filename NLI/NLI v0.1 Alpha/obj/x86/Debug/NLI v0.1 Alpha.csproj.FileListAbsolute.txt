@@ -56,3 +56,28 @@ E:\Project\Graduation project\Code\NLI v0.3 Alpha [Query Duplicates Removed]\NLI
 E:\Project\Graduation project\Code\NLI v0.3 Alpha [Query Duplicates Removed]\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
 E:\Project\Graduation project\Code\NLI v0.3 Alpha [Query Duplicates Removed]\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
 E:\Project\Graduation project\Code\NLI v0.3 Alpha [Query Duplicates Removed]\NLI v0.1 Alpha\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\NLI v0.4 Alpha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe.config
+E:\Users\hady\Dropbox\Graduation project\Code\NLI v0.4 Alpha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Dropbox\Graduation project\Code\NLI v0.4 Alpha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe.config
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\MySql.Data.dll
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\NLI V0.5 Aplha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.csprojResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe.config
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\MySql.Data.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V0.5 Aplha\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.csprojResolveAssemblyReference.cache
