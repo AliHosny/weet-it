@@ -20,7 +20,7 @@ namespace CompPrev
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+         //   KwSearch.KwSearch.get_URI_s("egypt");
         }
         static string parse_internal_list(List<INode> x)
         {

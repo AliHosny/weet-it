@@ -11,7 +11,7 @@ namespace KwSearch
     /// Process search for single word or multiple-words queries
     /// </summary>
     public static class KwSearch
-    {     static string[] versus_delimeter =new string[] {" vs "};
+    {     static string[] versus_delimeter =new string[] {" vs ","VS","Vs"};
 
 
     /// <summary>
@@ -40,37 +40,13 @@ namespace KwSearch
        /// <returns>
        /// List of similar keywords in addition to the originan keyword
        /// </returns>
-       private static List<string> generate_similarkeywords(string keyword)
-       {
-           string temp=null;
-
-           List<string> similar_keywords = new List<string>();
-           List<string> kwrd_words = new List<string>();
-           similar_keywords.Add(keyword);
-           kwrd_words = ((keyword.ToLower()).Split(' ')).ToList<string>();//splits a single multiword keyword into several words;
-
-           for (int i = 0; i < kwrd_words.Count; i++)//Capitalize first letter of each word
-
-               kwrd_words[i] = char.ToUpper(kwrd_words[i][0]) + kwrd_words[i].Substring(1);
-
-           for (int i = 0; i < kwrd_words.Count; i++)//reconcat first-letter capitalized words to for the original keyword
-               temp += (kwrd_words[i] + " ");
-           temp = temp.Trim();
-           
-           similar_keywords.Add(temp);
-           similar_keywords.Add( keyword.ToUpper());
-           similar_keywords.Add(keyword.ToLower());
-           similar_keywords.Add(keyword.Replace(' ','_'));
-           similar_keywords.Add(temp.Replace(' ', '_'));
-           similar_keywords.Add((keyword.ToUpper()).Replace(' ', '_'));
-           similar_keywords.Add((keyword.ToLower()).Replace(' ', '_'));
-           return similar_keywords;
-          
-          
-       }
+       
 
         private static string Find_URIs(List<string> keywords)
        {
+           SparqlRemoteEndpoint remoteEndPoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
+           
+
            
            SparqlResultSet result = new SparqlResultSet();
            string query = null;
@@ -80,27 +56,62 @@ namespace KwSearch
                
            for (int i = 0; i < keywords.Count; i++)
            {
-               similar_keywords = generate_similarkeywords(keywords[i]);
+               
                //here a for loop to query the similar keywords and add found uris to uris List<string>
                //if a uri is not found a "not found" string is put instead of the uri
-               for (int j = 0; j < similar_keywords.Count; j++)
-               {
+               
 
-                   query="select distinct * where { {?t1 <http://www.w3.org/2000/01/rdf-schema#label> \""+similar_keywords[j]+"\"   @en }}";
+                   query="select distinct  * where{"+
+
+
+
+"?subject <http://www.w3.org/2000/01/rdf-schema#label> ?literal."+
+
+"optional {   ?subject <http://dbpedia.org/ontology/wikiPageRedirects> ?redirects}."+
+"optional {?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type"+
+         " Filter (!(str(?type)=\"http://www.w3.org/2004/02/skos/core#Concept\"))}. "+
+
+   
+"Filter (!(str(?type)=\"http://www.w3.org/2004/02/skos/core#Concept\"))."+
+
+
+       
+"?literal bif:contains '\""+keywords[i]+"\"'."+
+"Filter regex (str(?literal),\"^"+keywords[i]+"$\",'i') }";
                    //query = "select distinct * where  {?t1 <http://www.w3.org/2000/01/rdf-schema#label> \"The Dark Knight\"   @en }";
-                   QueryProcessor.startConnection();
-                   result = QueryProcessor.ExecuteQueryWithString(query);
+
+                   result = remoteEndPoint.QueryWithResultSet(query);
                    //QueryProcessor.closeConnection();
                    if (result.Count == 0)
-                       continue;
-                   else
                    {
-                       uris.Add(result[0].Value("t1").ToString());
-                       break;
+                       uris.Add("");
+                       continue;
                    }
-                  
+                   else 
+                   {
+                       if((result[0].Value("redirects")==null))
+                        uris.Add(result[0].Value("subject").ToString());
+                       else
+                           uris.Add(result[0].Value("redirects").ToString());
+                       continue;
+                   }
+                   //else
+                   //{
+                   //    for (int j = 0; j < result.Count; j++)
+                   //    {
+                   //        for (int k = j+1; k < result.Count ; k++)
+                   //        {
+                   //            if(result[j].Value("subject").ToString().Equals(result[k].Value("subject")))
+                   //            {
+                   //               result.
+                   //            }
 
-               }
+
+                   //        }
+                   //    }
+                   //}
+
+               
 
 
            }
@@ -108,6 +119,11 @@ namespace KwSearch
            comma_sep_uris = string.Join(",", uris.ToArray());
            return comma_sep_uris;
        }
+        //public static scoring()
+        //{
+        
+
+        //}
         /// <summary>
         /// get the uris matching with given keywords(single keyword or multiple keywords separated by versus
         /// </summary>
