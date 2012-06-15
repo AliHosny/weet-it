@@ -212,12 +212,12 @@ namespace NLI
                     {
                         foreach(string typeOfOwner in tmpLiteral.typeOfOwner)
                         {
-                            if (queryList[i].Contains("?"+util.URIToSimpleString(typeOfOwner)))
+                            if (queryList[i].Contains("?" + util.URIToSimpleString(typeOfOwner)) && !tmpLiteralPart[i].Contains("?" + util.URIToSimpleString(typeOfOwner)))
                             {
                                 if (tmpLiteralPart[i].Length > 0)
                                     tmpLiteralPart[i] += " || ";
 
-                                tmpLiteralPart[i] += "?" + util.URIToSimpleString(typeOfOwner) + " = <" + tmpLiteral.URI + ">";
+                                tmpLiteralPart[i] += "?" + util.URIToSimpleString(typeOfOwner) + " = <" + util.UrlEncode(tmpLiteral.URI) + ">";
                             }
                         }
                     }

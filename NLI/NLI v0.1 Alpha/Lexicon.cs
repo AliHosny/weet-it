@@ -40,7 +40,7 @@ namespace NLI
         /// <param name="topN">the number of top matching results to be returned, default = 10</param>
         /// <param name="Limit">the limit of the number of returned results in the query, default = 20</param>
         /// <returns>list of top matching LexiconPredicates</returns>
-        public List<LexiconPredicate> getPredicates(string question, int topN = 20, int Limit = 20)
+        public List<LexiconPredicate> getPredicates(string question, int topN = 20, int Limit = 30)
         {
             DateTime dt = DateTime.Now;  // capturing time for testing 
 
@@ -176,7 +176,7 @@ namespace NLI
         /// <param name="topN">the number of top matching results to be returned, default = 10</param>
         /// <param name="Limit">the limit of the number of returned results in the query, default = 20</param>
         /// <returns>list of top matching LexiconLiterals with it's type of owner and predicate </returns>
-        public List<LexiconLiteral> getLiterals(string question, int topN = 10, int Limit = 30)
+        public List<LexiconLiteral> getLiterals(string question, int topN = 30, int Limit = 30)
         {
             DateTime dt = DateTime.Now;  // capturing time for testing 
             List<LexiconLiteral> __literalList = new List<LexiconLiteral>();

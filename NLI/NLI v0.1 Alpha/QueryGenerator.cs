@@ -114,9 +114,8 @@ namespace NLI
 
         private void buildQueries()
         {
-
             List<LexiconPredicate> predicateList = lexicon.getPredicates(parsedQuestion); //find all matching predicates
-            List<LexiconLiteral> literalList = new List<LexiconLiteral>();
+            List<LexiconLiteral> literalList = lexicon.getLiterals(parsedQuestion);
             List<QueryBucket> queryBuckets = new List<QueryBucket>();
             QueryBucket tmpBucket = new QueryBucket(parsedQuestion);
 
@@ -274,7 +273,7 @@ namespace NLI
 
                             //if literal contained in the quesion left , add it in a new bucket 
                             // only suitable for one predicate and one literal Questions
-                            if(newBucket.questionLeft.Contains(literal.QuestionMatch))
+                            if(newBucket.questionLeft.Contains(literal.QuestionMatch) || util.match(newBucket.questionLeft , literal.QuestionMatch)) // because it could be included with a space of something
                             {
                             somethingHappened = newBucket.add(literal.getClone(literal));
                             if (somethingHappened) queryBuckets.Add(newBucket);
@@ -564,6 +563,26 @@ namespace NLI
                 }
             }
 
+            #endregion
+
+            #region remove the multiple domains and multiple ranges
+            foreach (QueryBucket bucket in queryBuckets)
+            {
+                foreach (LexiconToken predicateToken in bucket.tokens)
+                {
+                    if (predicateToken is LexiconPredicate)
+                    {
+                        foreach (LexiconToken literalToken in bucket.tokens)
+                        {
+                            if (literalToken is LexiconLiteral && Enumerable.SequenceEqual((predicateToken as LexiconPredicate).domains, (literalToken as LexiconLiteral).typeOfOwner))
+                            {
+                                (predicateToken as LexiconPredicate).domains.RemoveRange(1, (predicateToken as LexiconPredicate).domains.Count - 1);
+                                (literalToken as LexiconLiteral).typeOfOwner.RemoveRange(1, (literalToken as LexiconLiteral).typeOfOwner.Count - 1);
+                            }
+                        }
+                    }
+                }
+            }
             #endregion
 
             return queryBuckets;

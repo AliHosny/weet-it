@@ -10,6 +10,8 @@ namespace NLI
 {
     public static class util
     {
+        private readonly static string reservedCharacters = "!*'();@&=+$,?%[]";    //charactes to be encoded in the url encoding
+
         const float minMatchDistance = 0.6f;
         /// <summary>
         /// log text to the log file 
@@ -176,6 +178,29 @@ namespace NLI
             toreturn.Add("the");
            
             return toreturn;
+        }
+
+        
+        /// <summary>
+        /// Encodes URIs
+        /// </summary>
+        /// <param name="value">the input url to be encoded</param>
+        /// <returns>encoded url</returns>
+        public static string UrlEncode(string value)
+        {
+            if (String.IsNullOrEmpty(value))
+                return String.Empty;
+
+            var sb = new StringBuilder();
+
+            foreach (char @char in value)
+            {
+                if (reservedCharacters.IndexOf(@char) == -1)
+                    sb.Append(@char);
+                else
+                    sb.AppendFormat("%{0:X2}", (int)@char);
+            }
+            return sb.ToString();
         }
     }
 }
