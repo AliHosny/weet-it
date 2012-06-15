@@ -55,6 +55,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dotNetRDF_library_051_beta\Core\net35\Newtonsoft.Json.Net35.dll</HintPath>
     </Reference>
+    <Reference Include="NHunspell">
+      <HintPath>Language\NHunspell.dll</HintPath>
+    </Reference>
     <Reference Include="OpenLink.Data.Virtuoso, Version=6.2.3128.1, Culture=neutral, PublicKeyToken=6654f6917d07cb95, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dotNetRDF_library_051_beta\Data\Virtuoso\net35\OpenLink.Data.Virtuoso.dll</HintPath>
@@ -68,6 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Language.cs" />
     <Compile Include="Lexicon.cs" />
     <Compile Include="LexiconLiteral.cs" />
     <Compile Include="LexiconPredicate.cs" />

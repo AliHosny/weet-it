@@ -11,6 +11,7 @@ namespace NLI
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting");
             util.clearLog();
             util.log("starting .............");
             Lexicon mylexicon = new Lexicon();
@@ -30,9 +31,10 @@ namespace NLI
 
             answerGenerator answerGenerator = new answerGenerator();
 
-            List<QueryBucket> queries = answerGenerator.generateQueries("could you please tell me how many child does hosni mubarak has ?");
+            List<QueryBucket> queries = answerGenerator.generateQueries("child of hosni mubarak");
 
             List<questionAnswer> answers = answerGenerator.executeQueries(queries);
+            Console.WriteLine("Done");
            
         }
 

@@ -141,3 +141,33 @@ E:\Project\Graduation project\Code\NLI V1.0 Beta\NLI v0.1 Alpha\bin\Debug\OpenLi
 E:\Project\Graduation project\Code\NLI V1.0 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
 E:\Project\Graduation project\Code\NLI V1.0 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
 E:\Project\Graduation project\Code\NLI V1.0 Beta\NLI v0.1 Alpha\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe.config
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.exe
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.pdb
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.pdb
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.dll
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\HtmlAgilityPack.dll
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\MySql.Data.dll
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Graduation project\Code\NLI V1.1 Beta\NLI v0.1 Alpha\bin\Debug\NHunspell.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe.config
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.exe
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\NLI v0.1 Alpha.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\MySql.Data.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\NHunspell.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Dropbox\Graduation project\Code\NLI V2.0 Beta\NLI v0.1 Alpha\obj\x86\Debug\NLI v0.1 Alpha.csprojResolveAssemblyReference.cache

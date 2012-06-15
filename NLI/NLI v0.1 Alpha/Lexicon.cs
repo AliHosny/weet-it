@@ -34,6 +34,50 @@ namespace NLI
         }
 
         /// <summary>
+        /// Get all possible stems for each word in the string
+        /// </summary>
+        /// <param name="question">String (question) to find its words stems</param>
+        /// <returns>Dictionary of each word and its stems</returns>
+        public Dictionary<string, List<string>> GetStemmedWords(string question)
+        {
+            //Dictionary to hold word and a list of its stemmed words.
+            Dictionary<string, List<string>> stemmedWords = new Dictionary<string, List<string>>();
+
+            //Create Language class object to use its stemming method
+            Language Stemmer = new Language();
+
+            //Temp list of strings to hold intermediate results
+            List<string> tempStemmedWords;
+
+            //Trimming the string 
+            question = question.Trim();
+            //Removing Extra spaces
+            while (question.Contains("  "))
+                question = question.Replace("  ", " ");
+
+            //parsing the input string
+            List<string> input = new List<string>();
+            input = question.Split(' ').ToList<string>();
+
+            foreach (string word in input)
+            {
+                tempStemmedWords = Stemmer.getStems(word);
+
+                if(tempStemmedWords.Contains(word))
+                {
+                    tempStemmedWords.Remove(word);
+                }
+
+                if (tempStemmedWords.Count > 0)
+                {
+                    stemmedWords.Add(word, tempStemmedWords);
+                }
+            }
+
+            return stemmedWords;
+        }
+
+        /// <summary>
         /// get predicates is a method in lexicon class that get all predicates objects that match some words in the Question 
         /// </summary>
         /// <param name="question">question to get matched predicates of it </param>
@@ -52,6 +96,9 @@ namespace NLI
             //removing permutations that most propbably wont return results and will take time in querying 
             permutationList = trimPermutations(permutationList);
 
+            //Get the stemmed version of the question words
+            Dictionary<string, List<string>> stemmedWords = GetStemmedWords(question);
+
             // to check if the predicates are filled before - so returning the matching predicates only - or not
             if (predicateFilled)
             {
@@ -67,22 +114,41 @@ namespace NLI
 
             else
             {
+                string bifContainsValue = "";
+
                 // iterating over each permutation of Question left and Query them from virtuoso and return predicate list and add them
                 foreach (string questionleft in permutationList)
                 {
+                    //Get all forms of questionLeft by replacing words with its stemmed version
+                    bifContainsValue = "";  //empty string
+
+                    bifContainsValue +="\'" + questionleft + "\'";  //add the original questionleft
+
+                    //Replace words in questionleft with its stem and add it to the bifContainsValue
+                    foreach (string word in stemmedWords.Keys)
+                    {
+                        if (questionleft.Contains(word))
+                        {
+                            foreach (string stem in stemmedWords[word]) //This is created because a wordcan has many stems (rare case)
+                            {
+                                bifContainsValue += "or\'" + questionleft.Replace(word, stem) + "\'";
+                            }
+                        }
+                    }
+
 
                     string Query = "SELECT  * WHERE { { " +
                                     "?predicate <http://www.w3.org/2000/01/rdf-schema#label> ?label ." +
                                     "?predicate <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty>." +
-                                    "?label bif:contains '\"" + questionleft + "\"'}" +
+                                    "?label bif:contains \"" + bifContainsValue + "\" } " +
                                     "union {" +
                                     "?predicate <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> ." +
                                     "?predicate <http://www.w3.org/2000/01/rdf-schema#label> ?label ." +
-                                   "?label bif:contains '\"" + questionleft + "\"'}" +
+                                   "?label bif:contains \"" + bifContainsValue + "\" } " +
                                     "union {" +
                                     "?predicate <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>  ." +
                                     "?predicate <http://www.w3.org/2000/01/rdf-schema#label> ?label ." +
-                                   "?label bif:contains '\"" + questionleft + "\"'}" +
+                                   "?label bif:contains \"" + bifContainsValue + "\" } " +
 
                                     "} limit " + Limit;
 
@@ -91,7 +157,7 @@ namespace NLI
                     string Query2 = "SELECT  ?predicate ?label WHERE {  " +
                                     "{ ?predicate <http://www.w3.org/2000/01/rdf-schema#label> ?label . " +
                                      "?predicate <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?propertyType. " +
-                                     " ?label bif:contains '\"" + questionleft + "\"'} " +
+                                     "?label bif:contains \"" + bifContainsValue + "\" } " +
 
                                     "filter ( ?propertyType = <http://www.w3.org/2002/07/owl#DatatypeProperty> || " +
                                     "?propertyType = <http://www.w3.org/2002/07/owl#ObjectProperty> || " +

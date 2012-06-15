@@ -36,6 +36,9 @@ normal
 ^would [ |you|tell|me|please]*
 normal
 
+^tell [ |me|please]*
+normal
+
 ^what
 normal
 

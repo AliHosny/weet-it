@@ -1,0 +1,7 @@
+﻿Changes from v1.1 Beta :
+1-Stemming is Added: changes in getPredicates function.
+
+Changes from v1.0 Beta :
+
+1-Update in GetQuestionType function to force certain format for the questions type file (see questions type file "new format" for details) and avoid loading blank lines and bad formated strings to the question types memory buffer (bug).
+2-Fixed a bug in the executeQueries function that ignored the question type of count and replace it with literal or node type in the questionAnswer data structure, the bug fixing included also updating of questionAnswer constructor to take questionType enum parameter to be passed to it from the queryBucket. 
