@@ -83,7 +83,7 @@
     <Content Include="Scripts\BlockUI.js" />
     <Content Include="Scripts\HelperScripts\ArborJSDriver4.js" />
     <Content Include="Scripts\HelperScripts\Interaction_Driver5.js" />
-    <Content Include="Scripts\HelperScripts\main11.js" />
+    <Content Include="Scripts\HelperScripts\main12.js" />
     <Content Include="Scripts\HelperScripts\renderer.js" />
     <Content Include="Scripts\jquery-1.6.1.min.js" />
     <Content Include="Scripts\jquery.address-1.4.min.js" />
@@ -163,6 +163,9 @@
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

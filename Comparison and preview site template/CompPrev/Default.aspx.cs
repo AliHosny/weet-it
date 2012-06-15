@@ -250,12 +250,9 @@ namespace CompPrev
             List<string> result = objectsPreviewManager.run(URIsArray[0]);
 
             string RelationsArray = "["; 
-            foreach (string res in result)
-            {
-              RelationsArray += res + ",";
-            }
+            
+            RelationsArray+= string.Join(",", result.ToArray());
 
-            RelationsArray.Remove(RelationsArray.Length-1); 
             RelationsArray += "]";
 
             return RelationsArray; 

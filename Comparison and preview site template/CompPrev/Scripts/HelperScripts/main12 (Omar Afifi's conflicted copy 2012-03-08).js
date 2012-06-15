@@ -156,56 +156,16 @@ function getComparisonElements() {
 
 }
 
-function DrawTable() {
-
-    console.log("drawingtable");
-    console.log(comparisonVariable);
-    var newHTML = "";
-
-    $(".comparisonElement").slideUp();
-
-    for (i in comparisonVariable) {
-        if (i == "__comparisonElements") {
-            continue;
-        }
-
-        newHTML += "<div class=\"comparisonElement\">";
-        newHTML += "<span class=\"comparisonElementTitle\">" + i + "</span>";
-        newHTML += "<table class=\"comparisonTable\">";
-        for (x in comparisonVariable[i]) {
-            newHTML += "<th>" + x + "</th>";
-            }
-            newHTML += "<tr>";
-            for (x in comparisonVariable[i]) {
-                newHTML += "<td>";
-                for (x2 in comparisonVariable[i][x]) {
-
-                    newHTML += comparisonVariable[i][x][x2] + "<br/>";
-
-                }
-                newHTML += "</td>";
-            }
-
-            newHTML += "</tr>";
-            newHTML += "</table>"
-            newHTML += "</div>";
-        }
-
-        $(".comparisonContainer").html(newHTML);
-
-        $(".comparisonElement").slideDown();
-}
-
 function GetPreviewData(URIs) {
 
     /// <summary> takes 
     /// <param>calls a JSON OBJECT of the relation ship WEBMETHOD to get comparison table between many URIs</param>
     /// </summary>
     /// <param name="URIs" type="String">comma separated URIs</param>
-
+    console.log(URIs);
     $.ajax({ type: "POST",
         url: "Default.aspx/previewObject",
-        data: "{'URIs':'" + URIs + "'}",
+        data: "{'URIs': '" + URIs + "'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (msg) {
@@ -239,6 +199,59 @@ function GetPreviewData(URIs) {
 
 
 }
+
+function DrawTable() {
+
+    console.log("drawingtable");
+    console.log(comparisonVariable);
+    var newHTML = "";
+
+    $(".comparisonElement").slideUp();
+
+    for (i in comparisonVariable) {
+        if (i == "__comparisonElements") {
+            continue;
+        }
+
+        newHTML += "<div class=\"comparisonElement\">";
+        newHTML += "<span class=\"comparisonElementTitle\">" + i + "</span>";
+        newHTML += "<table class=\"comparisonTable\">";
+        for (x in comparisonVariable[i]) {
+            newHTML += "<th>" + x + "</th>";
+            }
+            newHTML += "<tr>";
+            for (x in comparisonVariable[i]) {
+                newHTML += "<td>";
+                for (x2 in comparisonVariable[i][x]) {
+
+
+                    var str = comparisonVariable[i][x][x2];
+                    var pattern = /.*(\.jpg|\.jpeg|\.png|\.gif|\.bmp|\.tif|\.svg)/i;
+                    if (str.match(pattern) != null ) {
+
+                        newHTML += "<a href=\"" + str + "\" target=\"_blank\"><img class=\"imgInComparison\" src=\"" + str + "\" /> </a>"; 
+
+                    }
+                    else {
+                        newHTML += str + "<br/>";
+
+                    }
+
+                }
+                newHTML += "</td>";
+            }
+
+            newHTML += "</tr>";
+            newHTML += "</table>"
+            newHTML += "</div>";
+        }
+
+        $(".comparisonContainer").html(newHTML);
+
+        $(".comparisonElement").slideDown();
+}
+
+
 /// #endRegion
 
 

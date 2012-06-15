@@ -70,7 +70,6 @@
                 return retuned;
             }
 ,
-
             getSelectedNodesURIs: function () {
                 var returned = new Array();
 

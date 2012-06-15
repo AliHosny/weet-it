@@ -8,12 +8,11 @@ using VDS.RDF.Query;
 using ObjectsRelationFactory;
 
 namespace Comparison_Part
-
 {
     /// <summary>
     /// Contains all comparison elements and handles all operations to do the comparison and store each comparison element result in it.
     /// </summary>
-    public class Comparison
+    class Comparison
     {
 
 

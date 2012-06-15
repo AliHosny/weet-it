@@ -196,8 +196,6 @@ E:\Users\hady\Desktop\Comparison and preview site template v5  [Good tables] [pr
 E:\Users\hady\Desktop\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\obj\Debug\ResolveAssemblyReference.cache
 E:\Users\hady\Desktop\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\obj\Debug\CompPrev.dll
 E:\Users\hady\Desktop\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\obj\Debug\CompPrev.pdb
-E:\Dropbox\Graduation project\Code\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\ali\Desktop\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\obj\Debug\ResolveAssemblyReference.cache
 E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\bin\CompPrev.dll
 E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\bin\CompPrev.pdb
 E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template v5  [Good tables] [preview pictures]\CompPrev\bin\HtmlAgilityPack.dll

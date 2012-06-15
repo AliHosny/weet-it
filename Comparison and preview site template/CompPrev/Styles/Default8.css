@@ -172,3 +172,11 @@ box-shadow: inset 0px 0px 3px 1px #aaa;
     max-width:450px;
     word-wrap: break-word;
 }
+
+
+.imgInComparison
+{
+    margin:20px;
+    max-width : 250px; 
+    
+}

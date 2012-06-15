@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompPrev.Account.ChangePassword" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAA=</HashCode>
+      <FileName>Account\ChangePassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompPrev.Account.ChangePasswordSuccess" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Account\ChangePasswordSuccess.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompPrev.Account.Login" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAE=</HashCode>
+      <FileName>Account\Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompPrev.Account.Register" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>Account\Register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comparison_Part.Comparison" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAACQAAAAAAEAAAABAAAAIQAAEAAYAAEIAAIA=</HashCode>
+      <FileName>Classes\Comparison.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comparison_Part.ComparisonElement" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAgAAAAgAAAAIACgADABgAgwAYAAAAAAA=</HashCode>
+      <FileName>Classes\ComparisonElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsRelationFactory.ObjectsPreviewManager" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAQY=</HashCode>
+      <FileName>Classes\ObjectsPreviewManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsRelationFactory.ObjectsRelationManager" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAABEQAAAAAASAgDIAgAAAAAAEAA=</HashCode>
+      <FileName>Classes\ObjectsRelationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsRelationFactory.QueryProcessor" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAIAAAACCAAABEACBEAAAQAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Classes\QueryProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsRelationFactory.ResSetToJSON" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQCAAAAACAAAARABIAAAgAAAAQQAAAA=</HashCode>
+      <FileName>Classes\ResSetToJSON.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsRelationFactory.SPARQLQueryBuilder" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAEQAAAQEAAIAEICAAAAAgAIAAEABgAoAAAAAhA=</HashCode>
+      <FileName>Classes\SPARQLQueryBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompPrev._Default" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAIAABAAAAAAAAAQACAAAAACAAAAAAEAIIAAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompPrev.Global" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAECIBAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompPrev.SiteMaster" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
