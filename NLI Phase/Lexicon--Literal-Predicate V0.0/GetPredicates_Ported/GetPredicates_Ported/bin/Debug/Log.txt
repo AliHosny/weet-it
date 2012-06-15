@@ -1,0 +1,124 @@
+starting .............	01:13:41 AM
+ finished getting 21 predicates  Time taken : 7488.4283 msec	01:13:48 AM
+total time taken :7770.4445 msecs 	01:13:49 AM
+URI: http://dbpedia.org/ontology/area
+label: area@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/Organisation 
+ http://dbpedia.org/ontology/RadioStation 
+ http://www.opengis.net/gml/_Feature 
+ ranges: 
+http://dbpedia.org/ontology/Settlement
+score :0
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/areaCode
+label: area code@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/PopulatedPlace 
+ ranges: 
+http://www.w3.org/2001/XMLSchema#string
+score :5
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/councilArea
+label: Council area@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/PopulatedPlace 
+ ranges: 
+http://dbpedia.org/ontology/PopulatedPlace
+score :8
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/areaOfSearch
+label: area of search@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/SiteOfSpecialScientificInterest 
+ ranges: 
+http://dbpedia.org/ontology/PopulatedPlace
+score :10
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/areaLand
+label: area land (m2)@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/Place 
+ ranges: 
+http://www.w3.org/2001/XMLSchema#double
+score :10
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/principalArea
+label: principal area@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/PopulatedPlace 
+ ranges: 
+http://dbpedia.org/ontology/PopulatedPlace
+score :10
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/broadcastArea
+label: broadcast area@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/Broadcast 
+ ranges: 
+http://dbpedia.org/ontology/PopulatedPlace
+score :10
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/areaMetro
+label: area metro (m2)@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://www.opengis.net/gml/_Feature 
+ http://dbpedia.org/ontology/Place 
+ http://dbpedia.org/ontology/PopulatedPlace 
+ http://dbpedia.org/ontology/Settlement 
+ http://dbpedia.org/ontology/Town 
+ http://dbpedia.org/ontology/AdministrativeRegion 
+ http://dbpedia.org/ontology/Country 
+ http://dbpedia.org/ontology/Village 
+ http://dbpedia.org/ontology/City 
+ http://dbpedia.org/ontology/Organisation 
+ ranges: 
+http://www.w3.org/2001/XMLSchema#double
+score :11
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/areaUrban
+label: area urban (m2)@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/PopulatedPlace 
+ ranges: 
+http://www.w3.org/2001/XMLSchema#double
+score :11
+-------------------------------------
+	01:13:49 AM
+URI: http://dbpedia.org/ontology/areaTotal
+label: area total (m2)@en
+QuestionMatch : area
+identifier : 
+domains: 
+http://dbpedia.org/ontology/Place 
+ ranges: 
+http://www.w3.org/2001/XMLSchema#double
+score :11
+-------------------------------------
+	01:13:49 AM

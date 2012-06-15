@@ -1,0 +1,207 @@
+starting .............	05:37:17 PM
+total time taken :31718.1629 msecs 	05:37:48 PM
+URI: http://dbpedia.org/resource/The_Age
+label: The Age@en
+QuestionMatch : the age
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/Newspaper
+http://dbpedia.org/ontology/Newspaperpredicate : 
+score :0
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Mohamed_Aboutrika
+label: Abo Treika@en
+QuestionMatch : abo treika
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/Athlete
+http://dbpedia.org/ontology/SoccerPlayer
+http://dbpedia.org/ontology/Athlete
+http://dbpedia.org/ontology/SoccerPlayerpredicate : 
+score :0
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/What_Is_Soul
+label: What Is Soul@en
+QuestionMatch : what is
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/Album
+http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/Albumpredicate : 
+score :5
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/What_Is_This%3F
+label: What Is This?@en
+QuestionMatch : what is
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/Band
+http://dbpedia.org/ontology/Bandpredicate : 
+score :6
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!
+label: Brain Age@en
+QuestionMatch : age
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/Software
+http://dbpedia.org/ontology/VideoGamepredicate : 
+score :6
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Thomas_Bulfinch
+label: The Age of Fable@en
+QuestionMatch : the age of
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/Artist
+http://dbpedia.org/ontology/Writer
+http://xmlns.com/foaf/0.1/Person
+http://dbpedia.org/ontology/Artist
+http://dbpedia.org/ontology/Writer
+http://xmlns.com/foaf/0.1/Personpredicate : 
+score :6
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Viking_Age
+label: Viking age@en
+QuestionMatch : age
+identifier : 
+typeOfOwner : http://www.opengis.net/gml/_Featurepredicate : 
+score :7
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Léonie_Abo
+label: Léonie Abo@en
+QuestionMatch : abo
+identifier : 
+typeOfOwner : http://xmlns.com/foaf/0.1/Personpredicate : 
+score :7
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Mike_d'Abo
+label: Mike D'Abo@en
+QuestionMatch : abo
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/Artist
+http://dbpedia.org/ontology/MusicalArtistpredicate : 
+score :7
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Beethoven's_Last_Night
+label: What Is Eternal@en
+QuestionMatch : what is
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/Album
+http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/Albumpredicate : 
+score :8
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Abo_of_Tiflis
+label: Abo Tbileli@en
+QuestionMatch : abo
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/Clericpredicate : 
+score :8
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/The_Age_of_Plastic
+label: The Age of Plastic@en
+QuestionMatch : the age of
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/Album
+http://dbpedia.org/ontology/MusicalWork
+http://dbpedia.org/ontology/Albumpredicate : 
+score :8
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Örgryte_IS
+label: Örgryte IS@en
+QuestionMatch : is
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Organisation
+http://dbpedia.org/ontology/SportsTeam
+http://dbpedia.org/ontology/SoccerClubpredicate : 
+score :8
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Maryam_d'Abo
+label: Maryam D'Abo@en
+QuestionMatch : abo
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/Artist
+http://dbpedia.org/ontology/Actorpredicate : 
+score :9
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/Olivia_d'Abo
+label: Olivia D'Abo@en
+QuestionMatch : abo
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Person
+http://xmlns.com/foaf/0.1/Personpredicate : 
+score :9
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/What_Is_History%3F
+label: What Is History?@en
+QuestionMatch : what is
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/Book
+http://dbpedia.org/ontology/Bookpredicate : 
+score :9
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/The_Age_of_Extremes
+label: The Age of Extremes@en
+QuestionMatch : the age of
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/Book
+http://dbpedia.org/ontology/Bookpredicate : 
+score :9
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/This_Is_the_Law
+label: This Is The Law@en
+QuestionMatch : is the
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/TelevisionShow
+http://dbpedia.org/ontology/TelevisionShowpredicate : 
+score :9
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/What_You_Need
+label: What You Need@en
+QuestionMatch : what
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/TelevisionEpisodepredicate : 
+score :9
+-------------------------------------
+	05:37:48 PM
+URI: http://dbpedia.org/resource/The_Age_of_Innocence
+label: The Age of Innocence@en
+QuestionMatch : the age of
+identifier : 
+typeOfOwner : http://dbpedia.org/ontology/Work
+http://dbpedia.org/ontology/Book
+http://dbpedia.org/ontology/Bookpredicate : 
+score :10
+-------------------------------------
+	05:37:48 PM

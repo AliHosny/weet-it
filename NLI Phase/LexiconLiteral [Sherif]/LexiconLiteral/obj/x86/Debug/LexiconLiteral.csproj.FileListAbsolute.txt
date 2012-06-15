@@ -1,0 +1,30 @@
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\LexiconLiteral.exe.config
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\LexiconLiteral.exe
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\LexiconLiteral.pdb
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\dotNetRDF.dll
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\OpenLink.Data.Virtuoso.dll
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\MySql.Data.dll
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\dotNetRDF.xml
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\obj\x86\Debug\LexiconLiteral.exe
+C:\Users\Sherif\Desktop\Project\Solutions\LexiconLiteral\LexiconLiteral\obj\x86\Debug\LexiconLiteral.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\LexiconLiteral.exe.config
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\obj\x86\Debug\LexiconLiteral.exe
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\obj\x86\Debug\LexiconLiteral.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\LexiconLiteral.exe
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\LexiconLiteral.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\dotNetRDF.dll
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\MySql.Data.dll
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Dropbox\Graduation project\Code\LexiconLiteral [Sherif]\LexiconLiteral\obj\x86\Debug\LexiconLiteral.csprojResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\NLI\LexiconLiteral [Sherif]\LexiconLiteral\bin\Debug\LexiconLiteral.exe.config
+E:\Users\hady\Dropbox\Graduation project\Code\NLI\LexiconLiteral [Sherif]\LexiconLiteral\obj\x86\Debug\LexiconLiteral.exe
+E:\Users\hady\Dropbox\Graduation project\Code\NLI\LexiconLiteral [Sherif]\LexiconLiteral\obj\x86\Debug\LexiconLiteral.pdb

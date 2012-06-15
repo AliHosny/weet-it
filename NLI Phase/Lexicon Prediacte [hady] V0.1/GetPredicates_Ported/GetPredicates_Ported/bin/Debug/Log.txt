@@ -1,0 +1,16 @@
+starting .............	11:26:53 AM
+skipped : Place of ---- due to time out 	11:27:30 AM
+ finished getting 1 predicates  Time taken : 43119.4663 msec	11:27:37 AM
+finished scoring predicates in 2.0001 msec	11:27:37 AM
+finished sorting predicates in 0 msec	11:27:37 AM
+URI: http://dbpedia.org/ontology/birthPlace
+label: birth place@en
+QuestionMatch : birth Place
+identifier : 
+domains: 
+http://dbpedia.org/ontology/Person 
+ ranges: 
+http://dbpedia.org/ontology/Place
+score :1
+-------------------------------------
+	11:27:37 AM

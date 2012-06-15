@@ -1,0 +1,14 @@
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe.config
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.csprojResolveAssemblyReference.cache
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.exe
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\GetPredicates_Ported.pdb
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\MySql.Data.dll
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.xml
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\bin\Debug\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.exe
+E:\Users\hady\Desktop\NLP reduce Trail\GetPredicates_Ported\GetPredicates_Ported\obj\x86\Debug\GetPredicates_Ported.pdb

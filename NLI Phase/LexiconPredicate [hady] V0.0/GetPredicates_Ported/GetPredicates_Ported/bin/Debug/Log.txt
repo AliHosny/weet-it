@@ -1,0 +1,5 @@
+starting .............	09:23:50 PM
+skipped : death place ---- due to time out 	09:23:52 PM
+ finished getting 91 predicates  Time taken : 1757.1005 msec	09:23:52 PM
+finished scoring predicates in 1.0001 msec	09:23:52 PM
+finished sorting predicates in 1.0001 msec	09:23:52 PM
