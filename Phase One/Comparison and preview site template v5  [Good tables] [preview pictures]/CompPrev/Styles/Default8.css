@@ -1,0 +1,182 @@
+﻿body
+{
+    background-color: #ece5c9;
+    background-image: url(../Images/dotted_bg.png);
+    background-repeat: repeat-x;
+}
+
+button
+{
+    padding: 5px;
+    width: 70px;
+    height: 32px;
+    background-color: #607797;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 0px;
+    color: White;
+    -webkit-box-shadow: 0px 0px 2px 2px #d6d6d6;
+    -moz-box-shadow: 0px 0px 2px 2px #d6d6d6;
+    box-shadow: 0px 0px 2px 2px #d6d6d6;
+}
+
+button:hover
+{
+    background: #90aacc;
+}
+
+.mainInputTextBox
+{
+    width: 600px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-color: #636363;
+    border: 3px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0px 0px 3px 3px #c6c6c6;
+    -moz-box-shadow: inset 0px 0px 3px 3px #c6c6c6;
+    box-shadow: inset 0px 0px 3px 3px #c6c6c6;
+}
+
+.upperButtonsContainer
+{
+    width: 50%;
+    margin: auto;
+}
+
+.upperButtons
+{
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.viewBox
+{
+    -webkit-box-shadow: 0px 0px 2px 2px #c4c4c4;
+    -moz-box-shadow: 0px 0px 2px 2px #c4c4c4;
+    box-shadow: 0px 0px 2px 2px #c4c4c4;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.resultBox
+{
+    margin-top: 25px;
+    width: 1160px;
+    margin: auto;
+    overflow: visible;
+}
+
+.viewport
+{
+    min-height: 400px;
+    min-width: 900px;
+}
+
+.viewBox .Buttons
+{
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+
+.resultTable
+{
+    margin-top: 25px;
+    max-width: 800px;
+    border-collapse: collapse;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px #A3A3A3;
+    -moz-box-shadow: 0px 0px 5px 0px #A3A3A3;
+    box-shadow: 0px 0px 5px 0px #A3A3A3;
+}
+
+.resultTable tr, .resultTable td, .resultTable
+{
+    border: none;
+    margin: 0px;
+    padding: 5px;
+    border-collapse: collapse;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.resultTable
+{
+}
+
+
+.comparisonContainer
+{
+    display: block;
+    padding: 10px;
+    border: 1px solid #969696;
+    margin: 25px;
+    margin-top: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 3px 1px #aaa;
+-moz-box-shadow: inset 0px 0px 3px 1px #aaa;
+box-shadow: inset 0px 0px 3px 1px #aaa;
+}
+
+
+.comparisonElement
+{
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #969696;
+  
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.comparisonElementTitle
+{
+    font-size: 11px;
+    color: #9b9b9b;
+    position: relative;
+    right: -8px;
+    top: -6px;
+    margin-bottom: 20px;
+}
+
+.comparisonTable
+{
+    border: 1px solid #969696;
+    background: #fff2ce;
+    margin: auto;
+    padding: 15px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    table-layout:fixed;
+}
+
+.comparisonTable td
+{
+    border: 2px solid #e0cf9a;
+    padding: 10px;
+    max-width:450px;
+    word-wrap: break-word;
+}
+
+
+.imgInComparison
+{
+    margin:20px;
+    max-width : 250px; 
+    
+}

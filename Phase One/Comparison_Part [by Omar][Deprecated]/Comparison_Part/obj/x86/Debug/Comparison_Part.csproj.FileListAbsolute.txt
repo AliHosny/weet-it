@@ -1,0 +1,9 @@
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\bin\Debug\Comparison_Part.exe
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\bin\Debug\Comparison_Part.pdb
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\bin\Debug\dotNetRDF.ClientProfile.dll
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\bin\Debug\HtmlAgilityPack.dll
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\bin\Debug\dotNetRDF.ClientProfile.xml
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\obj\x86\Debug\Comparison_Part.exe
+E:\Project\Prototypes\Comparison_Part\Comparison_Part\obj\x86\Debug\Comparison_Part.pdb

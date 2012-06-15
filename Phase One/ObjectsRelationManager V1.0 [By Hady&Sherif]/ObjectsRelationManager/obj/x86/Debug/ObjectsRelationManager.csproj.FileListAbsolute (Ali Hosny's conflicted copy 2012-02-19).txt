@@ -1,0 +1,18 @@
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\bin\Debug\ObjectsRelationManager.exe.config
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\bin\Debug\ObjectsRelationManager.exe
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\bin\Debug\ObjectsRelationManager.pdb
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\bin\Debug\dotNetRDF.dll
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\obj\x86\Debug\ObjectsRelationManager.exe
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\obj\x86\Debug\ObjectsRelationManager.pdb
+C:\Users\Sherif\Desktop\Project\Solutions\ObjectsRelationManager\ObjectsRelationManager\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\bin\Debug\ObjectsRelationManager.exe.config
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\obj\x86\Debug\ObjectsRelationManager.exe
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\obj\x86\Debug\ObjectsRelationManager.pdb
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\bin\Debug\ObjectsRelationManager.exe
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\bin\Debug\ObjectsRelationManager.pdb
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\bin\Debug\dotNetRDF.Data.Virtuoso.dll
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\bin\Debug\dotNetRDF.dll
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\bin\Debug\OpenLink.Data.Virtuoso.dll
+E:\Dropbox\Graduation project\Code\ObjectsRelationManager V1.0\ObjectsRelationManager\obj\x86\Debug\ResolveAssemblyReference.cache

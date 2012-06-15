@@ -1,0 +1,135 @@
+c:\users\ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\bin\CompPrev.dll
+c:\users\ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\bin\CompPrev.pdb
+c:\users\ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+c:\users\ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\bin\CompPrev.dll
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\bin\CompPrev.pdb
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\bin\dotNetRDF.ClientProfile.dll
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+C:\Users\Hatem\Desktop\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+C:\Users\Ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\bin\dotNetRDF.ClientProfile.dll
+C:\Users\Ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+C:\Users\Ali\documents\visual studio 2010\Projects\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\dotNetRDF.ClientProfile.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\dotNetRDF.ClientProfile.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Dropbox\Graduation project\Code\Comparison and preview site template V1.1\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.ClientProfile.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V1.1 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.0 [Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.1[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Dropbox\Graduation project\Code\Comparison and preview site template V2.2[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\dotNetRDF.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V2.3[Integrated Modules] - Copy\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\CompPrev.pdb
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\HtmlAgilityPack.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\OpenLink.Data.Virtuoso.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\MySql.Data.dll
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.xml
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Users\hady\Desktop\Comparison and preview site template V3[Integrated Modules]\CompPrev\CompPrev\obj\Debug\CompPrev.pdb
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\bin\CompPrev.dll
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\bin\CompPrev.pdb
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\bin\HtmlAgilityPack.dll
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\bin\Newtonsoft.Json.Net35.dll
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\obj\Debug\ResolveAssemblyReference.cache
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\obj\Debug\CompPrev.dll
+E:\Dropbox\Graduation project\Code\CompPrev-Fixed comparisons, still tables\CompPrev-Fixed comparisons, still tables\CompPrev\obj\Debug\CompPrev.pdb
