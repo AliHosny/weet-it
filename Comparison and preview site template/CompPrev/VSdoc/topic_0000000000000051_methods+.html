@@ -1,0 +1,1856 @@
+<html DIR="LTR" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=windows-1252" />
+    <META NAME="save" CONTENT="history" />
+    <title>Global Methods</title>
+    <xml>
+      <MSHelp:TOCTitle Title="Global Methods" />
+      <MSHelp:RLTitle Title="Global Methods" />
+      <MSHelp:Keyword Index="K" Term="Global Class, Methods" />
+      <MSHelp:Keyword Index="A" Term="Methods.T:CompPrev.Global" />
+      <MSHelp:Attr Name="AssetID" Value="Methods.T:CompPrev.Global" />
+      <MSHelp:Attr Name="HelpPriority" Value="1" />
+      <MSHelp:Attr Name="DocSet" Value="WindowsForms" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="DocSet" Value="NETFramework" />
+      <MSHelp:Attr Name="DocSet" Value="NETFrameworkXpr" />
+      <MSHelp:Attr Name="DocSet" Value="ExpressLibVS" />
+      <MSHelp:Attr Name="Technology" Value="ManagedCode" />
+      <MSHelp:Attr Name="TechnologyVers" Value="netframework20" />
+      <MSHelp:Attr Name="DevLang" Value="VJ#" />
+      <MSHelp:Attr Name="TargetOS" Value="Windows" />
+      <MSHelp:Attr Name="TopicVersion" Value="02.00.00000.10000" />
+      <MSHelp:Attr Name="TargetOS" Value="Windows" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="DevLang" Value="C++" />
+      <MSHelp:Attr Name="DevLang" Value="jsharp" />
+      <MSHelp:Attr Name="DevLang" Value="JScript" />
+      <MSHelp:Attr Name="DocSet" Value="NetCompactFramework" />
+      <MSHelp:Attr Name="Technology" Value="kbNetFramewk" />
+      <MSHelp:Attr Name="Technology" Value="kbNetCompactFramewk" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+    </xml>
+
+		<link rel="stylesheet" type="text/css" href="ms-help://MS.VSCC.v80/dv_vscccommon/local/Classic.css" DISABLED="true">
+		</link>
+		<link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css">
+		</link>
+
+		<link rel="stylesheet" type="text/css" href="msdn2/msdn2.css"></link>
+		<script src="msdn2/msdn2.js"></script>
+		<script src="SyntaxHighlighter/scripts/shCore_helixoft.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushVb.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushCSharp.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+		<link href="SyntaxHighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+		<link href="SyntaxHighlighter/styles/shThemeVS.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			SyntaxHighlighter.all()
+		</script>				
+
+		<link rel="stylesheet" type="text/css" href="ms-help://MS.VSCC.v90/dv_vscccommon/styles/presentation.css">
+		</link>
+		<link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css">
+		</link>
+		<script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/EventUtilities.js">
+		</script>
+		<script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/SplitScreen.js">
+		</script>
+		<script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/Dropdown.js">
+		</script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/script_loc.js"> </script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/script_manifold.js"> </script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/CheckboxMenu.js"> </script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/CommonUtilities.js"> </script>
+  </head>
+
+  <body style="direction: ltr;">
+    <input type="hidden" id="userDataCache" class="userDataStyle"></input>
+    <input type="hidden" id="hiddenScrollOffset"></input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" alt="DropDown image" src="msdn9/dropdown.gif"></img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" alt="DropDownHover image" src="msdn9/dropdownHover.gif"></img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" alt="Collapse image" src="msdn2/collapse_all.gif"></img>
+    <img id="expandImage" style="display:none; height:0; width:0;" alt="Expand image" src="msdn2/expand_all.gif"></img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" alt="CollapseAll image" src="msdn2/collall.gif"></img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" alt="ExpandAll image" src="msdn2/expall.gif"></img>
+    <img id="copyImage" style="display:none; height:0; width:0;" alt="Copy image" src="msdn2/copycode.gif"></img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" alt="CopyHover image" src="msdn2/copycodeHighlight.gif"></img>
+    
+    <div id="header">
+      <table id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="msdn2/collall.gif" />
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label>
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label>
+            </span>
+            <span>    </span>
+            <span id="devlangsDropdown" class="filter" tabindex="0">
+              <img id="devlangsDropdownImage" src="msdn9/dropdown.gif" />
+              <label id="devlangsMenuAllLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: All </nobr></label><label id="devlangsMenuMultipleLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Multiple </nobr></label><label id="devlangsMenuVisualBasicLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual Basic </nobr></label><label id="devlangsMenuCSharpLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: C# </nobr></label><label id="devlangsMenuManagedCPlusPlusLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual C++ </nobr></label><label id="devlangsMenuJSharpLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: J# </nobr></label><label id="devlangsMenuJScriptLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: JScript </nobr></label>
+            </span>
+            <span>    </span>
+            <span id="memberOptionsDropdown" class="filter" tabindex="0" style="display: none;">
+              <img id="memberOptionsDropdownImage" src="msdn9/dropdown.gif" />
+              <label id="memberOptionsMenuAllLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Show All </nobr></label>
+              <label id="memberOptionsMenuMultipleLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Filtered </nobr></label>
+              <label id="memberOptionsMenuProtectedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Filtered </nobr></label>
+              <label id="memberOptionsMenuInheritedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Filtered </nobr></label>
+            </span>
+            <span>    </span>
+            <span id="memberFrameworksDropdown" class="filter" tabindex="0" style="display: none;">
+              <img id="memberFrameworksDropdownImage" src="msdn9/dropdown.gif" /> 
+              <label id="memberFrameworksMenuAllLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: Show All </nobr></label>
+              <label id="memberFrameworksMenuMultipleLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: Multiple </nobr></label>
+              <label id="memberFrameworksMenunetfwLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: .NET Framework Only </nobr></label>
+              <label id="memberFrameworksMenunetcfwLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: .NET Compact Framework Only </nobr></label>
+              <label id="memberFrameworksMenuxnafwLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: XNA Framework Only </nobr></label></span>
+          </td>
+        </tr>
+      </table>
+      <div id="devlangsMenu">
+        <input id="VisualBasicCheckbox" type="checkbox" data="VisualBasic,vb,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="VisualBasicCheckbox">Visual Basic</label>
+        <br />
+
+        <input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="CSharpCheckbox">C#</label>
+        <br />
+
+        <input id="ManagedCPlusPlusCheckbox" type="checkbox" data="ManagedCPlusPlus,cpp,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="ManagedCPlusPlusCheckbox">Visual C++</label>
+        <br />
+
+        <input id="JScriptCheckbox" type="checkbox" data="JScript,cs,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="JScriptCheckbox">JScript</label>
+        <br />
+        
+      </div>
+      <div id="memberOptionsMenu">
+        <input id="ProtectedCheckbox" type="checkbox" data="Protected" value="on" onClick="SetMemberOptions(this, 'vis')" />
+        <label class="checkboxLabel" for="ProtectedCheckbox">Include Protected Members</label>
+        <br />
+        <input id="InheritedCheckbox" type="checkbox" data="Inherited" value="on" onClick="SetMemberOptions(this, 'decl')" />
+        <label class="checkboxLabel" for="InheritedCheckbox">Include Inherited Members</label>
+        <br />
+      </div>
+      <div id="memberFrameworksMenu">
+        <input id="netfwCheckbox" type="checkbox" data="netfw,'persist'" value="on" onClick="SetMemberFrameworks(this)" />
+        <label class="checkboxLabel" for="netfwCheckbox">Include .NET Framework Members</label>
+        <br />
+        <input id="netcfwCheckbox" type="checkbox" data="netcfw,'persist'" value="on" onClick="SetMemberFrameworks(this)" />
+        <label class="checkboxLabel" for="netcfwCheckbox">Include .NET Compact Framework Members</label>
+        <br />
+        <input id="xnafwCheckbox" type="checkbox" data="xnafw,'persist'" value="on" onClick="SetMemberFrameworks(this)" />
+        <label class="checkboxLabel" for="xnafwCheckbox">Include XNA Framework Members</label>
+        <br />
+      </div>
+      <table id="topTable" cellpadding="0" cellspacing="0">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">CompPrev Reference</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Global Methods</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td align="left">
+            <a href="topic_0000000000000051.html">Global Class</a>
+            &nbsp;<a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a>
+            </td>
+        </tr>
+      </table>
+      <table id="gradientTable">
+        <tr>
+          <td class="nsrBottom" background="msdn9/gradient.gif" />
+        </tr>
+      </table>
+    </div>
+
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        <p />
+
+
+<!-- Public -->
+
+
+<h1 class="heading">
+  <span onclick="ExpandCollapse(PublicMethodsToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(PublicMethodsToggle)" tabindex="0">
+    <img id="PublicMethodsToggle" onload="OnLoadImage(event)" class="toggle" name="toggleSwitch" alt="Expand image" src="msdn2/expand_all.gif">
+    </img>
+    Public Methods
+  </span>
+</h1>
+<div id="PublicMethodsSection" class="section" name="collapseableSection" style="display: none;">
+  <table width="100%" class="memberListTable" cellspacing="2" cellpadding="5">
+    <col width="10%" />
+    <col width="30%" />
+    <col width="60%" />
+    <tr>
+      <th style="border-right-style: none;">&nbsp;</th>
+      <th align="left" style="border-left-style: none; border-right-style: none;">
+        Name
+      </th>
+      <th align="left" style="border-left-style: none;">
+        Description
+      </th>
+    </tr>
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnAcquireRequestStateAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnAcquireRequestStateAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.AcquireRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AcquireRequestState</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.AcquireRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AcquireRequestState</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnAuthenticateRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnAuthenticateRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.AuthenticateRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AuthenticateRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.AuthenticateRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AuthenticateRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnAuthorizeRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnAuthorizeRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.AuthorizeRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AuthorizeRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.AuthorizeRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AuthorizeRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnBeginRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnBeginRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.BeginRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">BeginRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.BeginRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">BeginRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnEndRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnEndRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.EndRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EndRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.EndRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EndRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnLogRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnLogRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.LogRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">LogRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.LogRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">LogRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnMapRequestHandlerAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnMapRequestHandlerAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.MapRequestHandler&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MapRequestHandler</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.MapRequestHandler&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MapRequestHandler</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostAcquireRequestStateAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostAcquireRequestStateAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostAcquireRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostAcquireRequestState</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostAcquireRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostAcquireRequestState</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostAuthenticateRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostAuthenticateRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostAuthenticateRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostAuthenticateRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostAuthenticateRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostAuthenticateRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostAuthorizeRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostAuthorizeRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostAuthorizeRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostAuthorizeRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostAuthorizeRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostAuthorizeRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostLogRequestAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostLogRequestAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostLogRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostLogRequest</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostLogRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostLogRequest</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostMapRequestHandlerAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostMapRequestHandlerAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostMapRequestHandler&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostMapRequestHandler</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostMapRequestHandler&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostMapRequestHandler</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostReleaseRequestStateAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostReleaseRequestStateAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostReleaseRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostReleaseRequestState</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostReleaseRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostReleaseRequestState</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostRequestHandlerExecuteAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostRequestHandlerExecuteAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostRequestHandlerExecute&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostRequestHandlerExecute</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostRequestHandlerExecute&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostRequestHandlerExecute</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostResolveRequestCacheAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostResolveRequestCacheAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostResolveRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostResolveRequestCache</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostResolveRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostResolveRequestCache</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPostUpdateRequestCacheAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPostUpdateRequestCacheAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostUpdateRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostUpdateRequestCache</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PostUpdateRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PostUpdateRequestCache</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnPreRequestHandlerExecuteAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnPreRequestHandlerExecuteAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PreRequestHandlerExecute&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PreRequestHandlerExecute</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.PreRequestHandlerExecute&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PreRequestHandlerExecute</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnReleaseRequestStateAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnReleaseRequestStateAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.ReleaseRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ReleaseRequestState</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.ReleaseRequestState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ReleaseRequestState</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnResolveRequestCacheAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnResolveRequestCacheAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.ResolveRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ResolveRequestCache</a> event handler to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.ResolveRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ResolveRequestCache</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Web.HttpApplication.AddOnUpdateRequestCacheAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AddOnUpdateRequestCacheAsync</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Adds the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.UpdateRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">UpdateRequestCache</a> event to the collection of asynchronous <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.UpdateRequestCache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">UpdateRequestCache</a> event handlers for the current request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Web.HttpApplication.CompleteRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">CompleteRequest</a>
+
+
+  </td>
+  <td>
+
+Causes ASP.NET to bypass all events and filtering in the HTTP pipeline chain of execution and directly execute the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;E:System.Web.HttpApplication.EndRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EndRequest</a> event.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Web.HttpApplication.Dispose&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Dispose</a>
+
+
+  </td>
+  <td>
+
+Disposes the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a> instance.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;Overload:System.Object.Equals&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Equals</a>
+
+    
+
+  </td>
+  <td>
+(Overloaded)
+
+Determines whether the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a> is equal to the current <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Object.GetHashCode&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">GetHashCode</a>
+
+
+  </td>
+  <td>
+
+Serves as a hash function for a particular type.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Web.HttpApplication.GetOutputCacheProviderName(System.Web.HttpContext)&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">GetOutputCacheProviderName</a>
+
+
+  </td>
+  <td>
+
+Gets the name of the default output-cache provider that is configured for a Web site.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Object.GetType&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">GetType</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Type&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Type</a> of the current instance.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Web.HttpApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">GetVaryByCustomString</a>
+
+
+  </td>
+  <td>
+
+Provides an application-wide implementation of the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.PartialCachingAttribute.VaryByCustom&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">VaryByCustom</a> property.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Web.HttpApplication.Init&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Init</a>
+
+
+  </td>
+  <td>
+
+Executes custom initialization code after all event handler modules have been added.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplication&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplication</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+    <img alt="Static" src="msdn2/static.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Object.ReferenceEquals(System.Object,System.Object)&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ReferenceEquals</a>
+
+
+  </td>
+  <td>
+
+Determines whether the specified <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a> instances are the same instance.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public method" src="msdn2/pubmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Object.ToString&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ToString</a>
+
+
+  </td>
+  <td>
+
+Returns a <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.String&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">String</a> that represents the current <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+  </table>
+  <a href="#mainBody">
+    Top
+  </a>
+</div>
+
+<!-- Public End-->
+
+<!-- Protected -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="heading">
+  <span onclick="ExpandCollapse(FamilyMethodsToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(FamilyMethodsToggle)" tabindex="0">
+    <img id="FamilyMethodsToggle" onload="OnLoadImage(event)" class="toggle" name="toggleSwitch" alt="Expand image" src="msdn2/expand_all.gif">
+    </img>
+    Protected Methods
+  </span>
+</h1>
+<div id="FamilyMethodsSection" class="section" name="collapseableSection" style="display: none;">
+  <table width="100%" class="memberListTable" cellspacing="2" cellpadding="5">
+    <col width="10%" />
+    <col width="30%" />
+    <col width="60%" />
+    <tr>
+      <th style="border-right-style: none;">&nbsp;</th>
+      <th align="left" style="border-left-style: none; border-right-style: none;">
+        Name
+      </th>
+      <th align="left" style="border-left-style: none;">
+        Description
+      </th>
+    </tr>
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Protected method" src="msdn2/protmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Object.Finalize&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Finalize</a>
+
+
+  </td>
+  <td>
+
+Allows an <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a> to attempt to free resources and perform other cleanup operations before the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a> is reclaimed by garbage collection.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Protected method" src="msdn2/protmethod.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;M:System.Object.MemberwiseClone&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MemberwiseClone</a>
+
+
+  </td>
+  <td>
+
+Creates a shallow copy of the current <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Object&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Object</a>).
+
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </table>
+  <a href="#mainBody">
+    Top
+  </a>
+</div>
+
+<!-- Protected End-->
+
+<!-- Private and rest -->
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+<h1 class="heading">
+  <span onclick="ExpandCollapse(PrivateMethodsToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(PrivateMethodsToggle)" tabindex="0">
+    <img id="PrivateMethodsToggle" onload="OnLoadImage(event)" class="toggle" name="toggleSwitch" alt="Expand image" src="msdn2/expand_all.gif">
+    </img>
+    Private, internal (Friend) and internal protected (Protected Friend) Methods
+  </span>
+</h1>
+<div id="PrivateMethodsSection" class="section" name="collapseableSection" style="display: none;">
+  <table width="100%" class="memberListTable" cellspacing="2" cellpadding="5">
+    <col width="10%" />
+    <col width="30%" />
+    <col width="60%" />
+    <tr>
+      <th style="border-right-style: none;">&nbsp;</th>
+      <th align="left" style="border-left-style: none; border-right-style: none;">
+        Name
+      </th>
+      <th align="left" style="border-left-style: none;">
+        Description
+      </th>
+    </tr>
+
+
+
+<tr valign="top"
+
+
+>
+  <td class="imageCell">
+     
+    <img alt="Private method" src="msdn2/privmethod.gif"></img>
+    
+    
+
+    <img alt="Supported by the .NET Compact Framework." src="msdn2/CFW.gif"></img>
+    
+  </td>
+  <td>
+
+    <a href="topic_0000000000000053.html">Application_End</a>
+
+
+  </td>
+  <td>
+
+
+
+
+
+	</td>
+</tr>
+
+
+
+
+
+ 
+
+
+<tr valign="top"
+
+
+>
+  <td class="imageCell">
+     
+    <img alt="Private method" src="msdn2/privmethod.gif"></img>
+    
+    
+
+    <img alt="Supported by the .NET Compact Framework." src="msdn2/CFW.gif"></img>
+    
+  </td>
+  <td>
+
+    <a href="topic_0000000000000054.html">Application_Error</a>
+
+
+  </td>
+  <td>
+
+
+
+
+
+	</td>
+</tr>
+
+
+
+
+
+ 
+
+
+<tr valign="top"
+
+
+>
+  <td class="imageCell">
+     
+    <img alt="Private method" src="msdn2/privmethod.gif"></img>
+    
+    
+
+    <img alt="Supported by the .NET Compact Framework." src="msdn2/CFW.gif"></img>
+    
+  </td>
+  <td>
+
+    <a href="topic_0000000000000052.html">Application_Start</a>
+
+
+  </td>
+  <td>
+
+
+
+
+
+	</td>
+</tr>
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+<tr valign="top"
+
+
+>
+  <td class="imageCell">
+     
+    <img alt="Private method" src="msdn2/privmethod.gif"></img>
+    
+    
+
+    <img alt="Supported by the .NET Compact Framework." src="msdn2/CFW.gif"></img>
+    
+  </td>
+  <td>
+
+    <a href="topic_0000000000000056.html">Session_End</a>
+
+
+  </td>
+  <td>
+
+
+
+
+
+	</td>
+</tr>
+
+
+
+
+
+ 
+
+
+<tr valign="top"
+
+
+>
+  <td class="imageCell">
+     
+    <img alt="Private method" src="msdn2/privmethod.gif"></img>
+    
+    
+
+    <img alt="Supported by the .NET Compact Framework." src="msdn2/CFW.gif"></img>
+    
+  </td>
+  <td>
+
+    <a href="topic_0000000000000055.html">Session_Start</a>
+
+
+  </td>
+  <td>
+
+
+
+
+
+	</td>
+</tr>
+
+
+
+
+
+ 
+
+
+
+
+  </table>
+  <a href="#mainBody">
+    Top
+  </a>
+</div>
+
+<!-- Private and rest End-->
+
+
+
+<!-- Public -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Public End-->
+
+
+
+
+<h1 class="heading">
+	<span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle)" tabindex="0">
+		<img id="seeAlsoToggle" onload="OnLoadImage(event)" class="toggle" name="toggleSwitch" alt="Expand image" src="msdn2/expand_all.gif">
+		</img>
+		See Also
+	</span></h1>
+<div id="seeAlsoSection" class="section" name="collapseableSection" style="display: none;">
+	<div>
+		<h4 class="subHeading">
+			Reference</h4>
+		<A HREF="topic_0000000000000051.html">Global Class</A><br />
+<a href="topic_0000000000000000.html">CompPrev Namespace</a><br />
+
+
+		
+
+	</div>
+</div>
+			</div>
+      <div id="footer">
+        <div class="footerLine">
+          <img alt="Footer image" width="100%" height="3px" src="msdn2/footer.gif">
+          </img>
+        </div>
+          <font color="#FF0000">Generated with unregistered version of <a href="http://www.helixoft.com/vsdocman/overview.html">VSdocman</a></font>&nbsp;<br>Your own footer text will only be shown in registered version.
+      </div>
+    </div>
+  </body>
+</html>
+

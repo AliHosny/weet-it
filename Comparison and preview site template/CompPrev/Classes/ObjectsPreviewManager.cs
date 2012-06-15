@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using VDS.RDF;
 using VDS.RDF.Query;
+
 namespace ObjectsRelationFactory
 {
     public class ObjectsPreviewManager

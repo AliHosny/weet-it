@@ -156,50 +156,6 @@ function getComparisonElements() {
 
 }
 
-function GetPreviewData(URIs) {
-
-    /// <summary> takes 
-    /// <param>calls a JSON OBJECT of the relation ship WEBMETHOD to get comparison table between many URIs</param>
-    /// </summary>
-    /// <param name="URIs" type="String">comma separated URIs</param>
-    console.log(URIs);
-    $.ajax({ type: "POST",
-        url: "Default.aspx/previewObject",
-        data: "{'URIs': '" + URIs + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (msg) {
-            console.log(msg);
-            if (msg == "false") {
-                alert("no more relations");
-                // to be handled
-            }
-            else {
-
-                if (msg.hasOwnProperty("d")) {
-                    eval("relationVariable = " + msg.d);
-                    driver.addNodes(relationVariable);
-                }
-                else {
-
-                    console.log("node returned doesn't have d property ");
-                }
-            }
-
-            $(".viewBox").unblock();
-        }
-    });
-
-
-
-
-
-
-
-
-
-}
-
 function DrawTable() {
 
     console.log("drawingtable");
@@ -251,7 +207,49 @@ function DrawTable() {
         $(".comparisonElement").slideDown();
 }
 
+function GetPreviewData(URIs) {
 
+    /// <summary> takes 
+    /// <param>calls a JSON OBJECT of the relation ship WEBMETHOD to get comparison table between many URIs</param>
+    /// </summary>
+    /// <param name="URIs" type="String">comma separated URIs</param>
+    console.log(URIs);
+    $.ajax({ type: "POST",
+        url: "Default.aspx/previewObject",
+        data: "{'URIs': '" + URIs + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (msg) {
+            console.log(msg);
+            if (msg == "false") {
+                alert("no more relations");
+                // to be handled
+            }
+            else {
+
+                if (msg.hasOwnProperty("d")) {
+                    eval("relationVariable = " + msg.d);
+                    driver.addNodes(relationVariable);
+                }
+                else {
+
+                    console.log("node returned doesn't have d property ");
+                }
+            }
+
+            $(".viewBox").unblock();
+        }
+    });
+
+
+
+
+
+
+
+
+
+}
 /// #endRegion
 
 

@@ -84,6 +84,7 @@
     <Content Include="Scripts\HelperScripts\ArborJSDriver4.js" />
     <Content Include="Scripts\HelperScripts\Interaction_Driver5.js" />
     <Content Include="Scripts\HelperScripts\main12.js" />
+    <Content Include="Scripts\HelperScripts\main13.js" />
     <Content Include="Scripts\HelperScripts\renderer.js" />
     <Content Include="Scripts\jquery-1.6.1.min.js" />
     <Content Include="Scripts\jquery.address-1.4.min.js" />
@@ -131,6 +132,7 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\KwSearch.cs" />
     <Compile Include="Classes\ObjectsPreviewManager.cs" />
     <Compile Include="Classes\ObjectsRelationManager.cs" />
     <Compile Include="Classes\ResSetToJSON.cs" />

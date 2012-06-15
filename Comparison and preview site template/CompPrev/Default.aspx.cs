@@ -10,7 +10,7 @@ using VDS.RDF;
 using VDS.RDF.Query;
 using Comparison_Part;
 using ObjectsRelationFactory;
-
+using KwSearch;
 namespace CompPrev
 {
     public partial class _Default : System.Web.UI.Page
@@ -20,7 +20,7 @@ namespace CompPrev
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
         static string parse_internal_list(List<INode> x)
         {
@@ -257,7 +257,11 @@ namespace CompPrev
 
             return RelationsArray; 
         }
-
+          [WebMethod(EnableSession = false)]
+        public static string get_comma_separatedUris(string textbox_input)
+        {
+            return KwSearch.KwSearch.get_URI_s(textbox_input);
+        }
         #endregion
 
     }

@@ -1,0 +1,2703 @@
+<html DIR="LTR" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=windows-1252" />
+    <META NAME="save" CONTENT="history" />
+    <title>Register Properties</title>
+    <xml>
+      <MSHelp:TOCTitle Title="Register Properties" />
+      <MSHelp:RLTitle Title="Register Properties" />
+      <MSHelp:Keyword Index="K" Term="Register Class, Properties" />
+      <MSHelp:Keyword Index="A" Term="Properties.T:CompPrev.Account.Register" />
+      <MSHelp:Attr Name="AssetID" Value="Properties.T:CompPrev.Account.Register" />
+      <MSHelp:Attr Name="HelpPriority" Value="1" />
+      <MSHelp:Attr Name="DocSet" Value="WindowsForms" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="DocSet" Value="NETFramework" />
+      <MSHelp:Attr Name="DocSet" Value="NETFrameworkXpr" />
+      <MSHelp:Attr Name="DocSet" Value="ExpressLibVS" />
+      <MSHelp:Attr Name="Technology" Value="ManagedCode" />
+      <MSHelp:Attr Name="TechnologyVers" Value="netframework20" />
+      <MSHelp:Attr Name="DevLang" Value="VJ#" />
+      <MSHelp:Attr Name="TargetOS" Value="Windows" />
+      <MSHelp:Attr Name="TopicVersion" Value="02.00.00000.10000" />
+      <MSHelp:Attr Name="TargetOS" Value="Windows" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="DevLang" Value="C++" />
+      <MSHelp:Attr Name="DevLang" Value="jsharp" />
+      <MSHelp:Attr Name="DevLang" Value="JScript" />
+      <MSHelp:Attr Name="DocSet" Value="NetCompactFramework" />
+      <MSHelp:Attr Name="Technology" Value="kbNetFramewk" />
+      <MSHelp:Attr Name="Technology" Value="kbNetCompactFramewk" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+    </xml>
+
+		<link rel="stylesheet" type="text/css" href="ms-help://MS.VSCC.v80/dv_vscccommon/local/Classic.css" DISABLED="true">
+		</link>
+		<link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css">
+		</link>
+
+		<link rel="stylesheet" type="text/css" href="msdn2/msdn2.css"></link>
+		<script src="msdn2/msdn2.js"></script>
+		<script src="SyntaxHighlighter/scripts/shCore_helixoft.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushVb.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushCSharp.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+		<script src="SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+		<link href="SyntaxHighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+		<link href="SyntaxHighlighter/styles/shThemeVS.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			SyntaxHighlighter.all()
+		</script>				
+
+		<link rel="stylesheet" type="text/css" href="ms-help://MS.VSCC.v90/dv_vscccommon/styles/presentation.css">
+		</link>
+		<link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css">
+		</link>
+		<script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/EventUtilities.js">
+		</script>
+		<script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/SplitScreen.js">
+		</script>
+		<script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/Dropdown.js">
+		</script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/script_loc.js"> </script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/script_manifold.js"> </script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/CheckboxMenu.js"> </script>
+    <script src="ms-help://MS.VSCC.v90/dv_vscccommon/scripts/CommonUtilities.js"> </script>
+  </head>
+
+  <body style="direction: ltr;">
+    <input type="hidden" id="userDataCache" class="userDataStyle"></input>
+    <input type="hidden" id="hiddenScrollOffset"></input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" alt="DropDown image" src="msdn9/dropdown.gif"></img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" alt="DropDownHover image" src="msdn9/dropdownHover.gif"></img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" alt="Collapse image" src="msdn2/collapse_all.gif"></img>
+    <img id="expandImage" style="display:none; height:0; width:0;" alt="Expand image" src="msdn2/expand_all.gif"></img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" alt="CollapseAll image" src="msdn2/collall.gif"></img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" alt="ExpandAll image" src="msdn2/expall.gif"></img>
+    <img id="copyImage" style="display:none; height:0; width:0;" alt="Copy image" src="msdn2/copycode.gif"></img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" alt="CopyHover image" src="msdn2/copycodeHighlight.gif"></img>
+    
+    <div id="header">
+      <table id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="msdn2/collall.gif" />
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label>
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label>
+            </span>
+            <span>    </span>
+            <span id="devlangsDropdown" class="filter" tabindex="0">
+              <img id="devlangsDropdownImage" src="msdn9/dropdown.gif" />
+              <label id="devlangsMenuAllLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: All </nobr></label><label id="devlangsMenuMultipleLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Multiple </nobr></label><label id="devlangsMenuVisualBasicLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual Basic </nobr></label><label id="devlangsMenuCSharpLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: C# </nobr></label><label id="devlangsMenuManagedCPlusPlusLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual C++ </nobr></label><label id="devlangsMenuJSharpLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: J# </nobr></label><label id="devlangsMenuJScriptLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: JScript </nobr></label>
+            </span>
+            <span>    </span>
+            <span id="memberOptionsDropdown" class="filter" tabindex="0" style="display: none;">
+              <img id="memberOptionsDropdownImage" src="msdn9/dropdown.gif" />
+              <label id="memberOptionsMenuAllLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Show All </nobr></label>
+              <label id="memberOptionsMenuMultipleLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Filtered </nobr></label>
+              <label id="memberOptionsMenuProtectedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Filtered </nobr></label>
+              <label id="memberOptionsMenuInheritedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members Options: Filtered </nobr></label>
+            </span>
+            <span>    </span>
+            <span id="memberFrameworksDropdown" class="filter" tabindex="0" style="display: none;">
+              <img id="memberFrameworksDropdownImage" src="msdn9/dropdown.gif" /> 
+              <label id="memberFrameworksMenuAllLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: Show All </nobr></label>
+              <label id="memberFrameworksMenuMultipleLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: Multiple </nobr></label>
+              <label id="memberFrameworksMenunetfwLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: .NET Framework Only </nobr></label>
+              <label id="memberFrameworksMenunetcfwLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: .NET Compact Framework Only </nobr></label>
+              <label id="memberFrameworksMenuxnafwLabel" for="memberFrameworksDropdownImage" style="display: none;"><nobr>Frameworks: XNA Framework Only </nobr></label></span>
+          </td>
+        </tr>
+      </table>
+      <div id="devlangsMenu">
+        <input id="VisualBasicCheckbox" type="checkbox" data="VisualBasic,vb,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="VisualBasicCheckbox">Visual Basic</label>
+        <br />
+
+        <input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="CSharpCheckbox">C#</label>
+        <br />
+
+        <input id="ManagedCPlusPlusCheckbox" type="checkbox" data="ManagedCPlusPlus,cpp,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="ManagedCPlusPlusCheckbox">Visual C++</label>
+        <br />
+
+        <input id="JScriptCheckbox" type="checkbox" data="JScript,cs,'persist'" value="on" onClick="SetLanguageEx(this)" />
+        <label class="checkboxLabel" for="JScriptCheckbox">JScript</label>
+        <br />
+        
+      </div>
+      <div id="memberOptionsMenu">
+        <input id="ProtectedCheckbox" type="checkbox" data="Protected" value="on" onClick="SetMemberOptions(this, 'vis')" />
+        <label class="checkboxLabel" for="ProtectedCheckbox">Include Protected Members</label>
+        <br />
+        <input id="InheritedCheckbox" type="checkbox" data="Inherited" value="on" onClick="SetMemberOptions(this, 'decl')" />
+        <label class="checkboxLabel" for="InheritedCheckbox">Include Inherited Members</label>
+        <br />
+      </div>
+      <div id="memberFrameworksMenu">
+        <input id="netfwCheckbox" type="checkbox" data="netfw,'persist'" value="on" onClick="SetMemberFrameworks(this)" />
+        <label class="checkboxLabel" for="netfwCheckbox">Include .NET Framework Members</label>
+        <br />
+        <input id="netcfwCheckbox" type="checkbox" data="netcfw,'persist'" value="on" onClick="SetMemberFrameworks(this)" />
+        <label class="checkboxLabel" for="netcfwCheckbox">Include .NET Compact Framework Members</label>
+        <br />
+        <input id="xnafwCheckbox" type="checkbox" data="xnafw,'persist'" value="on" onClick="SetMemberFrameworks(this)" />
+        <label class="checkboxLabel" for="xnafwCheckbox">Include XNA Framework Members</label>
+        <br />
+      </div>
+      <table id="topTable" cellpadding="0" cellspacing="0">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">CompPrev Reference</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Register Properties</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td align="left">
+            <a href="topic_000000000000004F.html">Register Class</a>
+            &nbsp;<a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a>
+            </td>
+        </tr>
+      </table>
+      <table id="gradientTable">
+        <tr>
+          <td class="nsrBottom" background="msdn9/gradient.gif" />
+        </tr>
+      </table>
+    </div>
+
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        <p />
+
+
+<!-- Public -->
+
+<h1 class="heading">
+  <span onclick="ExpandCollapse(PublicPropertiesToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(PublicPropertiesToggle)" tabindex="0">
+    <img id="PublicPropertiesToggle" onload="OnLoadImage(event)" class="toggle" name="toggleSwitch" alt="Expand image" src="msdn2/expand_all.gif">
+    </img>
+    Public Properties
+  </span>
+</h1>
+<div id="PublicPropertiesSection" class="section" name="collapseableSection" style="display: none;">
+  <table width="100%" class="memberListTable" cellspacing="2" cellpadding="5">
+    <col width="10%" />
+    <col width="30%" />
+    <col width="60%" />
+    <tr>
+      <th style="border-right-style: none;">&nbsp;</th>
+      <th align="left" style="border-left-style: none; border-right-style: none;">
+        Name
+      </th>
+      <th align="left" style="border-left-style: none;">
+        Description
+      </th>
+    </tr>
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.AppRelativeTemplateSourceDirectory&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AppRelativeTemplateSourceDirectory</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the application-relative virtual directory of the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> or <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.UserControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">UserControl</a> object that contains this control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.TemplateControl.AppRelativeVirtualPath&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AppRelativeVirtualPath</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the application-relative, virtual directory path to the file from which the control is parsed and compiled.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.TemplateControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TemplateControl</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Application&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Application</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpApplicationState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpApplicationState</a> object for the current Web request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.AsyncTimeout&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AsyncTimeout</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value indicating the time-out interval used when processing asynchronous tasks.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.AutoPostBackControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">AutoPostBackControl</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the control in the page that is used to perform postbacks.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.BindingContainer&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">BindingContainer</a>
+
+
+  </td>
+  <td>
+
+Gets the control that contains this control's data binding.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Buffer&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Buffer</a>
+
+
+  </td>
+  <td>
+
+Sets a value indicating whether the page output is buffered.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Cache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Cache</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.Caching.Cache&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Cache</a> object associated with the application in which the page resides.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.ClientID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientID</a>
+
+
+  </td>
+  <td>
+
+Gets the control ID for HTML markup that is generated by ASP.NET.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.ClientIDMode&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientIDMode</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the algorithm that is used to generate the value of the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.ClientID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientID</a> property.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ClientQueryString&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientQueryString</a>
+
+
+  </td>
+  <td>
+
+Gets the query string portion of the requested URL.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ClientScript&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientScript</a>
+
+
+  </td>
+  <td>
+
+Gets a <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.ClientScriptManager&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientScriptManager</a> object used to manage, register, and add script to the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ClientTarget&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ClientTarget</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value that allows you to override automatic detection of browser capabilities and to specify how a page is rendered for particular browser clients.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.CodePage&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">CodePage</a>
+
+
+  </td>
+  <td>
+
+Sets the code page identifier for the current <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ContentType&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ContentType</a>
+
+
+  </td>
+  <td>
+
+Sets the HTTP MIME type for the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpResponse&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpResponse</a> object associated with the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.Controls&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Controls</a>
+
+
+  </td>
+  <td>
+
+Gets a <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.ControlCollection&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ControlCollection</a> object that represents the child controls for a specified server control in the UI hierarchy.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Culture&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Culture</a>
+
+
+  </td>
+  <td>
+
+Sets the culture ID for the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Threading.Thread&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Thread</a> object associated with the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.DataItemContainer&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">DataItemContainer</a>
+
+
+  </td>
+  <td>
+
+Gets a reference to the naming container if the naming container implements <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.IDataItemContainer&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IDataItemContainer</a>.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.DataKeysContainer&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">DataKeysContainer</a>
+
+
+  </td>
+  <td>
+
+Gets a reference to the naming container if the naming container implements <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.IDataKeysControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IDataKeysControl</a>.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.EnableEventValidation&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EnableEventValidation</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value indicating whether the page validates postback and callback events.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.TemplateControl.EnableTheming&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EnableTheming</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a Boolean value indicating whether themes apply to the control that is derived from the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.TemplateControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TemplateControl</a> class.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.TemplateControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TemplateControl</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.EnableViewState&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EnableViewState</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value indicating whether the page maintains its view state, and the view state of any server controls it contains, when the current page request ends.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.EnableViewStateMac&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">EnableViewStateMac</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value indicating whether ASP.NET should check message authentication codes (MAC) in the page's view state when the page is posted back from the client.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ErrorPage&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ErrorPage</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the error page to which the requesting browser is redirected in the event of an unhandled page exception.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Form&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Form</a>
+
+
+  </td>
+  <td>
+
+Gets the HTML form for the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Header&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Header</a>
+
+
+  </td>
+  <td>
+
+Gets the document header for the page if the head element is defined with a runat=server in the page declaration.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ID</a>
+
+
+  </td>
+  <td>
+
+Gets or sets an identifier for a particular instance of the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> class.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IdSeparator&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IdSeparator</a>
+
+
+  </td>
+  <td>
+
+Gets the character used to separate control identifiers when building a unique ID for a control on a page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsAsync&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsAsync</a>
+
+
+  </td>
+  <td>
+
+Gets a value indicating whether the page is processed asynchronously.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsCallback&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsCallback</a>
+
+
+  </td>
+  <td>
+
+Gets a value that indicates whether the page request is the result of a callback.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsCrossPagePostBack&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsCrossPagePostBack</a>
+
+
+  </td>
+  <td>
+
+Gets a value indicating whether the page is involved in a cross-page postback.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsPostBack&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsPostBack</a>
+
+
+  </td>
+  <td>
+
+Gets a value that indicates whether the page is being rendered for the first time or is being loaded in response to a postback.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsPostBackEventControlRegistered&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsPostBackEventControlRegistered</a>
+
+
+  </td>
+  <td>
+
+Gets a value that indicates whether the control in the page that performs postbacks has been registered.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsReusable&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsReusable</a>
+
+
+  </td>
+  <td>
+
+Gets a value indicating whether the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> object can be reused.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.IsValid&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">IsValid</a>
+
+
+  </td>
+  <td>
+
+Gets a value indicating whether page validation succeeded.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Items&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Items</a>
+
+
+  </td>
+  <td>
+
+Gets a list of objects stored in the page context.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.LCID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">LCID</a>
+
+
+  </td>
+  <td>
+
+Sets the locale identifier for the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Threading.Thread&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Thread</a> object associated with the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.MaintainScrollPositionOnPostBack&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MaintainScrollPositionOnPostBack</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value indicating whether to return the user to the same position in the client browser after postback. This property replaces the obsolete <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.SmartNavigation&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">SmartNavigation</a> property.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Master&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Master</a>
+
+
+  </td>
+  <td>
+
+Gets the master page that determines the overall look of the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.MasterPageFile&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MasterPageFile</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the file name of the master page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.MaxPageStateFieldLength&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MaxPageStateFieldLength</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the maximum length for the page's state field.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.MetaDescription&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MetaDescription</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the content of the &quot;description&quot; meta element.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.MetaKeywords&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">MetaKeywords</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the content of the &quot;keywords&quot; meta element.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.NamingContainer&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">NamingContainer</a>
+
+
+  </td>
+  <td>
+
+Gets a reference to the server control's naming container, which creates a unique namespace for differentiating between server controls with the same <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.ID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ID</a> property value.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>
+
+
+  </td>
+  <td>
+
+Gets a reference to the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> instance that contains the server control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.PageAdapter&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PageAdapter</a>
+
+
+  </td>
+  <td>
+
+Gets the adapter that renders the page for the specific requesting browser.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.Parent&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Parent</a>
+
+
+  </td>
+  <td>
+
+Gets a reference to the server control's parent control in the page control hierarchy.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.PreviousPage&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">PreviousPage</a>
+
+
+  </td>
+  <td>
+
+Gets the page that transferred control to the current page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.RenderingCompatibility&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">RenderingCompatibility</a>
+
+
+  </td>
+  <td>
+
+Gets a value that specifies the ASP.NET version that rendered HTML will be compatible with.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Request&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Request</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpRequest&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpRequest</a> object for the requested page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Response&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Response</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpResponse&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpResponse</a> object associated with the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> object. This object allows you to send HTTP response data to a client and contains information about that response.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ResponseEncoding&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ResponseEncoding</a>
+
+
+  </td>
+  <td>
+
+Sets the encoding language for the current <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpResponse&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpResponse</a> object.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.RouteData&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">RouteData</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.Routing.RequestContext.RouteData&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">RouteData</a> value of the current <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.Routing.RequestContext&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">RequestContext</a> instance.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Server&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Server</a>
+
+
+  </td>
+  <td>
+
+Gets the Server object, which is an instance of the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.HttpServerUtility&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">HttpServerUtility</a> class.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Session&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Session</a>
+
+
+  </td>
+  <td>
+
+Gets the current Session object provided by ASP.NET.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.Site&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Site</a>
+
+
+  </td>
+  <td>
+
+Gets information about the container that hosts the current control when rendered on a design surface.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.SkinID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">SkinID</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the skin to apply to the control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.SmartNavigation&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">SmartNavigation</a>
+
+
+  </td>
+  <td>
+ <b><font color="red">Obsolete.</font></b>
+
+Gets or sets a value indicating whether smart navigation is enabled. This property is deprecated.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.StyleSheetTheme&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">StyleSheetTheme</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the name of the style sheet applied to this page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.TemplateControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TemplateControl</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a reference to the template that contains this control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.TemplateSourceDirectory&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TemplateSourceDirectory</a>
+
+
+  </td>
+  <td>
+
+Gets the virtual directory of the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> or <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.UserControl&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">UserControl</a> that contains the current server control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Theme&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Theme</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the name of the page theme.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Title&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Title</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the title for the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Trace&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Trace</a>
+
+
+  </td>
+  <td>
+
+Gets the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.TraceContext&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TraceContext</a> object for the current Web request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.TraceEnabled&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TraceEnabled</a>
+
+
+  </td>
+  <td>
+
+Sets a value indicating whether tracing is enabled for the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> object.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.TraceModeValue&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">TraceModeValue</a>
+
+
+  </td>
+  <td>
+
+Sets the mode in which trace statements are displayed on the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.UICulture&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">UICulture</a>
+
+
+  </td>
+  <td>
+
+Sets the user interface (UI) ID for the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Threading.Thread&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Thread</a> object associated with the page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.UniqueID&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">UniqueID</a>
+
+
+  </td>
+  <td>
+
+Gets the unique, hierarchically qualified identifier for the server control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.User&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">User</a>
+
+
+  </td>
+  <td>
+
+Gets information about the user making the page request.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Validators&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Validators</a>
+
+
+  </td>
+  <td>
+
+Gets a collection of all validation controls contained on the requested page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ViewStateEncryptionMode&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ViewStateEncryptionMode</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the encryption mode of the view state.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Control.ViewStateMode&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ViewStateMode</a>
+
+
+  </td>
+  <td>
+
+Gets or sets the view-state mode of this control.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Control&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Control</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.ViewStateUserKey&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">ViewStateUserKey</a>
+
+
+  </td>
+  <td>
+
+Assigns an identifier to an individual user in the view-state variable associated with the current page.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+<tr valign="top"
+name="inheritedMember"
+
+
+notSupportedOn="netcf"
+
+>
+  <td class="imageCell">
+    <img alt="Public property" src="msdn2/pubproperty.gif"></img>
+
+    
+  </td>
+  <td>
+
+    <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;P:System.Web.UI.Page.Visible&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Visible</a>
+
+
+  </td>
+  <td>
+
+Gets or sets a value indicating whether the <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a> object is rendered.
+
+(inherited from <a href="ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?keyword=&quot;T:System.Web.UI.Page&quot;;?index=&quot;!DefaultAssociativeIndex&quot;">Page</a>).
+
+	</td>
+</tr>
+
+
+
+
+  </table>
+  <a href="#mainBody">
+    Top
+  </a>
+</div>
+
+<!-- Public End-->
+
+<!-- Protected -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Protected End-->
+
+<!-- Private and rest -->
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<!-- Private and rest End-->
+
+
+
+<h1 class="heading">
+	<span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle)" tabindex="0">
+		<img id="seeAlsoToggle" onload="OnLoadImage(event)" class="toggle" name="toggleSwitch" alt="Expand image" src="msdn2/expand_all.gif">
+		</img>
+		See Also
+	</span></h1>
+<div id="seeAlsoSection" class="section" name="collapseableSection" style="display: none;">
+	<div>
+		<h4 class="subHeading">
+			Reference</h4>
+		<A HREF="topic_000000000000004F.html">Register Class</A><br />
+<a href="topic_0000000000000008.html">CompPrev.Account Namespace</a><br />
+
+
+		
+
+	</div>
+</div>
+			</div>
+      <div id="footer">
+        <div class="footerLine">
+          <img alt="Footer image" width="100%" height="3px" src="msdn2/footer.gif">
+          </img>
+        </div>
+          <font color="#FF0000">Generated with unregistered version of <a href="http://www.helixoft.com/vsdocman/overview.html">VSdocman</a></font>&nbsp;<br>Your own footer text will only be shown in registered version.
+      </div>
+    </div>
+  </body>
+</html>
+

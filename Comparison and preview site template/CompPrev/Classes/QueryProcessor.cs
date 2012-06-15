@@ -14,6 +14,10 @@ using System.Text.RegularExpressions;
  */
 namespace ObjectsRelationFactory
 {
+   
+    /// <summary>
+    /// 
+    /// </summary>
     public static class QueryProcessor
     {
         public static VirtuosoManager manager;

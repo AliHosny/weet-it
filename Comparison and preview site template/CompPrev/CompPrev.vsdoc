@@ -94,6 +94,7 @@
     <add key="VBdocman_comModules_Account...Register.aspx.designer.cs"><![CDATA[On]]></add>
     <add key="VBdocman_comModules_Classes...Comparison.cs"><![CDATA[On]]></add>
     <add key="VBdocman_comModules_Classes...ComparisonElement.cs"><![CDATA[On]]></add>
+    <add key="VBdocman_comModules_Classes...KwSearch.cs"><![CDATA[On]]></add>
     <add key="VBdocman_comModules_Classes...ObjectsPreviewManager.cs"><![CDATA[On]]></add>
     <add key="VBdocman_comModules_Classes...ObjectsRelationManager.cs"><![CDATA[On]]></add>
     <add key="VBdocman_comModules_Classes...QueryProcessor.cs"><![CDATA[On]]></add>

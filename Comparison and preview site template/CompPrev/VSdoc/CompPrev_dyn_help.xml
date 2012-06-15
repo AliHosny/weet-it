@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="CompPrev" Title="CompPrev Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Global.Application_End" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000053.html" LinkGroup="CompPrev">Application_End Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Global.Application_Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000054.html" LinkGroup="CompPrev">Application_Error Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Global.Application_Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000052.html" LinkGroup="CompPrev">Application_Start Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000009.html" LinkGroup="CompPrev">ChangePassword Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.ChangePasswordSuccess" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000050.html" LinkGroup="CompPrev">ChangePasswordSuccess Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.CommonPredicateObject_Node" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000004E.html" LinkGroup="CompPrev">CommonPredicateObject_Node Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.CommonPredicateObject_String" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000004A.html" LinkGroup="CompPrev">CommonPredicateObject_String Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.CommonPredicateSubject_Node" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000048.html" LinkGroup="CompPrev">CommonPredicateSubject_Node Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.CommonPredicateSubject_String" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000049.html" LinkGroup="CompPrev">CommonPredicateSubject_String Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.CommonPredicate_Object" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000002A.html" LinkGroup="CompPrev">CommonPredicate_Object Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.CommonPredicate_ObjectLabel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000002B.html" LinkGroup="CompPrev">CommonPredicate_ObjectLabel Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.CommonPredicate_Subject" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000027.html" LinkGroup="CompPrev">CommonPredicate_Subject Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.CommonPredicate_SubjectLabel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000029.html" LinkGroup="CompPrev">CommonPredicate_SubjectLabel Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000000.html" LinkGroup="CompPrev">CompPrev Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000062.html" LinkGroup="CompPrev">CompPrev Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000008.html" LinkGroup="CompPrev">CompPrev.Account Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000022.html" LinkGroup="CompPrev">Comparison Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.Comparison" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000023.html" LinkGroup="CompPrev">Comparison Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000045.html" LinkGroup="CompPrev">ComparisonElement Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.ComparisonElement" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000046.html" LinkGroup="CompPrev">ComparisonElement Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.ComparisonElement" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000028.html" LinkGroup="CompPrev">ComparisonElement Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000021.html" LinkGroup="CompPrev">Comparison_Part Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.ElementGraph" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000047.html" LinkGroup="CompPrev">ElementGraph Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.ElementLabel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000004C.html" LinkGroup="CompPrev">ElementLabel Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.ElementNode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000004B.html" LinkGroup="CompPrev">ElementNode Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.ComparisonElement.ElementURI" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000004D.html" LinkGroup="CompPrev">ElementURI Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.ExecuteQueryWithInnerQuery" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000033.html" LinkGroup="CompPrev">ExecuteQueryWithInnerQuery Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.ExecuteQueryWithString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000035.html" LinkGroup="CompPrev">ExecuteQueryWithString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="KwSearch.KwSearch.Find_URIs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000005B.html" LinkGroup="CompPrev">Find_URIs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Global" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000051.html" LinkGroup="CompPrev">Global Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsRelationManager.IsEndOfResults" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000003B.html" LinkGroup="CompPrev">IsEndOfResults Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="KwSearch.KwSearch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000058.html" LinkGroup="CompPrev">KwSearch Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="KwSearch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000057.html" LinkGroup="CompPrev">KwSearch Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.Login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000012.html" LinkGroup="CompPrev">Login Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsPreviewManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000000C.html" LinkGroup="CompPrev">ObjectsPreviewManager Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000000B.html" LinkGroup="CompPrev">ObjectsRelationFactory Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsRelationManager" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000036.html" LinkGroup="CompPrev">ObjectsRelationManager Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.ChangePasswordSuccess.Page_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000005F.html" LinkGroup="CompPrev">Page_Load Method {CompPrev.Account.ChangePasswordSuccess}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.ChangePassword.Page_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000000A.html" LinkGroup="CompPrev">Page_Load Method {CompPrev.Account.ChangePassword}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.Login.Page_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000013.html" LinkGroup="CompPrev">Page_Load Method {CompPrev.Account.Login}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.Register.Page_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000005D.html" LinkGroup="CompPrev">Page_Load Method {CompPrev.Account.Register}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.SiteMaster.Page_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000061.html" LinkGroup="CompPrev">Page_Load Method {CompPrev.SiteMaster}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default.Page_Load" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000002.html" LinkGroup="CompPrev">Page_Load Method {CompPrev._Default}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="KwSearch.KwSearch.ParseTextByVs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000059.html" LinkGroup="CompPrev">ParseTextByVs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000002C.html" LinkGroup="CompPrev">QueryProcessor Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.Register" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000004F.html" LinkGroup="CompPrev">Register Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Account.Register.RegisterUser_CreatedUser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000005E.html" LinkGroup="CompPrev">RegisterUser_CreatedUser Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000003C.html" LinkGroup="CompPrev">ResSetToJSON Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000014.html" LinkGroup="CompPrev">SPARQLQueryBuilder Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.SPARQLQueryBuilder" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000015.html" LinkGroup="CompPrev">SPARQLQueryBuilder Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Global.Session_End" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000056.html" LinkGroup="CompPrev">Session_End Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.Global.Session_Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000055.html" LinkGroup="CompPrev">Session_Start Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.SetCommonPredicate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000025.html" LinkGroup="CompPrev">SetCommonPredicate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.SetComparisonElementList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000024.html" LinkGroup="CompPrev">SetComparisonElementList Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Comparison_Part.Comparison.SetObjectSubject_String" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000026.html" LinkGroup="CompPrev">SetObjectSubject_String Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev.SiteMaster" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000060.html" LinkGroup="CompPrev">SiteMaster Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.ToJsonObj" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000003E.html" LinkGroup="CompPrev">ToJsonObj Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.ToListOfJsonObj" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000003D.html" LinkGroup="CompPrev">ToListOfJsonObj Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000001.html" LinkGroup="CompPrev">_Default Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.buildQueries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000016.html" LinkGroup="CompPrev">buildQueries Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsRelationManager.closeConnection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000038.html" LinkGroup="CompPrev">closeConnection Method {ObjectsRelationFactory.ObjectsRelationManager}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.closeConnection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000002E.html" LinkGroup="CompPrev">closeConnection Method {ObjectsRelationFactory.QueryProcessor}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.completeQuery" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000018.html" LinkGroup="CompPrev">completeQuery Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.connectedViaAMiddleObject" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000001A.html" LinkGroup="CompPrev">connectedViaAMiddleObject Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsPreviewManager.convertResultSetListToStrings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000011.html" LinkGroup="CompPrev">convertResultSetListToStrings Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.convertToDbpedia" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000002F.html" LinkGroup="CompPrev">convertToDbpedia Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.convertToLocalhost" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000030.html" LinkGroup="CompPrev">convertToLocalhost Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.direct" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000017.html" LinkGroup="CompPrev">direct Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.expandTerms" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000020.html" LinkGroup="CompPrev">expandTerms Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.generateFilter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000001B.html" LinkGroup="CompPrev">generateFilter Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsPreviewManager.generateQueries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000000E.html" LinkGroup="CompPrev">generateQueries Method {ObjectsRelationFactory.ObjectsPreviewManager}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsRelationManager.generateQueries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000039.html" LinkGroup="CompPrev">generateQueries Method {ObjectsRelationFactory.ObjectsRelationManager}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="KwSearch.KwSearch.generate_similarkeywords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000005A.html" LinkGroup="CompPrev">generate_similarkeywords Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default.getComparisonElements" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000004.html" LinkGroup="CompPrev">getComparisonElements Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.getGraphFromURIWithlocalHost" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000032.html" LinkGroup="CompPrev">getGraphFromURIWithlocalHost Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default.getJSONComparisonTable" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000003.html" LinkGroup="CompPrev">getJSONComparisonTable Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.getLabelIfAny" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000031.html" LinkGroup="CompPrev">getLabelIfAny Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsPreviewManager.getListofPreviewJsonObjs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000010.html" LinkGroup="CompPrev">getListofPreviewJsonObjs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default.getNextRelation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000006.html" LinkGroup="CompPrev">getNextRelation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsRelationManager.getNextResult" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000003A.html" LinkGroup="CompPrev">getNextResult Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.getQueries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000019.html" LinkGroup="CompPrev">getQueries Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default.getRelations" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000005.html" LinkGroup="CompPrev">getRelations Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsPreviewManager.getResultsAsStrings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000000F.html" LinkGroup="CompPrev">getResultsAsStrings Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="KwSearch.KwSearch.get_URI_s" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000005C.html" LinkGroup="CompPrev">get_URI_s Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.innerResultToURIs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000041.html" LinkGroup="CompPrev">innerResultToURIs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.listToString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000001C.html" LinkGroup="CompPrev">listToString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.namer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000003F.html" LinkGroup="CompPrev">namer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="CompPrev._Default.previewObject" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000007.html" LinkGroup="CompPrev">previewObject Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.reArrangeRelationVariables" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000042.html" LinkGroup="CompPrev">reArrangeRelationVariables Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsPreviewManager.run" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000000D.html" LinkGroup="CompPrev">run Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.setOriginalObjects" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000034.html" LinkGroup="CompPrev">setOriginalObjects Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ObjectsRelationManager.startConnection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000037.html" LinkGroup="CompPrev">startConnection Method {ObjectsRelationFactory.ObjectsRelationManager}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.QueryProcessor.startConnection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000002D.html" LinkGroup="CompPrev">startConnection Method {ObjectsRelationFactory.QueryProcessor}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.stringToLoist" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000001D.html" LinkGroup="CompPrev">stringToLoist Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.toJSONEdge" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000044.html" LinkGroup="CompPrev">toJSONEdge Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.toJSONNode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000043.html" LinkGroup="CompPrev">toJSONNode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.toPattern" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000001F.html" LinkGroup="CompPrev">toPattern Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.SPARQLQueryBuilder.uri" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_000000000000001E.html" LinkGroup="CompPrev">uri Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ObjectsRelationFactory.ResSetToJSON.valuesOfResults" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:CompPrev.chm::/topic_0000000000000040.html" LinkGroup="CompPrev">valuesOfResults Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

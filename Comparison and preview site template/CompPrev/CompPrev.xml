@@ -55,6 +55,16 @@ returns a JSON object contains array of Results to be preview</returns>
       <param name="URIs">
 String object of comma separated URIs</param>
     </member>
+    <member name="N:CompPrev.Account">
+    </member>
+    <member name="T:CompPrev.Account.ChangePassword">
+    </member>
+    <member name="M:CompPrev.Account.ChangePassword.Page_Load(System.Object,System.EventArgs)">
+      <param name="sender">
+The source of the event.</param>
+      <param name="e">
+An <see cref="T:System.EventArgs">EventArgs</see> that contains the event data.</param>
+    </member>
     <member name="N:ObjectsRelationFactory">
     </member>
     <member name="T:ObjectsRelationFactory.ObjectsPreviewManager">
@@ -86,6 +96,14 @@ the list of list of results as strings</returns>
 the input list of sparql resultset</param>
       <param name="obj">
 the main object to reference</param>
+    </member>
+    <member name="T:CompPrev.Account.Login">
+    </member>
+    <member name="M:CompPrev.Account.Login.Page_Load(System.Object,System.EventArgs)">
+      <param name="sender">
+The source of the event.</param>
+      <param name="e">
+An <see cref="T:System.EventArgs">EventArgs</see> that contains the event data.</param>
     </member>
     <member name="T:ObjectsRelationFactory.SPARQLQueryBuilder">
     </member>
@@ -251,25 +269,25 @@ Creates list of common predicates between comparison elements where where the el
       <summary>
 Sets the label of the values(objects or subjects) of the common predicates for each comparison element.</summary>
     </member>
+    <member name="P:Comparison_Part.Comparison.CommonPredicate_Subject">
+      <summary>
+Gets .</summary>
+    </member>
     <member name="P:Comparison_Part.Comparison.ComparisonElement">
       <summary>
 Returns list of comparison elements of type ComparisonElement.</summary>
     </member>
-    <member name="P:Comparison_Part.Comparison.CommonPredicate_ObjectLabel">
+    <member name="P:Comparison_Part.Comparison.CommonPredicate_SubjectLabel">
       <summary>
-Returns list of labels of common predicates between comparison elements where where the element is the object ("is predicate of").</summary>
-    </member>
-    <member name="P:Comparison_Part.Comparison.CommonPredicate_Subject">
-      <summary>
-Gets .</summary>
+Returns list of labels of common predicates between comparison elements where where the element is the subject.</summary>
     </member>
     <member name="P:Comparison_Part.Comparison.CommonPredicate_Object">
       <summary>
 Gets .</summary>
     </member>
-    <member name="P:Comparison_Part.Comparison.CommonPredicate_SubjectLabel">
+    <member name="P:Comparison_Part.Comparison.CommonPredicate_ObjectLabel">
       <summary>
-Returns list of labels of common predicates between comparison elements where where the element is the subject.</summary>
+Returns list of labels of common predicates between comparison elements where where the element is the object ("is predicate of").</summary>
     </member>
     <member name="T:ObjectsRelationFactory.QueryProcessor">
     </member>
@@ -445,35 +463,39 @@ Constructor creates new comparison element.</summary>
       <param name="uri">
 URI of the element</param>
     </member>
+    <member name="P:Comparison_Part.ComparisonElement.ElementGraph">
+    </member>
     <member name="P:Comparison_Part.ComparisonElement.CommonPredicateSubject_Node">
       <summary>
 Returns list of subjects of triples that have common predicate between comparison elements and the element node is the object of the triple. or Sets list of subjects of triples that have common predicate between comparison elements and the element node is the object of the triple to a ready made list.</summary>
-    </member>
-    <member name="P:Comparison_Part.ComparisonElement.ElementNode">
-      <summary>
-Returns node of comparison element's graph node;</summary>
     </member>
     <member name="P:Comparison_Part.ComparisonElement.CommonPredicateSubject_String">
       <summary>
 Returns list of labels of subjects of triples that have common predicate between comparison elements and the element node is the object of the triple. or Sets list of labels of subjects of triples that have common predicate between comparison elements and the element node is the object of the triple to a ready made list.</summary>
     </member>
-    <member name="P:Comparison_Part.ComparisonElement.CommonPredicateObject_Node">
+    <member name="P:Comparison_Part.ComparisonElement.CommonPredicateObject_String">
       <summary>
-Returns list of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple. or Sets list of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple to a ready made list.</summary>
+Returns list of labels of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple. or Sets list of labels of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple to a ready made list.</summary>
+    </member>
+    <member name="P:Comparison_Part.ComparisonElement.ElementNode">
+      <summary>
+Returns node of comparison element's graph node;</summary>
     </member>
     <member name="P:Comparison_Part.ComparisonElement.ElementLabel">
       <summary>
 Returns a string of comparison element's label.</summary>
     </member>
-    <member name="P:Comparison_Part.ComparisonElement.CommonPredicateObject_String">
-      <summary>
-Returns list of labels of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple. or Sets list of labels of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple to a ready made list.</summary>
-    </member>
     <member name="P:Comparison_Part.ComparisonElement.ElementURI">
       <summary>
 Returns string of comparison element URI.</summary>
     </member>
-    <member name="P:Comparison_Part.ComparisonElement.ElementGraph">
+    <member name="P:Comparison_Part.ComparisonElement.CommonPredicateObject_Node">
+      <summary>
+Returns list of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple. or Sets list of objects of triples that have common predicate between comparison elements and the element node is the subject of the triple to a ready made list.</summary>
+    </member>
+    <member name="T:CompPrev.Account.Register">
+    </member>
+    <member name="T:CompPrev.Account.ChangePasswordSuccess">
     </member>
     <member name="T:CompPrev.Global">
     </member>
@@ -502,6 +524,54 @@ The source of the event.</param>
 An <see cref="T:System.EventArgs">EventArgs</see> that contains the event data.</param>
     </member>
     <member name="M:CompPrev.Global.Session_End(System.Object,System.EventArgs)">
+      <param name="sender">
+The source of the event.</param>
+      <param name="e">
+An <see cref="T:System.EventArgs">EventArgs</see> that contains the event data.</param>
+    </member>
+    <member name="N:KwSearch">
+    </member>
+    <member name="T:KwSearch.KwSearch">
+      <summary>
+Process search for single word or multiple-words queries</summary>
+    </member>
+    <member name="M:KwSearch.KwSearch.ParseTextByVs(System.String)">
+      <summary>
+splits a text by the "vs" keyword and return a List of splitted strings</summary>
+      <param name="text">
+string to be split</param>
+    </member>
+    <member name="M:KwSearch.KwSearch.generate_similarkeywords(System.String)">
+      <summary>
+Generates a list of keywords which are similar to the given keyword with different capiitalizations and formats</summary>
+      <returns>
+List of similar keywords in addition to the originan keyword</returns>
+      <param name="keyword">
+The keyword</param>
+    </member>
+    <member name="M:KwSearch.KwSearch.Find_URIs(System.Collections.Generic.List{System.String})">
+      <param name="keywords">
+</param>
+    </member>
+    <member name="M:KwSearch.KwSearch.get_URI_s(System.String)">
+      <summary>
+get the uris matching with given keywords(single keyword or multiple keywords separated by versus</summary>
+      <param name="input_query">
+takes the query text whether it contains vs or single keyword</param>
+    </member>
+    <member name="M:CompPrev.Account.Register.Page_Load(System.Object,System.EventArgs)">
+      <param name="sender">
+The source of the event.</param>
+      <param name="e">
+An <see cref="T:System.EventArgs">EventArgs</see> that contains the event data.</param>
+    </member>
+    <member name="M:CompPrev.Account.Register.RegisterUser_CreatedUser(System.Object,System.EventArgs)">
+      <param name="sender">
+The source of the event.</param>
+      <param name="e">
+An <see cref="T:System.EventArgs">EventArgs</see> that contains the event data.</param>
+    </member>
+    <member name="M:CompPrev.Account.ChangePasswordSuccess.Page_Load(System.Object,System.EventArgs)">
       <param name="sender">
 The source of the event.</param>
       <param name="e">
