@@ -1,22 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
 using VDS.RDF.Query;
 using VDS.RDF;
 using ObjectsRelationFactory;
-namespace KwSearch
+using System;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Web;
+namespace kwsearchwcf
 {
-    /// <summary>
-    /// Process search for single word or multiple-words queries
-    /// </summary>
+    [DataContract]
     public static class KwSearch
     {
-        static string[] versus_delimeter = new string[] { " vs ", "VS", "Vs" };
+        static string[] versus_delimeter = new string[] { " vs ", "VS", "Vs" ,"vS"};
 
         static SparqlRemoteEndpoint remoteEndPoint = new SparqlRemoteEndpoint(new Uri("http://localhost:8890/sparql"));
-      
-     
+
+
         /// <summary>
         /// generates the sparql "And" syntax for multiple word keywords 
         /// </summary>
@@ -30,7 +32,7 @@ namespace KwSearch
                 kw_words[i] = "\"" + kw_words[i] + "\"";
             return string.Join("and", kw_words);
         }
-        private static List<string> Find_URIs(string keyword,int MaxUris)
+        private static List<string> Find_URIs(string keyword, int MaxUris)
         {
 
 
@@ -43,7 +45,7 @@ namespace KwSearch
 
             string bifcontains = bifcont_generator(keyword);
 
-            query = 
+            query =
                 "select distinct  ?subject ?literal ?redirects where{" +
 
 
@@ -57,15 +59,15 @@ namespace KwSearch
 
                 "?literal bif:contains '" + bifcontains + "'.}" + "limit" + " 100";
 
-            
+
 
             result = remoteEndPoint.QueryWithResultSet(query);
-          
+
             if (result.Count == 0)
             {
                 //a panic mode to be added to generate a more generic query with more results
                 uris.Add("");
-                
+
             }
 
             else
@@ -129,12 +131,12 @@ namespace KwSearch
                 }
 
 
-                uris.Remove(UriToRemove);
+               
 
             }
-
-            return uris.GetRange(0, MaxUris);
-           
+            if (uris.Count >= MaxUris)
+                return uris.GetRange(0, MaxUris);
+            else return uris;
 
         }
 
@@ -144,10 +146,12 @@ namespace KwSearch
         /// </summary>
         /// <param name="input_query">keyword to get uri for</param>
         /// <returns>the uri that best matches the given keyword</returns>
+        /// 
+
         public static string geturi(string keyword)
         {
-           
-            return Find_URIs(keyword,1)[0];
+
+            return Find_URIs(keyword, 1)[0];
         }
         /// <summary>
         /// gets the top n uris that best matches the given keyword ,you can specify MaxURis with 1 to get the best matching one
@@ -157,7 +161,7 @@ namespace KwSearch
         /// <returns>A list of the top uris that best match the given keyword</returns>
         public static List<string> geturi(string keyword, int MaxUris = 1)
         {
-            
+
             return Find_URIs(keyword, MaxUris);
         }
         /// <summary>
@@ -167,7 +171,7 @@ namespace KwSearch
         /// <returns>List of uris to the given "vs" separated keywords</returns>
         public static List<string> GetUris_VsKeywords(string text)
         {
-            List<string> uris;
+
             List<string> Parsed_keywords = (text.Split(versus_delimeter, StringSplitOptions.RemoveEmptyEntries)).ToList<string>();
             for (int i = 0; i < Parsed_keywords.Count; i++)
             {
@@ -175,7 +179,7 @@ namespace KwSearch
 
 
             }
-         return   geturis_List(Parsed_keywords);
+            return geturis_List(Parsed_keywords);
 
         }
         /// <summary>
@@ -185,7 +189,7 @@ namespace KwSearch
         /// <returns>Comma separated uris to the given "vs" separated keywords</returns>
         public static string GetUris_VsKeyword_comma(string text)
         {
-            
+
             List<string> Parsed_keywords = (text.Split(versus_delimeter, StringSplitOptions.RemoveEmptyEntries)).ToList<string>();
             for (int i = 0; i < Parsed_keywords.Count; i++)
             {
@@ -197,22 +201,25 @@ namespace KwSearch
 
         }
 
+
         /// <summary>
         /// same function as geturi(string keyword) but takes a list of keywords as an argument,it finds the best matching uri for every 
         /// keyword in the list
         /// </summary>
         /// <param name="keywords">The List of keywords to get best matching uris for</param>
         /// <returns>A List of best matching uris for every keyword in the list(ordered in the same order as the input List)</returns>
+        /// 
+
         public static List<string> geturis_List(List<string> keywords)
         {
-            List<string> uris=new List<string>();
+            List<string> uris = new List<string>();
             foreach (string keyword in keywords)
             {
                 uris.Add(Find_URIs(keyword, 1)[0]);
 
             }
             return uris;
-        
+
         }
         /// <summary>
         /// takes a list of keywords and returns -for each keyword- A list of best matching uris, 
@@ -220,12 +227,12 @@ namespace KwSearch
         /// <param name="keywords">List of keywords to get top n matching uris for each one</param>
         /// <param name="MaxUris">List of lists containing a list of best matching uris for each keyword given</param>
         /// <returns></returns>
-        public static List<List<string>> geturis_List_WithMaxuris(List<string> keywords,int MaxUris)
+        public static List<List<string>> geturis_List_WithMaxuris(List<string> keywords, int MaxUris)
         {
             List<List<string>> uris = new List<List<string>>();
             foreach (string keyword in keywords)
             {
-                uris.Add(Find_URIs(keyword,MaxUris ));
+                uris.Add(Find_URIs(keyword, MaxUris));
 
             }
             return uris;
@@ -275,6 +282,9 @@ namespace KwSearch
             // Step 7
             return d[n, m];
         }
-
+        //private string permut_panic(string keyword)
+        //{
+        
+        //}
     }
 }
