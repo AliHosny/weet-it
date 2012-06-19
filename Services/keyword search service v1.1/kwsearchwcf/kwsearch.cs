@@ -20,7 +20,7 @@ namespace kwsearchwcf
 
 
         /// <summary>
-        /// generates the sparql "And" syntax for multiple word keywords 
+        /// generates the sparql bifcontains syntax for multiple word keywords 
         /// </summary>
         /// <param name="keyword">keyword to operate on</param>
         /// <returns></returns>
@@ -31,6 +31,28 @@ namespace kwsearchwcf
             for (int i = 0; i < kw_words.Count; i++)
                 kw_words[i] = "\"" + kw_words[i] + "\"";
             return string.Join("and", kw_words);
+        }
+        private static int scorecalc(string keyword ,SparqlResult singleuri)
+        {
+          
+            int score=0;
+           score= computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString());
+           if (singleuri.Value("redirects") != null)
+           {
+               string disamb_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?z}";
+               SparqlResultSet result = remoteEndPoint.QueryWithResultSet(disamb_query);
+               if (result.Count != 0)
+               {
+                   score += computeLevenshteinDistance(keyword, result[0].Value("z").ToString());
+                   score = (score / 2);
+               }
+               else
+               {
+                   score += 20;
+               }
+           }
+           return score;
+
         }
         private static List<string> Find_URIs(string keyword, int MaxUris)
         {
@@ -73,58 +95,66 @@ namespace kwsearchwcf
             else
             {
                 int iterator = 0;
-
-                scores.Add(computeLevenshteinDistance(keyword, result[0].Value("literal").ToString()));
-
+                //add first result to list
+               // levdistance = computeLevenshteinDistance(keyword, result[0].Value("literal").ToString());
+                levdistance = scorecalc(keyword, result[0]);
+                scores.Add(levdistance);
                 if (result[0].Value("redirects") == null)
+                {
+
 
                     uris.Add(result[0].Value("subject").ToString());
-
+                }
                 else
+                 
+                    {
 
-                    uris.Add(result[0].Value("redirects").ToString());
-
-                string UriToRemove = uris[0];
+                        uris.Add(result[0].Value("redirects").ToString());
+                    }
 
                 foreach (SparqlResult uri in result)
                 {
+
                     bool broke = false;
                     iterator = 0;
-                    levdistance = computeLevenshteinDistance(keyword, uri.Value("literal").ToString());
+                    levdistance = scorecalc(keyword, uri);
+                    
                     foreach (int score in scores)
                     {
-                        if (levdistance <= score)
-                        {
-
-                            if (uri.Value("redirects") == null)
+                        
+                            if (levdistance <= score)
                             {
 
-                                scores.Insert(iterator, levdistance);
-                                uris.Insert(iterator, uri.Value("subject").ToString());
-                            }
-                            else
-                                if (!(uris.Contains(uri.Value("redirects").ToString())))//ensure uri is not already in the list
+                                if (uri.Value("redirects") == null && !(uris.Contains(uri.Value("subject").ToString())))
                                 {
+
                                     scores.Insert(iterator, levdistance);
-                                    uris.Insert(iterator, uri.Value("redirects").ToString());
+                                    uris.Insert(iterator, uri.Value("subject").ToString());
                                 }
-                            broke = true;
-                            break;
+                                else
+                                    if ( uri.Value("redirects") != null && !(uris.Contains(uri.Value("redirects").ToString())) )//ensure uri is not already in the list
+                                    {
+                                        scores.Insert(iterator, levdistance);
+                                        uris.Insert(iterator, uri.Value("redirects").ToString());
+                                    }
+                                broke = true;
+                                break;
 
-                        }
-
+                            }
+                       
                         iterator++;
                     }
                     if (broke == false)
                     {
+                        scores.Add(levdistance);
 
-                        if (uri.Value("redirects") == null)
+                        if (uri.Value("redirects") == null && !(uris.Contains(uri.Value("subject").ToString())))
 
                             uris.Add(uri.Value("subject").ToString());
 
                         else
                         {
-                            if (!(uris.Contains(uri.Value("redirects").ToString())))//ensure uri is not already in the list
+                            if (!(uris.Contains(uri.Value("redirects").ToString())) && uri.Value("redirects") != null)//ensure uri is not already in the list
                                 uris.Add(uri.Value("redirects").ToString());
                         }
                     }

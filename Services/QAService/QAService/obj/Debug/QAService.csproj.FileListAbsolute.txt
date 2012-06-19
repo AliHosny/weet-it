@@ -4,3 +4,9 @@ E:\Project\Prototypes\QAService\QAService\bin\Debug\QAService.dll
 E:\Project\Prototypes\QAService\QAService\bin\Debug\QAService.pdb
 E:\Project\Prototypes\QAService\QAService\obj\Debug\QAService.dll
 E:\Project\Prototypes\QAService\QAService\obj\Debug\QAService.pdb
+E:\Dev\proj\weet-it\Services\QAService\QAService\bin\Debug\QAService.dll.config
+E:\Dev\proj\weet-it\Services\QAService\QAService\bin\Debug\QAService.dll
+E:\Dev\proj\weet-it\Services\QAService\QAService\bin\Debug\QAService.pdb
+E:\Dev\proj\weet-it\Services\QAService\QAService\obj\Debug\ResolveAssemblyReference.cache
+E:\Dev\proj\weet-it\Services\QAService\QAService\obj\Debug\QAService.dll
+E:\Dev\proj\weet-it\Services\QAService\QAService\obj\Debug\QAService.pdb
