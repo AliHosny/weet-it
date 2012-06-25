@@ -34,24 +34,24 @@ namespace kwsearchwcf
         }
         private static int scorecalc(string keyword ,SparqlResult singleuri)
         {
-          
-            int score=0;
-           score= computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString());
+          int score_redirect=0;
+          int score_resource = 0;
+           score_resource= computeLevenshteinDistance(keyword, singleuri.Value("literal").ToString());
            if (singleuri.Value("redirects") != null)
            {
-               string disamb_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?z}";
+               string disamb_query = "select * where{ <" + singleuri.Value("redirects").ToString() + "><http://www.w3.org/2000/01/rdf-schema#label> ?redirect_label}";
                SparqlResultSet result = remoteEndPoint.QueryWithResultSet(disamb_query);
                if (result.Count != 0)
                {
-                   score += computeLevenshteinDistance(keyword, result[0].Value("z").ToString());
-                   score = (score / 2);
+                   score_redirect = computeLevenshteinDistance(keyword, result[0].Value("redirect_label").ToString());
+                 return(  score_redirect<score_resource? score_redirect: score_resource);
                }
                else
                {
-                   score += 20;
+                   return score_resource;
                }
            }
-           return score;
+           return score_resource;
 
         }
         private static List<string> Find_URIs(string keyword, int MaxUris)
@@ -119,7 +119,7 @@ namespace kwsearchwcf
                     iterator = 0;
                     levdistance = scorecalc(keyword, uri);
                     
-                    foreach (int score in scores)
+                    foreach (int score in scores.ToList())
                     {
                         
                             if (levdistance <= score)
@@ -131,13 +131,39 @@ namespace kwsearchwcf
                                     scores.Insert(iterator, levdistance);
                                     uris.Insert(iterator, uri.Value("subject").ToString());
                                 }
-                                else
-                                    if ( uri.Value("redirects") != null && !(uris.Contains(uri.Value("redirects").ToString())) )//ensure uri is not already in the list
+                                else if (uri.Value("redirects") != null && !(uris.Contains(uri.Value("redirects").ToString())))//ensure uri is not already in the list
+                                   
                                     {
                                         scores.Insert(iterator, levdistance);
                                         uris.Insert(iterator, uri.Value("redirects").ToString());
                                     }
+                                else if ((uris.Contains(uri.Value("subject").ToString()) || uris.Contains(uri.Value("redirects").ToString())) && uri.Value("redirects") != null && levdistance <= scores[uris.IndexOf(uri.Value("redirects").ToString())])
+                                {
+                                    int redundant = 0;
+                                    try
+                                    {
+                                        redundant=uris.IndexOf(uri.Value("redirects").ToString());
+                                    }
+                                    catch 
+                                    {
+                                        redundant=uris.IndexOf(uri.Value("subject").ToString());
+
+                                    }
+                                    uris.RemoveAt(redundant);
+                                    scores.RemoveAt(redundant);
+                                    scores.Insert(iterator, levdistance);
+                                    try
+                                    {
+                                        uris.Insert(iterator, uri.Value("redirects").ToString());
+                                    }
+                                    catch
+                                    {
+                                        uris.Insert(iterator, uri.Value("subject").ToString());
+                                    }
+                                  
+                                }
                                 broke = true;
+                                
                                 break;
 
                             }
@@ -146,16 +172,21 @@ namespace kwsearchwcf
                     }
                     if (broke == false)
                     {
-                        scores.Add(levdistance);
+                        
 
                         if (uri.Value("redirects") == null && !(uris.Contains(uri.Value("subject").ToString())))
-
+                        {
                             uris.Add(uri.Value("subject").ToString());
+                            scores.Add( levdistance);
+                        }
 
                         else
                         {
                             if (!(uris.Contains(uri.Value("redirects").ToString())) && uri.Value("redirects") != null)//ensure uri is not already in the list
+                            {
                                 uris.Add(uri.Value("redirects").ToString());
+                                scores.Add(levdistance);
+                            }
                         }
                     }
                 }

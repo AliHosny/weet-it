@@ -9,6 +9,6 @@ C:\Users\ali\Documents\Visual Studio 2010\Projects\kwsearchwcf\kwsearchwcf\obj\D
 E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\bin\Debug\kwsearchwcf.dll.config
 E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\bin\Debug\kwsearchwcf.dll
 E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\bin\Debug\kwsearchwcf.pdb
-E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\obj\Debug\ResolveAssemblyReference.cache
 E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\obj\Debug\kwsearchwcf.dll
 E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\obj\Debug\kwsearchwcf.pdb
+E:\Dev\proj\weet-it\Services\keyword search service v1.1\kwsearchwcf\obj\Debug\kwsearchwcf.csprojResolveAssemblyReference.cache
