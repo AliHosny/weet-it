@@ -1,0 +1,13 @@
+E:\Project\Prototypes\weetitService\WeetitService\bin\WeetitService.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\WeetitService.pdb
+E:\Project\Prototypes\weetitService\WeetitService\bin\dotNetRDF.Data.Virtuoso.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\dotNetRDF.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\HtmlAgilityPack.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\MySql.Data.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\Newtonsoft.Json.Net35.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\OpenLink.Data.Virtuoso.dll
+E:\Project\Prototypes\weetitService\WeetitService\bin\dotNetRDF.xml
+E:\Project\Prototypes\weetitService\WeetitService\bin\dotNetRDF.Data.Virtuoso.xml
+E:\Project\Prototypes\weetitService\WeetitService\obj\Release\ResolveAssemblyReference.cache
+E:\Project\Prototypes\weetitService\WeetitService\obj\Release\WeetitService.dll
+E:\Project\Prototypes\weetitService\WeetitService\obj\Release\WeetitService.pdb

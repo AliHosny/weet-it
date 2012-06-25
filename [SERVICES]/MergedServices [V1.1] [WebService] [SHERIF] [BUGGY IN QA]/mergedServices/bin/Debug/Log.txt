@@ -1,0 +1,503 @@
+ finished getting 1 predicates  Time taken : 31291.7898 msec	6:53:56 PM
+total time taken :31515.8026 mSecs	6:53:57 PM
+total time taken :1567.0896 msecs 	6:53:58 PM
+search for combination possibilities among predicates	6:53:58 PM
+loop over 2	6:53:58 PM
+ search for combinations using literals among 2 Querybuckets 	6:53:58 PM
+ finished getting 1 predicates  Time taken : 18473.0566 msec	8:48:27 PM
+total time taken :18542.0606 mSecs	8:48:27 PM
+total time taken :67.0038 msecs 	8:48:27 PM
+search for combination possibilities among predicates	8:48:27 PM
+loop over 2	8:48:27 PM
+ search for combinations using literals among 2 Querybuckets 	8:48:27 PM
+-----------------------	8:48:27 PM
+QUESTION LEFT: 	8:48:27 PM
+-----------------------	8:48:27 PM
+QUESTION LEFT: 	8:48:27 PM
+-----------------------	8:48:27 PM
+QUESTION LEFT: 	8:48:27 PM
+-----------------------	8:48:27 PM
+QUESTION LEFT: 	8:48:27 PM
+-----------------------	8:48:27 PM
+QUESTION LEFT: 	8:48:27 PM
+New Bucket----------------------------	8:48:27 PM
+New Bucket----------------------------	8:48:27 PM
+New Bucket----------------------------	8:48:27 PM
+New Bucket----------------------------	8:48:27 PM
+New Bucket----------------------------	8:48:27 PM
+ finished getting 0 predicates  Time taken : 5531.3164 msec	9:34:29 PM
+total time taken :5547.3173 mSecs	9:34:29 PM
+total time taken :13.0007 msecs 	9:34:29 PM
+search for combination possibilities among predicates	9:34:29 PM
+loop over 1	9:34:29 PM
+ search for combinations using literals among 1 Querybuckets 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+-----------------------	9:34:29 PM
+QUESTION LEFT: 	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+New Bucket----------------------------	9:34:29 PM
+ finished getting 0 predicates  Time taken : 1474.0843 msec	9:35:13 PM
+total time taken :1474.0843 mSecs	9:35:13 PM
+total time taken :372.0212 msecs 	9:35:13 PM
+search for combination possibilities among predicates	9:35:13 PM
+loop over 1	9:35:13 PM
+ search for combinations using literals among 1 Querybuckets 	9:35:13 PM
+-----------------------	9:35:13 PM
+QUESTION LEFT: 	9:35:13 PM
+New Bucket----------------------------	9:35:13 PM
+ finished getting 0 predicates  Time taken : 2024.1157 msec	9:37:04 PM
+total time taken :2025.1158 mSecs	9:37:04 PM
+total time taken :4.0002 msecs 	9:37:04 PM
+search for combination possibilities among predicates	9:37:04 PM
+loop over 1	9:37:04 PM
+ search for combinations using literals among 1 Querybuckets 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+-----------------------	9:37:04 PM
+QUESTION LEFT: 	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+New Bucket----------------------------	9:37:04 PM
+ finished getting 0 predicates  Time taken : 1804.1032 msec	9:38:44 PM
+total time taken :1805.1032 mSecs	9:38:44 PM
+total time taken :1604.0917 msecs 	9:38:46 PM
+search for combination possibilities among predicates	9:38:46 PM
+loop over 1	9:38:46 PM
+ search for combinations using literals among 1 Querybuckets 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+-----------------------	9:38:46 PM
+QUESTION LEFT: 	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+New Bucket----------------------------	9:38:46 PM
+ finished getting 0 predicates  Time taken : 21845.2494 msec	11:32:58 PM
+total time taken :21891.2521 mSecs	11:32:58 PM
+total time taken :121.007 msecs 	11:32:59 PM
+search for combination possibilities among predicates	11:32:59 PM
+loop over 1	11:32:59 PM
+ search for combinations using literals among 1 Querybuckets 	11:32:59 PM
+ finished getting 0 predicates  Time taken : 979.056 msec	11:33:16 PM
+total time taken :980.0561 mSecs	11:33:16 PM
+total time taken :12.0007 msecs 	11:33:16 PM
+search for combination possibilities among predicates	11:33:16 PM
+loop over 1	11:33:16 PM
+ search for combinations using literals among 1 Querybuckets 	11:33:16 PM
+-----------------------	11:33:16 PM
+QUESTION LEFT: 	11:33:16 PM
+New Bucket----------------------------	11:33:16 PM
+ finished getting 0 predicates  Time taken : 978.0559 msec	11:34:00 PM
+total time taken :979.056 mSecs	11:34:00 PM
+total time taken :3.0002 msecs 	11:34:01 PM
+search for combination possibilities among predicates	11:34:01 PM
+loop over 1	11:34:01 PM
+ search for combinations using literals among 1 Querybuckets 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+-----------------------	11:34:01 PM
+QUESTION LEFT: 	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+New Bucket----------------------------	11:34:01 PM
+skipped : is ---- due to time out 	1:45:24 PM
+ finished getting 0 predicates  Time taken : 35760.0454 msec	1:45:26 PM
+total time taken :35785.0468 mSecs	1:45:26 PM
+total time taken :6046.3458 msecs 	1:45:32 PM
+search for combination possibilities among predicates	1:45:32 PM
+loop over 1	1:45:32 PM
+ search for combinations using literals among 1 Querybuckets 	1:45:32 PM
+-----------------------	1:45:32 PM
+QUESTION LEFT: 	1:45:32 PM
+-----------------------	1:45:32 PM
+QUESTION LEFT: 	1:45:32 PM
+-----------------------	1:45:32 PM
+QUESTION LEFT: 	1:45:32 PM
+-----------------------	1:45:32 PM
+QUESTION LEFT: 	1:45:32 PM
+-----------------------	1:45:32 PM
+QUESTION LEFT: 	1:45:32 PM
+New Bucket----------------------------	1:45:32 PM
+New Bucket----------------------------	1:45:32 PM
+New Bucket----------------------------	1:45:32 PM
+New Bucket----------------------------	1:45:32 PM
+New Bucket----------------------------	1:45:32 PM
+ finished getting 11 predicates  Time taken : 5827.3334 msec	1:46:39 PM
+total time taken :8620.4931 mSecs	1:46:41 PM
+total time taken :1236.0707 msecs 	1:46:43 PM
+search for combination possibilities among predicates	1:46:43 PM
+loop over 12	1:46:43 PM
+ search for combinations using literals among 12 Querybuckets 	1:46:43 PM
+-----------------------	1:46:43 PM
+QUESTION LEFT: 	1:46:43 PM
+-----------------------	1:46:43 PM
+QUESTION LEFT: 	1:46:43 PM
+New Bucket----------------------------	1:46:43 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/position> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	1:46:43 PM
+New Bucket----------------------------	1:46:43 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/restingPlacePosition> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	1:46:43 PM
+ finished getting 11 predicates  Time taken : 2862.1637 msec	2:08:50 PM
+total time taken :3967.2269 mSecs	2:08:51 PM
+total time taken :114.0065 msecs 	2:08:51 PM
+search for combination possibilities among predicates	2:08:51 PM
+loop over 12	2:08:51 PM
+ search for combinations using literals among 12 Querybuckets 	2:08:51 PM
+-----------------------	2:08:52 PM
+QUESTION LEFT: 	2:08:52 PM
+-----------------------	2:08:52 PM
+QUESTION LEFT: 	2:08:52 PM
+New Bucket----------------------------	2:08:52 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/position> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	2:08:52 PM
+New Bucket----------------------------	2:08:52 PM
+select distinct * WHERE { ?Person <http://dbpedia.org/ontology/restingPlacePosition> ?Range . ?Person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> filter(?Person = <http://dbpedia.org/resource/Lionel_Messi>) }	2:08:52 PM
+ finished getting 0 predicates  Time taken : 5054.2891 msec	01:49:51 PM
+total time taken :5105.292 mSecs	01:49:51 PM
+total time taken :334.0191 msecs 	01:49:52 PM
+search for combination possibilities among predicates	01:49:52 PM
+loop over 1	01:49:52 PM
+ search for combinations using literals among 1 Querybuckets 	01:49:52 PM
+-----------------------	01:49:52 PM
+QUESTION LEFT: 	01:49:52 PM
+New Bucket----------------------------	01:49:52 PM
+ finished getting 0 predicates  Time taken : 2194.1255 msec	01:50:04 PM
+total time taken :2196.1257 mSecs	01:50:04 PM
+total time taken :19.0011 msecs 	01:50:04 PM
+search for combination possibilities among predicates	01:50:04 PM
+loop over 1	01:50:04 PM
+ search for combinations using literals among 1 Querybuckets 	01:50:04 PM
+-----------------------	01:50:04 PM
+QUESTION LEFT: 	01:50:04 PM
+-----------------------	01:50:04 PM
+QUESTION LEFT: 	01:50:04 PM
+-----------------------	01:50:04 PM
+QUESTION LEFT: 	01:50:04 PM
+-----------------------	01:50:04 PM
+QUESTION LEFT: 	01:50:04 PM
+-----------------------	01:50:04 PM
+QUESTION LEFT: 	01:50:04 PM
+-----------------------	01:50:04 PM
+QUESTION LEFT: 	01:50:04 PM
+New Bucket----------------------------	01:50:04 PM
+New Bucket----------------------------	01:50:04 PM
+New Bucket----------------------------	01:50:04 PM
+New Bucket----------------------------	01:50:04 PM
+New Bucket----------------------------	01:50:04 PM
+New Bucket----------------------------	01:50:04 PM
+ finished getting 0 predicates  Time taken : 2280.1304 msec	01:52:01 PM
+total time taken :2282.1305 mSecs	01:52:01 PM
+total time taken :21.0012 msecs 	01:52:01 PM
+search for combination possibilities among predicates	01:52:01 PM
+loop over 1	01:52:01 PM
+ search for combinations using literals among 1 Querybuckets 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+-----------------------	01:52:01 PM
+QUESTION LEFT: 	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+New Bucket----------------------------	01:52:01 PM
+ finished getting 0 predicates  Time taken : 38974.2292 msec	01:57:09 PM
+total time taken :39070.2347 mSecs	01:57:09 PM
+total time taken :186.0106 msecs 	01:57:09 PM
+search for combination possibilities among predicates	01:57:09 PM
+loop over 1	01:57:09 PM
+ search for combinations using literals among 1 Querybuckets 	01:57:09 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+-----------------------	01:57:10 PM
+QUESTION LEFT: 	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+New Bucket----------------------------	01:57:10 PM
+ finished getting 0 predicates  Time taken : 89606.1252 msec	02:01:56 PM
+total time taken :89609.1253 mSecs	02:01:56 PM
+total time taken :717.0411 msecs 	02:01:57 PM
+search for combination possibilities among predicates	02:01:57 PM
+loop over 1	02:01:57 PM
+ search for combinations using literals among 1 Querybuckets 	02:01:57 PM
+ finished getting 0 predicates  Time taken : 5064.2897 msec	02:02:03 PM
+total time taken :5067.2899 mSecs	02:02:03 PM
+total time taken :466.0266 msecs 	02:02:03 PM
+search for combination possibilities among predicates	02:02:03 PM
+loop over 1	02:02:03 PM
+ search for combinations using literals among 1 Querybuckets 	02:02:03 PM
+ finished getting 0 predicates  Time taken : 4141.2369 msec	02:02:31 PM
+total time taken :4143.237 mSecs	02:02:31 PM
+total time taken :490.0281 msecs 	02:02:31 PM
+search for combination possibilities among predicates	02:02:31 PM
+loop over 1	02:02:31 PM
+ search for combinations using literals among 1 Querybuckets 	02:02:31 PM
+ finished getting 0 predicates  Time taken : 3937.2252 msec	02:02:58 PM
+total time taken :3939.2253 mSecs	02:02:58 PM
+total time taken :297.017 msecs 	02:02:58 PM
+search for combination possibilities among predicates	02:02:58 PM
+loop over 1	02:02:58 PM
+ search for combinations using literals among 1 Querybuckets 	02:02:58 PM
+ finished getting 0 predicates  Time taken : 132700.5901 msec	02:05:26 PM
+total time taken :132702.5902 mSecs	02:05:26 PM
+total time taken :1808.1034 msecs 	02:05:28 PM
+search for combination possibilities among predicates	02:05:28 PM
+loop over 1	02:05:28 PM
+ search for combinations using literals among 1 Querybuckets 	02:05:28 PM
+ finished getting 0 predicates  Time taken : 9474.5419 msec	02:07:08 PM
+total time taken :9476.5421 mSecs	02:07:08 PM
+total time taken :240.0137 msecs 	02:07:08 PM
+search for combination possibilities among predicates	02:07:08 PM
+loop over 1	02:07:08 PM
+ search for combinations using literals among 1 Querybuckets 	02:07:08 PM
+ finished getting 0 predicates  Time taken : 128757.3645 msec	02:09:32 PM
+total time taken :128759.3646 mSecs	02:09:32 PM
+total time taken :277.0158 msecs 	02:09:33 PM
+search for combination possibilities among predicates	02:09:33 PM
+loop over 1	02:09:33 PM
+ search for combinations using literals among 1 Querybuckets 	02:09:33 PM
+ finished getting 0 predicates  Time taken : 124586.1259 msec	02:11:59 PM
+total time taken :124589.1261 mSecs	02:11:59 PM
+total time taken :714.0409 msecs 	02:12:00 PM
+search for combination possibilities among predicates	02:12:00 PM
+loop over 1	02:12:00 PM
+ search for combinations using literals among 1 Querybuckets 	02:12:00 PM
+ finished getting 0 predicates  Time taken : 37904.1679 msec	02:13:07 PM
+total time taken :37906.1681 mSecs	02:13:07 PM
+total time taken :594.034 msecs 	02:13:08 PM
+search for combination possibilities among predicates	02:13:08 PM
+loop over 1	02:13:08 PM
+ search for combinations using literals among 1 Querybuckets 	02:13:08 PM
+ finished getting 0 predicates  Time taken : 2081.1191 msec	02:13:56 PM
+total time taken :2083.1192 mSecs	02:13:56 PM
+total time taken :29.0017 msecs 	02:13:56 PM
+search for combination possibilities among predicates	02:13:56 PM
+loop over 1	02:13:56 PM
+ search for combinations using literals among 1 Querybuckets 	02:13:56 PM
+-----------------------	02:13:56 PM
+QUESTION LEFT: 	02:13:56 PM
+-----------------------	02:13:56 PM
+QUESTION LEFT: 	02:13:56 PM
+New Bucket----------------------------	02:13:56 PM
+New Bucket----------------------------	02:13:56 PM
+ finished getting 0 predicates  Time taken : 38196.1847 msec	02:15:23 PM
+total time taken :38198.1848 mSecs	02:15:23 PM
+total time taken :273.0157 msecs 	02:15:23 PM
+search for combination possibilities among predicates	02:15:23 PM
+loop over 1	02:15:23 PM
+ search for combinations using literals among 1 Querybuckets 	02:15:23 PM
+ finished getting 0 predicates  Time taken : 38372.1947 msec	02:17:39 PM
+total time taken :38376.195 mSecs	02:17:39 PM
+total time taken :330.0189 msecs 	02:17:39 PM
+search for combination possibilities among predicates	02:17:39 PM
+loop over 1	02:17:39 PM
+ search for combinations using literals among 1 Querybuckets 	02:17:39 PM
+ finished getting 0 predicates  Time taken : 36867.2957 msec	2:20:24 PM
+total time taken :36970.3016 mSecs	2:20:24 PM
+total time taken :595.0341 msecs 	2:20:25 PM
+search for combination possibilities among predicates	2:20:25 PM
+loop over 1	2:20:25 PM
+ search for combinations using literals among 1 Querybuckets 	2:20:25 PM

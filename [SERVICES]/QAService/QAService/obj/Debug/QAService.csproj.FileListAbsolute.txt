@@ -1,0 +1,6 @@
+E:\Project\Prototypes\QAService\QAService\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Prototypes\QAService\QAService\bin\Debug\QAService.dll.config
+E:\Project\Prototypes\QAService\QAService\bin\Debug\QAService.dll
+E:\Project\Prototypes\QAService\QAService\bin\Debug\QAService.pdb
+E:\Project\Prototypes\QAService\QAService\obj\Debug\QAService.dll
+E:\Project\Prototypes\QAService\QAService\obj\Debug\QAService.pdb

@@ -1,0 +1,283 @@
+Egypt
+Method#1: Sudan|                        Comoros|                      Cairo|                        C%C3%B4te d'Ivoire|           Eritrea|                      Modern Standard Arabic|       
+Method#2: Egypt|                        Lebanon|                      Sudan|                        Syria|                        Tunisia|                      Libya|                        
+Method#3: Cairo|                        Modern Standard Arabic|       Hosni Mubarak|                Egyptians|                    Ahmed Nazif|                  Egyptian pound|               
+------------------------------------------------------------------------
+Syria
+Method#1: Euphrates|                    Damascus|                     Aleppo|                       Levant|                       Mesopotamia|                  Greater Syria|                
+Method#2: Syria|                        Lebanon|                      Jordan|                       Iraq|                         Egypt|                        Israel|                       
+Method#3: Muhammad al-Maghut|           Arabic language|              Bashar al-Assad|              Muhammad Naji al-Otari|       Mahmoud al-Abrash|            Husni al-Za'im|               
+------------------------------------------------------------------------
+Afghanistan
+Method#1: Dari (Persian)|               Pashto|                       Islamic republic|             Afghan afghani|               Hamid Karzai|                 Karim Khalili|                
+Method#2: Afghanistan|                  Iran|                         Pakistan|                     Tajikistan|                   Turkmenistan|                 Dari (Persian)|               
+Method#3: Dari (Persian)|               Pashto|                       Hamid Karzai|                 Afghan afghani|               Karim Khalili|                Kabul|                        
+------------------------------------------------------------------------
+France
+Method#1: French language|              Guadeloupe|                   Paris|                        La Marseillaise|              Martinique|                   Réunion|                      
+Method#2: France|                       Germany|                      Belgium|                      Italy|                        Luxembourg|                   Portugal|                     
+Method#3: French language|              Paris|                        La Marseillaise|              Arab people|                  Euro|                         Berber people|                
+------------------------------------------------------------------------
+United States
+Method#1: The Star-Spangled Banner|     Immigration to the United States| Maine|                        New Jersey|                   North Carolina|               North American Free Trade Agreement| 
+Method#2: United States|                Canada|                       Russia|                       India|                        Mexico|                       Germany|                      
+Method#3: The Star-Spangled Banner|     Federal republic|             Washington, D.C|              Joe Biden|                    Nancy Pelosi|                 Barack Obama|                 
+------------------------------------------------------------------------
+England
+Method#1: Cornish language|             And did those feet in ancient time| God Save the Queen|           Ireland|                      Principality of Sealand|      Great Britain|                
+Method#2: England|                      United Kingdom|               Scotland|                     Wales|                        Northern Ireland|             Republic of Ireland|          
+Method#3: Cornish language|             And did those feet in ancient time| God Save the Queen|           English language|             London|                       United Kingdom|               
+------------------------------------------------------------------------
+Samsung
+Method#1: Samsung|                      Across the Hall (2006 film)|  Mostek|                       Microsoft PlaysForSure|       Bubang Techron Co|            List of mottos|               
+Method#2: Uzu Keobukseon|               Samsung|                      Samsung Group|                Samsung Corning Precision Glass| WebKit|                       Renault Samsung Motors|       
+Method#3: Uzu Keobukseon|               Samsung Group|                Samsung|                      Across the Hall (2006 film)|  Samsung Corning Precision Glass| Samsung Hub|                  
+------------------------------------------------------------------------
+LG
+Method#1: LG|                           LG Corp|                      Bubang Techron Co|            Taubaté|                      Glucose meter|                Motorola RAZR|                
+Method#2: LG|                           LG Corp|                      Bubang Techron Co|            Computacenter|                Taubaté|                      Proton Saga|                  
+Method#3: LG Corp|                      LG|                           Bubang Techron Co|            Computacenter|                Taubaté|                      Proton Saga|                  
+------------------------------------------------------------------------
+ATI Technologies
+Method#1: Matrox|                       ATI Catalyst|                 Canada|                       Markham, Ontario|             Graphics processing unit|     Radeon|                       
+Method#2: ATI Technologies|             Advanced Micro Devices|       Nvidia|                       Matrox|                       ATI Catalyst|                 Canada|                       
+Method#3: Canada|                       Advanced Micro Devices|       Markham, Ontario|             Graphics processing unit|     Chipset|                      Subsidiary|                   
+------------------------------------------------------------------------
+Nvidia
+Method#1: Chris Malachowsky|            Jen-Hsun Huang|               Silicon Graphics|             3dfx Interactive|             Ageia|                        NeoMagic|                     
+Method#2: Nvidia|                       Chris Malachowsky|            Jen-Hsun Huang|               Silicon Graphics|             3dfx Interactive|             Ageia|                        
+Method#3: Chris Malachowsky|            Jen-Hsun Huang|               |                             PhysX|                        Santa Clara, California|      3dfx Interactive|             
+------------------------------------------------------------------------
+Dell
+Method#1: Apple Inc|                    Acer Inc|                     Michael Dell|                 Gateway, Inc|                 Dell Inc|                     Dell, Inc|                    
+Method#2: Dell|                         Apple Inc|                    Hewlett-Packard|              Alienware|                    IBM|                          Sony|                         
+Method#3: Alienware|                    Dell, Inc|                    Dell Inc|                     Dell Computer Corp|           Michael Dell|                 Peripheral|                   
+------------------------------------------------------------------------
+HTC Corporation
+Method#1: Taoyuan City|                 Smartphone|                   Taiwan|                       Apple Inc|                    HTC Sense|                    Acer Inc|                     
+Method#2: HTC Corporation|              Taoyuan City|                 DBTel|                        Smartphone|                   Taiwan|                       Apple Inc|                    
+Method#3: Taiwan|                       Smartphone|                   Taoyuan City|                 Public company|               Chief operating officer|      Chairman|                     
+------------------------------------------------------------------------
+Mass Effect
+Method#1: Action role-playing game|     Mass Effect (series)|         Deus Ex (video game)|         Bully (video game)|           Drew Karpyshyn|               Electronic Arts|              
+Method#2: Mass Effect|                  Mass Effect 2|                Mass Effect (series)|         Mass Effect Galaxy|           BioShock|                     Jade Empire|                  
+Method#3: Richard Jacques|              Action role-playing game|     Drew Karpyshyn|               Jack Wall (composer)|         Demiurge Studios|             Mass Effect (series)|         
+------------------------------------------------------------------------
+Xbox 360
+Method#1: Xbox 360|                     PlayStation 3|                Wii|                          Tom Clancy's Ghost Recon Advanced Warfighter| Xbox|                         Nintendo DS|                  
+Method#2: Xbox 360|                     PlayStation 3|                Wii|                          Xbox 360 hardware|            Tom Clancy's Ghost Recon Advanced Warfighter| Xbox|                         
+Method#3: Tom Clancy's Ghost Recon Advanced Warfighter| Street Fighter II|            Halo 3|                       BioShock|                     Final Fantasy XIII|           Gears of War|                 
+------------------------------------------------------------------------
+PS3
+Method#1: PS3|                          PlayStation 3|                True Crime (series)|          Tom Clancy's Ghost Recon|     Hulu|                         Constructor (video game)|     
+Method#2: PS3|                          PlayStation 3|                Defender of the Crown|        Galaxylife|                   The Elder Scrolls IV: Knights of the Nine| The Sims 3|                   
+Method#3: PlayStation 3|                PS3|                          LoveFilm|                     Galaxylife|                   The Elder Scrolls IV: Knights of the Nine| The Sims 3|                   
+------------------------------------------------------------------------
+Google
+Method#1: Larry Page|                   Sergey Brin|                  List of Google products|      YouTube|                      Yahoo!|                       Google Maps|                  
+Method#2: Google|                       Google China|                 Larry Page|                   Sergey Brin|                  List of Google products|      YouTube|                      
+Method#3: Larry Page|                   Sergey Brin|                  Picnik|                       Google Maps|                  Google Translate|             Dodgeball (service)|          
+------------------------------------------------------------------------
+Tom Hanks
+Method#1: Larry Crowne|                 That Thing You Do!|           Magnificent Desolation: Walking on the Moon 3D| Arnold Schwarzenegger|        Drew Barrymore|               Forrest Gump|                 
+Method#2: Tom Hanks|                    Leonardo DiCaprio|            Robin Williams|               Mel Gibson|                   Sally Field|                  Larry Crowne|                 
+Method#3: Larry Crowne|                 Magnificent Desolation: Walking on the Moon 3D| That Thing You Do!|           Charlie Wilson's War|         The Polar Express (film)|     Forrest Gump|                 
+------------------------------------------------------------------------
+Tom Cruise
+Method#1: Mission: Impossible (film series)| Vanilla Sky|                  The Last Samurai|             David Miscavige|              Mission: Impossible III|      Arnold Schwarzenegger|        
+Method#2: Tom Cruise|                   Nicole Kidman|                Katie Holmes|                 Cameron Diaz|                 Brad Pitt|                    Ben Stiller|                  
+Method#3: Mission: Impossible III|      Katie Holmes|                 Mission: Impossible (film series)| Nicole Kidman|                Vanilla Sky|                  The Last Samurai|             
+------------------------------------------------------------------------
+Nokia
+Method#1: GeoSentric|                   Nokia Beta Labs|              Nokia Software Updater|       MOSH|                         Nokia 7230|                   Finland|                      
+Method#2: Nokia|                        Vertu|                        Navteq|                       Nokia Siemens Networks|       Qt Development Frameworks|    GeoSentric|                   
+Method#3: Navteq|                       Qt Development Frameworks|    Vertu|                        Nokia Siemens Networks|       Nokia Beta Labs|              Computer software|            
+------------------------------------------------------------------------
+Mouse
+Method#1: Vacanti mouse|                Mouse food|                   Animal|                       Chordata|                     Mouse|                        Mouse (computing)|            
+Method#2: Muroidea|                     Rodent|                       Muridae|                      Murinae|                      Vacanti mouse|                Mouse food|                   
+Method#3: Rodent|                       Mouse food|                   Muroidea|                     Mammal|                       Muridae|                      Murinae|                      
+------------------------------------------------------------------------
+Islam
+Method#1: Islam|                        Bah%C3%A1'%C3%AD Faith|       Muslim|                       Theocracy|                    Muslim world|                 Seal of the prophets|         
+Method#2: Islam|                        Islam|                        Bah%C3%A1'%C3%AD Faith|       Muhammad|                     Muslim|                       Theocracy|                    
+Method#3: Islam (disambiguation)|       Jawdat Said|                  Yusuf Estes|                  Ahmed Deedat|                 Haji Abdul Rahman Limbong|    Islam|                        
+------------------------------------------------------------------------
+Map
+Method#1: Map|                          Cartography|                  Geographic information system| Map projection|               Compass rose|                 Contour line|                 
+Method#2: Map|                          Cartography|                  Geographic information system| Map projection|               Compass rose|                 Contour line|                 
+Method#3: Map|                          Gnomonic projection|          Scale (map)|                  Reversed map|                 Google Earth|                 Early world maps|             
+------------------------------------------------------------------------
+Egypt
+Method#1: Sudan|                        Comoros|                      Cairo|                        C%C3%B4te d'Ivoire|           Eritrea|                      Modern Standard Arabic|       
+Method#2: Egypt|                        Lebanon|                      Sudan|                        Syria|                        Tunisia|                      Libya|                        
+Method#3: Cairo|                        Modern Standard Arabic|       Hosni Mubarak|                Egyptians|                    Ahmed Nazif|                  Egyptian pound|               
+------------------------------------------------------------------------
+Porche
+Method#1: Porche|                       CAT:Redirects from misspellings| Stephen Pinker|               Fryderyk Chopin|              IEEE-4888|                    Dietrich Bonhoffer|           
+Method#2: Porche|                       Porsche|                      Redirects from misspellings|  CAT:Redirects from misspellings| Mosque of Uqba|               Stephen Pinker|               
+Method#3: Porsche|                      Porche|                       Redirects from misspellings|  CAT:Redirects from misspellings| Mosque of Uqba|               God Of War
+Method#1: God Of War|                   God of War (video game)|      Video Games Live|             Brian Schwager|               Soundelux Design Music Group| Greek mythology in popular culture| 
+Method#2: God Of War|                   God of War (video game)|      Video Games Live|             Brian Schwager|               Soundelux Design Music Group| Greek mythology in popular culture| 
+Method#3: God of War (video game)|      God Of War|                   Video Games Live|             Brian Schwager|               Soundelux Design Music Group| Greek mythology in popular culture| 
+------------------------------------------------------------------------
+Hosni Mubarak
+Method#1: Egypt|                        Hussein el-Shafei|            Suzanne Mubarak|              Ahmad Fuad Mohieddin|         Atef Ebeid|                   Kamal Ganzouri|               
+Method#2: Hosni Mubarak|                Anwar El Sadat|               Egypt|                        Sufi Abu Taleb|               Ahmed Nazif|                  Hussein el-Shafei|            
+Method#3: Egypt|                        Sufi Abu Taleb|               Kamal Hassan Ali|             Ahmad Fuad Mohieddin|         Atef Ebeid|                   Kamal Ganzouri|               
+------------------------------------------------------------------------
+Mubarak
+Method#1: Mubarak|                      Naya Sansar (1941 film)|      List of Cairo metro stations| People's Assembly of Egypt|   Religion in Egypt|            Egyptian General Intelligence Directorate| 
+Method#2: Mubarak|                      Hosni Mubarak|                Naya Sansar (1941 film)|      List of Cairo metro stations| People's Assembly of Egypt|   Egyptian parliamentary election, 2005| 
+Method#3: Hosni Mubarak|                Mubarak|                      Naya Sansar (1941 film)|      List of Cairo metro stations| People's Assembly of Egypt|   Egyptian parliamentary election, 2005| 
+------------------------------------------------------------------------
+Toshiba
+Method#1: Japan|                        Mitsui|                       Tanaka Seisakusho|            Shibaura Seisakusho|          Hakunetsusha|                 Minato, Tokyo|                
+Method#2: Toshiba|                      Fujitsu|                      Sony|                         Hitachi|                      Mitsubishi Electric|          Tanaka Seisakusho|            
+Method#3: Japan|                        Peripheral|                   Bird Week|                    Toshiba America Information Systems| Laptop|                       Westinghouse Electric Company| 
+------------------------------------------------------------------------
+Amazon
+Method#1: Amazons|                      Volvo Amazon|                 HMS Amazon|                   Amazon Basin|                 Amazon (automobile)|          Dahomey Amazons|              
+Method#2: Amazons|                      Amazon River|                 Amazon Rainforest|            Amazon.com|                   Amazon parrot|                Volvo Amazon|                 
+Method#3: Amazons|                      Amazon River|                 Amazon Rainforest|            Amazon.com|                   Amazon parrot|                Volvo Amazon|                 
+------------------------------------------------------------------------
+Amazon Kindle
+Method#1: Amazon Kindle|                Barnes & Noble Nook|          Sony Reader|                  ILiad|                        Electronic paper|             E Ink|                        
+Method#2: Amazon Kindle|                Amazon.com|                   Barnes & Noble Nook|          Sony Reader|                  ILiad|                        COOL-ER|                      
+Method#3: Amazon.com|                   Amazon Kindle|                E Ink|                        Twilight (novel)|             Mobipocket|                   Taking Lives|                 
+------------------------------------------------------------------------
+Evernote
+Method#1: Proprietary software|         Evernote|                     EverNote|                     A.nnotate|                    Diigo|                        WebNotes|                     
+Method#2: Evernote|                     Lognoter|                     Proprietary software|         Evernote|                     Circus Ponies NoteBook|       EverNote|                     
+Method#3: Proprietary software|         Evernote|                     Lognoter|                     EverNote|                     Thing|                        work|                         
+------------------------------------------------------------------------
+Microsoft
+Method#1: Bill Gates|                   Microsoft Dynamics AX|        Steve Ballmer|                Ray Ozzie|                    Microsoft%2523Product divisions| List of mergers and acquisitions by Microsoft| 
+Method#2: Microsoft|                    Bill Gates|                   Microsoft Dynamics AX|        Steve Ballmer|                Ray Ozzie|                    Microsoft%2523Product divisions| 
+Method#3: Bill Gates|                   Microsoft Dynamics AX|        Microsoft%2523Product divisions| Steve Ballmer|                Ray Ozzie|                    Microsoft Office|             
+------------------------------------------------------------------------
+Mac OS X
+Method#1: Rhapsody (operating system)|  Mac OS X Server 1.0|          Mac OS X|                     Darwin (operating system)|    Rosetta (software)|           Mac OS X Server|              
+Method#2: Rhapsody (operating system)|  Mac OS X Server 1.0|          Mac OS X|                     Darwin (operating system)|    Rosetta (software)|           Mac OS X Server|              
+Method#3: Marble Blast Gold|            |                             Tom Clancy's Splinter Cell (video game)| Airline Tycoon|               Apple Inc|                    Rayman Raving Rabbids|        
+------------------------------------------------------------------------
+BlackBerry
+Method#1: BlackBerry Torch 9800|        BlackBerry|                   Personal digital assistant|   Smartphone|                   BlackBerry Bold|              BlackBerry|                   
+Method#2: BlackBerry Torch 9800|        BlackBerry|                   Personal digital assistant|   Smartphone|                   Research In Motion|           BlackBerry Bold|              
+Method#3: BlackBerry App World|         Research In Motion|           Canada|                       BlackBerry|                   Cellular South|               DataTAC|                      
+------------------------------------------------------------------------
+Handwriting recognition
+Method#1: Optical character recognition| Graffiti (Palm OS)|           Inkwell (Macintosh)|          Handwriting recognition|      Handwriting recognition|      Personal digital assistant|   
+Method#2: Optical character recognition| Graffiti (Palm OS)|           Inkwell (Macintosh)|          Handwriting recognition|      Handwriting recognition|      Personal digital assistant|   
+Method#3: Handwriting recognition|      Segment (handwriting)|        Inkwell (Macintosh)|          Neocognitron|                 Pen computing|                Pencept|                      
+------------------------------------------------------------------------
+Windows Mobile
+Method#1: .NET Compact Framework|       Windows CE|                   Windows CE 5.0|               DirectPush|                   Adaptation kit upgrade|       Windows Mobile Device Center| 
+Method#2: .NET Compact Framework|       My Phone|                     Windows CE|                   ActiveSync|                   Windows CE 5.0|               DirectPush|                   
+Method#3: Broken Sword: The Shadow of the Templars| My Phone|                     Windows Mobile|               Microsoft Money|              Age of Empires III|           Fade (video game)|            
+------------------------------------------------------------------------
+Windows
+Method#1: Windows|                      Microsoft Windows|            Sarabande (album)|            Castlevania II: Simon's Quest| Growl (software)|             Castlevania (video game)|     
+Method#2: Windows|                      Microsoft Windows|            Sarabande (album)|            Indiana Jones and the Fate of Atlantis| The Matrix Online|            GemStone IV|                  
+Method#3: Microsoft Windows|            Windows|                      Dink Smallwood|               Cosmic Osmo and the Worlds Beyond the Mackerel| The Ooze|                     Prey (video game)|            
+------------------------------------------------------------------------
+Linux
+Method#1: Vim (text editor)|            Wine (software)|              LAMP (software bundle)|       Linux|                        Linux|                        C (programming language)|     
+Method#2: Linux|                        Vim (text editor)|            Wine (software)|              Mono (software)|              LAMP (software bundle)|       Linux kernel|                 
+Method#3: Marble Blast Gold|            LinuxQuestions.org|           Vim (text editor)|            SimCity 3000|                 Linux|                        Dink Smallwood|               
+------------------------------------------------------------------------
+Twitter
+Method#1: Twitter|                      Social network service|       Gizzard (scala framework)|    Twitter|                      SMS|                          Instant messaging|            
+Method#2: Twitter|                      Facebook|                     Microblogging|                Mixero|                       Yammer|                       BigTent|                      
+Method#3: FlockDB|                      Gizzard (scala framework)|    Tweetie|                      HOSEbird|                     Twitter|                      Ruby on Rails|                
+------------------------------------------------------------------------
+Facebook
+Method#1: Facebook|                     I2hub|                        MySpace|                      Talenthouse|                  Chilltime|                    Social Media in the Fashion Industry| 
+Method#2: Facebook|                     Qaym|                         I2hub|                        Social Media in the Fashion Industry| Social Media Marketing in the Fashion Industry| MySpace|                      
+Method#3: Mark Zuckerberg|              United States|                The Facebook Era|             Facebook|                     Facebook, Inc|                Facebook Inc|                 
+------------------------------------------------------------------------
+Engineering
+Method#1: Engineering|                  Engineering|                  Mechanical engineering|       Engineer|                     Design choice|                Fields of engineering|        
+Method#2: Engineering|                  Bayani Fernando|              Engineering|                  Mechanical engineering|       Engineer|                     Design choice|                
+Method#3: Bayani Fernando|              Enppi|                        Technip|                      GHD Group|                    DLR Group|                    Arbel Fauvet Rail|            
+------------------------------------------------------------------------
+Wallet
+Method#1: Money clip|                   Wallet|                       Cash|                         Handbag|                      Wallet band|                  Fossil, Inc|                  
+Method#2: Money clip|                   Wallet|                       Cash|                         Handbag|                      Wallet band|                  Fossil, Inc|                  
+Method#3: Wallet|                       Money clip|                   Vera Bradley|                 Wallet band|                  Billfold|                     Wallets|                      
+------------------------------------------------------------------------
+NFC
+Method#1: National Football Conference| Near Field Communication|     New Friends Colony|           NFC (news)|                   Network File Control|         National Finance Center|      
+Method#2: National Football Conference| Near Field Communication|     New Friends Colony|           National Freight Corporation| NFC (news)|                   Network File Control|         
+Method#3: National Football Conference| Near Field Communication|     New Friends Colony|           National Freight Corporation| NFC (news)|                   Network File Control|         
+------------------------------------------------------------------------
+Muslim
+Method#1: Muslim|                       Allah|                        Qur'an|                       Islam|                        Ahmed Ali (politician)|       Index of Islamic and Muslim related articles| 
+Method#2: Muslim|                       Allah|                        Muhammad|                     Qur'an|                       Islam|                        Bilal ibn Rabah al-Habashi|   
+Method#3: Muslim|                       Fathima Beevi|                Ahmed El Esseily|             Mian Muhammad Mansha Yaha|    Ahmed Taleb Ibrahimi|         Ustad Atta Mohammad Noor|     
+------------------------------------------------------------------------
+Screen printing
+Method#1: Screen printing|              Screen-printing|              Heating element|              Organic field-effect transistor| Buckle (clothing retailer)|   Solar cell|                   
+Method#2: Screen printing|              Screen-printing|              Arthur Okamura|               Heating element|              LeRoy Neiman|                 Organic field-effect transistor| 
+Method#3: Screen-printing|              Screen printing|              Arthur Okamura|               Heating element|              LeRoy Neiman|                 Organic field-effect transistor| 
+------------------------------------------------------------------------
+Gmail
+Method#1: Gmail interface|              Orkut|                        Google|                       Internet Message Access Protocol| JavaScript|                   Webmail|                      
+Method#2: Gmail interface|              Gmail|                        Google Buzz|                  Gears (software)|             Hotmail|                      Orkut|                        
+Method#3: Paul Buchheit|                Google Closure Tools|         Internet Message Access Protocol| Google|                       Post Office Protocol|         E-mail|                       
+------------------------------------------------------------------------
+Japanese
+Method#1: Japanese name|                List of Japanese people|      Japanese people|              Japanese diaspora|            Foreign-born Japanese|        Japanese writing system|      
+Method#2: Japanese language|            Japanese name|                List of Japanese people|      Japanese people|              Japanese diaspora|            Foreign-born Japanese|        
+Method#3: Japanese language|            Japanese name|                List of Japanese people|      Japanese people|              Japanese diaspora|            Foreign-born Japanese|        
+------------------------------------------------------------------------
+Advanced Micro Devices
+Method#1: NexGen|                       GlobalFoundries|              Advanced Micro Devices, Inc|  Jerry Sanders (businessman)|  Edwin Turney|                 Dirk Meyer|                   
+Method#2: ATI Technologies|             NexGen|                       GlobalFoundries|              Advanced Micro Devices, Inc|  Advanced Micro Devices|       Jerry Sanders (businessman)|  
+Method#3: Advanced Micro Devices, Inc|  Dirk Meyer|                   Edwin Turney|                 GlobalFoundries|              Motherboard|                  Sunnyvale, California|        
+------------------------------------------------------------------------
+Mariah Carey
+Method#1: Beyoncé Knowles|              Madonna (entertainer)|        Jennifer Lopez|               Brandy Norwood|               Usher (entertainer)|          Patti LaBelle|                
+Method#2: Mariah Carey|                 Beyoncé Knowles|              Britney Spears|               Janet Jackson|                Madonna (entertainer)|        Christina Aguilera|           
+Method#3: Can't Take That Away (Mariah's Theme)| Crybaby (song)|               Thank God I Found You|        Through the Rain|             Heartbreaker (Mariah Carey song)| Loverboy (Mariah Carey song)| 
+------------------------------------------------------------------------
+The Legend of Zelda: The Wind Waker
+Method#1: The Legend of Zelda: Majora's Mask| Eiji Aonuma|                  Takashi Tezuka|               Hajime Wakai|                 Toru Minegishi|               Kenta Nagata|                 
+Method#2: The Legend of Zelda: The Wind Waker| The Legend of Zelda: Ocarina of Time| The Legend of Zelda: Majora's Mask| The Legend of Zelda: Four Swords Adventures| The Legend of Zelda: Twilight Princess| The Legend of Zelda: Phantom Hourglass| 
+Method#3: Eiji Aonuma|                  Hajime Wakai|                 Takashi Tezuka|               Toru Minegishi|               Kenta Nagata|                 The Legend of Zelda|          
+------------------------------------------------------------------------
+Lebron James
+Method#1: Lebron James|                 Basketball position|          Tweener (basketball)|         Rivalries of the NBA|         List of Dickinson College alumni| Bulls–Heat rivalry|           
+Method#2: Lebron James|                 LeBron James|                 Basketball position|          Tweener (basketball)|         Rivalries of the NBA|         Mo Williams|                  
+Method#3: LeBron James|                 Lebron James|                 Basketball position|          Tweener (basketball)|         Rivalries of the NBA|         Mo Williams|                  
+------------------------------------------------------------------------
+Lionel Messi
+Method#1: Juan Román Riquelme|          Diego Maradona|               Hernán Crespo|                Carlos Tévez|                 Sergio Agüero|                Martín Palermo|               
+Method#2: Lionel Messi|                 Javier Mascherano|            Sergio Agüero|                Juan Román Riquelme|          Javier Saviola|               Gabriel Heinze|               
+Method#3: Argentina|                    FC Barcelona|                 Rosario, Santa Fe|            Lionel Messi|                 Tomáš Ujfaluši|               Xavi|                         
+------------------------------------------------------------------------
+Tumblr
+Method#1: David Karp (entrepreneur)|    Tumblr|                       Tumblr.com|                   Blog software|                |                             200px-Tumblr-logo.png|        
+Method#2: David Karp (entrepreneur)|    Marco Arment|                 Tumblr|                       Union Square Ventures|        Tumblr.com|                   Sweetcron|                    
+Method#3: David Karp (entrepreneur)|    Marco Arment|                 Tumblr|                       Union Square Ventures|        Tumblr.com|                   Blogs|                        
+------------------------------------------------------------------------
+Kuwait
+Method#1: Arabic language|              Kuwait City|                  Kuwait International Airport| Kuwait Fund for Arab Economic Development| Fayeq Abdul-Jaleel|           Sudan|                        
+Method#2: Kuwait|                       Qatar|                        United Arab Emirates|         Oman|                         Saudi Arabia|                 Bahrain|                      
+Method#3: Arabic language|              Kuwait City|                  Kuwait Fund for Arab Economic Development| Fayeq Abdul-Jaleel|           Kuwait International Airport| Kuwaiti dinar|                
+------------------------------------------------------------------------
+Jordan
+Method#1: Levant|                       Sudan|                        Amman|                        Palestinian territories|      The Royal Anthem of Jordan|   Jordanian dinar|              
+Method#2: Jordan|                       Syria|                        Lebanon|                      Iraq|                         Saudi Arabia|                 Yemen|                        
+Method#3: Amman|                        Abdullah II of Jordan|        Jordanian dinar|              The Royal Anthem of Jordan|   Samir Rifai|                  Arab League|                  
+------------------------------------------------------------------------
+Saudi Arabia
+Method#1: Sudan|                        Arabic language|              Riyadh|                       Arab League|                  Saudi riyal|                  Sultan, Crown Prince of Saudi Arabia| 
+Method#2: Saudi Arabia|                 United Arab Emirates|         Oman|                         Qatar|                        Kuwait|                       Yemen|                        
+Method#3: Arabic language|              Riyadh|                       Sultan, Crown Prince of Saudi Arabia| Saudi riyal|                  Arab League|                  Abdullah of Saudi Arabia|     
+------------------------------------------------------------------------
+Microsoft Office
+Method#1: Microsoft|                    Office 2004 for Mac|          Office suite|                 Windows 2000|                 Office Assistant|             Microsoft Office Online|      
+Method#2: Microsoft Office|             Microsoft PowerPoint|         Office 2004 for Mac|          List of Microsoft Office programs| Microsoft Excel|              Microsoft Works|              
+Method#3: Microsoft|                    Office suite|                 Macintosh Business Unit|      Proprietary software|         |                             Microsoft Office|             
+------------------------------------------------------------------------
